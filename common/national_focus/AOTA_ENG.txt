@@ -389,7 +389,7 @@
         y = 14
         cost = 10
         prerequisite = { focus = ENG_imp_port_fortification_program }
-        completion_reward = { add_ideas = aota_african_garrison_crisis }
+        completion_reward = { add_timed_idea = { idea = aota_african_garrison_crisis days = 720 } }
     }
     focus = {
         id = ENG_imp_arabian_watch
@@ -434,7 +434,7 @@
         y = 19
         cost = 10
         prerequisite = { focus = ENG_imp_rearm_the_isles }
-        completion_reward = { add_ideas = aota_imperial_emergency }
+        completion_reward = { add_timed_idea = { idea = aota_imperial_emergency days = 540 } }
     }
     focus = {
         id = ENG_imp_rule_the_waves_again

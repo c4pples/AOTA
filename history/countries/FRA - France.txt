@@ -78,7 +78,6 @@ recruit_character = AOTA_FRA_petain
 add_ideas = aota_french_fractured_republic
 
 add_ideas = aota_fraying_colonial_web
-add_ideas = aota_fra_metropole_colony_bargain
 recruit_character = AOTA_FRA_pierre_mendes
 recruit_character = AOTA_FRA_maurice_gamelin
 recruit_character = AOTA_FRA_eugene_schneider

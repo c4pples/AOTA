@@ -72,7 +72,6 @@ set_popularities = {
 
 add_ideas = aota_rus_reconstruction_boards
 add_ideas = aota_rus_frontier_garrisons
-add_ideas = aota_sov_reconstruction_compacts
 recruit_character = AOTA_SOV_viktor_chernov
 recruit_character = AOTA_SOV_tukhachevsky
 recruit_character = AOTA_SOV_alexandra_kollontai

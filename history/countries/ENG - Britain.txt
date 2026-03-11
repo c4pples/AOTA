@@ -71,7 +71,6 @@ set_popularities = {
 }
 
 add_ideas = aota_imperial_overstretch
-add_ideas = aota_african_garrison_crisis
 
 set_country_flag = ENG_britain_overhaul_enabled
 add_ideas = aota_eng_imperial_general_staff_committees
