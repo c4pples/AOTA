@@ -24,6 +24,30 @@ ideas = {
         aota_asl_county_levies = { picture = generic_allies_build_infantry allowed = { always = yes } modifier = { recruitable_population_factor = 0.015 division_defence_factor = 0.04 } }
         aota_asl_distributist_compromise = { picture = generic_national_unity allowed = { always = yes } modifier = { stability_factor = 0.05 consumer_goods_factor = -0.02 } }
 
+
+
+        aota_acc_reconstruction_commission = { picture = generic_political_reform allowed = { always = yes } modifier = { stability_factor = 0.06 resistance_target_on_our_occupied_states = -0.02 } }
+        aota_acc_second_union_compact = { picture = generic_support_democracy allowed = { always = yes } modifier = { political_power_gain = 0.06 democratic_drift = 0.05 }
+        }
+
+        aota_awu_tribunal_politics = { picture = generic_support_communism allowed = { always = yes } modifier = { stability_factor = -0.02 communism_drift = 0.07 } }
+        aota_awu_veteran_committees = { picture = generic_allies_build_infantry allowed = { always = yes } modifier = { recruitable_population_factor = 0.01 division_attack_factor = 0.04 } }
+        aota_awu_common_labor_charter = { picture = generic_production allowed = { always = yes } modifier = { production_factory_efficiency_gain_factor = 0.05 consumer_goods_factor = -0.02 } }
+
+        aota_ana_salvation_tribunals = { picture = generic_intelligence_exchange allowed = { always = yes } modifier = { stability_factor = 0.04 democracy_drift = -0.05 } }
+        aota_ana_internal_security = { picture = generic_political_pressure allowed = { always = yes } modifier = { resistance_target_on_our_occupied_states = -0.04 }
+        }
+        aota_ana_permanent_command = { picture = generic_major_war allowed = { always = yes } modifier = { war_support_factor = 0.08 army_org_factor = 0.05 } }
+
+        aota_apf_reconciliation_compact = { picture = generic_national_unity allowed = { always = yes } modifier = { stability_factor = 0.07 war_support_factor = -0.02 } }
+        aota_apf_two_ocean_charter = { picture = generic_trade allowed = { always = yes } modifier = { trade_opinion_factor = 0.15 dockyard_output = 0.05 } }
+
+        aota_acg_asset_tribunals = { picture = generic_trade allowed = { always = yes } modifier = { political_power_gain = 0.05 consumer_goods_factor = -0.02 } }
+        aota_acg_contract_police = { picture = generic_allies_build_infantry allowed = { always = yes } modifier = { stability_factor = 0.03 resistance_target_on_our_occupied_states = -0.03 } }
+        aota_acg_shareholder_constitution = { picture = generic_trade allowed = { always = yes } modifier = { market_radicalism_drift = 0.06 production_factory_efficiency_gain_factor = 0.04 } }
+
+        aota_asl_county_reconciliation = { picture = generic_national_unity allowed = { always = yes } modifier = { stability_factor = 0.05 } }
+        aota_asl_confederal_covenant = { picture = generic_support_neutrality allowed = { always = yes } modifier = { recruitable_population_factor = 0.01 consumer_goods_factor = -0.02 } }
         aota_ccw_common_prayer = { picture = generic_national_unity allowed = { always = yes } modifier = { stability_factor = 0.08 war_support_factor = -0.02 } }
         aota_ccw_distributist_debate = { picture = generic_national_unity allowed = { always = yes } modifier = { consumer_goods_factor = -0.02 democracy_drift = 0.02 } }
         aota_ccw_federation = { picture = generic_support_anarchism allowed = { always = yes } modifier = { anarchism_drift = 0.08 recruitable_population_factor = 0.01 } }

@@ -34,4 +34,13 @@ focus_tree = {
 
     focus = { id = ACC_a_second_founding icon = GFX_goal_support_democracy x = 5 y = 5 cost = 10 prerequisite = { focus = ACC_reach_to_the_pacific focus = ACC_demand_the_swearing_of_oaths } available = { date > 1938.3.1 } completion_reward = { add_stability = 0.08 add_political_power = 75 remove_ideas = aota_acc_remnant_bureaucracy } }
     focus = { id = ACC_the_union_must_endure icon = GFX_goal_generic_demand_territory_or_war x = 9 y = 5 cost = 10 prerequisite = { focus = ACC_reunification_campaign } available = { date > 1938.3.1 } completion_reward = { add_war_support = 0.1 add_ideas = aota_acc_union_must_endure } }
+
+
+    # Post-war resolution and reconstruction
+    focus = { id = ACC_war_crimes_commission icon = GFX_goal_generic_political_pressure x = 3 y = 6 cost = 8 prerequisite = { focus = ACC_a_second_founding } available = { has_war = no } completion_reward = { add_ideas = aota_acc_reconstruction_commission country_event = { id = aota.840 days = 1 } } }
+    focus = { id = ACC_federal_reintegration_administration icon = GFX_goal_generic_national_unity x = 5 y = 6 cost = 8 prerequisite = { focus = ACC_a_second_founding } available = { has_war = no } completion_reward = { add_stability = 0.05 add_political_power = 50 } }
+    focus = { id = ACC_emergency_relief_and_pensions icon = GFX_goal_generic_construct_civ_factory x = 7 y = 6 cost = 8 prerequisite = { focus = ACC_a_second_founding } available = { has_war = no } completion_reward = { add_building_construction = { type = industrial_complex level = 2 instant_build = yes } } }
+    focus = { id = ACC_rewrite_the_union_compact icon = GFX_goal_support_democracy x = 4 y = 7 cost = 10 prerequisite = { focus = ACC_war_crimes_commission focus = ACC_federal_reintegration_administration } completion_reward = { add_ideas = aota_acc_second_union_compact set_cosmetic_tag = ACC_SECOND_UNION } }
+    focus = { id = ACC_return_to_the_world_stage icon = GFX_goal_generic_improve_relations x = 6 y = 7 cost = 10 prerequisite = { focus = ACC_rewrite_the_union_compact focus = ACC_emergency_relief_and_pensions } completion_reward = { country_event = { id = aota.846 days = 1 } add_political_power = 75 } }
+
 }

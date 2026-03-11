@@ -33,4 +33,13 @@ focus_tree = {
     focus = { id = ANA_take_the_capitol icon = GFX_goal_generic_demand_territory_or_war x = 5 y = 4 cost = 10 prerequisite = { focus = ANA_war_industry_decrees focus = ANA_officer_state } available = { date > 1938.1.1 } completion_reward = { add_war_support = 0.1 } }
     focus = { id = ANA_a_national_crusade icon = GFX_goal_generic_major_war x = 7 y = 4 cost = 10 prerequisite = { focus = ANA_officer_state focus = ANA_silence_the_dissidents } completion_reward = { add_ideas = aota_ana_national_crusade } }
     focus = { id = ANA_the_flag_over_every_statehouse icon = GFX_goal_generic_major_war x = 6 y = 5 cost = 10 prerequisite = { focus = ANA_take_the_capitol focus = ANA_a_national_crusade } available = { date > 1938.3.1 } completion_reward = { add_war_support = 0.1 add_political_power = 75 } }
+
+
+    # Post-war resolution and consolidation
+    focus = { id = ANA_national_salvation_tribunals icon = GFX_goal_generic_intelligence_exchange x = 4 y = 6 cost = 8 prerequisite = { focus = ANA_the_flag_over_every_statehouse } available = { has_war = no } completion_reward = { add_ideas = aota_ana_salvation_tribunals country_event = { id = aota.842 days = 1 } } }
+    focus = { id = ANA_internal_security_directorate icon = GFX_goal_generic_political_pressure x = 6 y = 6 cost = 8 prerequisite = { focus = ANA_the_flag_over_every_statehouse } available = { has_war = no } completion_reward = { add_ideas = aota_ana_internal_security } }
+    focus = { id = ANA_reconstruction_under_martial_law icon = GFX_goal_generic_construct_mil_factory x = 8 y = 6 cost = 8 prerequisite = { focus = ANA_the_flag_over_every_statehouse } available = { has_war = no } completion_reward = { add_building_construction = { type = arms_factory level = 2 instant_build = yes } add_war_support = 0.04 } }
+    focus = { id = ANA_the_permanent_command_republic icon = GFX_goal_support_fascism x = 5 y = 7 cost = 10 prerequisite = { focus = ANA_national_salvation_tribunals focus = ANA_internal_security_directorate } completion_reward = { add_ideas = aota_ana_permanent_command set_cosmetic_tag = ANA_COMMAND_REPUBLIC } }
+    focus = { id = ANA_force_recognition_abroad icon = GFX_goal_generic_major_war x = 7 y = 7 cost = 10 prerequisite = { focus = ANA_the_permanent_command_republic focus = ANA_reconstruction_under_martial_law } completion_reward = { country_event = { id = aota.848 days = 1 } add_political_power = 75 } }
+
 }

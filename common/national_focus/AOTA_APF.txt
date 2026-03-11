@@ -32,4 +32,13 @@ focus_tree = {
     focus = { id = APF_open_channels_to_ottawa icon = GFX_goal_generic_improve_relations x = 4 y = 4 cost = 10 prerequisite = { focus = APF_the_coastal_compact } completion_reward = { add_political_power = 50 country_event = { id = aota.822 days = 1 } } }
     focus = { id = APF_look_east_again icon = GFX_goal_generic_demand_territory_or_war x = 8 y = 4 cost = 10 prerequisite = { focus = APF_republic_of_the_setting_sun } available = { date > 1938.1.1 } completion_reward = { add_war_support = 0.08 } }
     focus = { id = APF_return_to_the_union_on_our_terms icon = GFX_goal_generic_political_pressure x = 6 y = 5 cost = 10 prerequisite = { focus = APF_open_channels_to_ottawa focus = APF_look_east_again } available = { date > 1938.3.1 } completion_reward = { add_stability = 0.06 add_political_power = 75 } }
+
+
+    # Post-war settlement and Pacific state-building
+    focus = { id = APF_western_reconciliation_conference icon = GFX_goal_support_democracy x = 4 y = 6 cost = 8 prerequisite = { focus = APF_return_to_the_union_on_our_terms } available = { has_war = no } completion_reward = { add_ideas = aota_apf_reconciliation_compact country_event = { id = aota.843 days = 1 } } }
+    focus = { id = APF_federal_maritime_recovery_board icon = GFX_goal_generic_construct_civ_factory x = 6 y = 6 cost = 8 prerequisite = { focus = APF_return_to_the_union_on_our_terms } available = { has_war = no } completion_reward = { add_building_construction = { type = dockyard level = 2 instant_build = yes } } }
+    focus = { id = APF_regional_autonomy_guarantees icon = GFX_goal_generic_national_unity x = 8 y = 6 cost = 8 prerequisite = { focus = APF_return_to_the_union_on_our_terms } available = { has_war = no } completion_reward = { add_stability = 0.05 } }
+    focus = { id = APF_charter_of_the_two_oceans icon = GFX_goal_generic_improve_relations x = 5 y = 7 cost = 10 prerequisite = { focus = APF_western_reconciliation_conference focus = APF_federal_maritime_recovery_board } completion_reward = { add_ideas = aota_apf_two_ocean_charter set_cosmetic_tag = APF_TWO_OCEAN_FEDERATION } }
+    focus = { id = APF_pacific_diplomatic_reentry icon = GFX_goal_generic_improve_relations x = 7 y = 7 cost = 10 prerequisite = { focus = APF_charter_of_the_two_oceans focus = APF_regional_autonomy_guarantees } completion_reward = { country_event = { id = aota.849 days = 1 } add_political_power = 75 } }
+
 }

@@ -1,0 +1,15 @@
+add_namespace = aota
+
+country_event = { id = aota.840 title = aota.840.t desc = aota.840.d picture = GFX_report_event_generic_treaty is_triggered_only = yes option = { name = aota.840.a add_stability = 0.03 } option = { name = aota.840.b add_war_support = 0.02 } }
+country_event = { id = aota.841 title = aota.841.t desc = aota.841.d picture = GFX_report_event_worker_protests is_triggered_only = yes option = { name = aota.841.a add_stability = 0.02 add_political_power = 25 } option = { name = aota.841.b add_war_support = 0.03 } }
+country_event = { id = aota.842 title = aota.842.t desc = aota.842.d picture = GFX_report_event_military_parade is_triggered_only = yes option = { name = aota.842.a add_war_support = 0.04 } option = { name = aota.842.b add_stability = 0.02 } }
+country_event = { id = aota.843 title = aota.843.t desc = aota.843.d picture = GFX_report_event_generic_diplomacy is_triggered_only = yes option = { name = aota.843.a add_stability = 0.04 } option = { name = aota.843.b add_political_power = 35 } }
+country_event = { id = aota.844 title = aota.844.t desc = aota.844.d picture = GFX_report_event_generic_industry is_triggered_only = yes option = { name = aota.844.a add_political_power = 40 } option = { name = aota.844.b add_war_support = 0.03 } }
+country_event = { id = aota.845 title = aota.845.t desc = aota.845.d picture = GFX_report_event_generic_conference is_triggered_only = yes option = { name = aota.845.a add_stability = 0.04 } option = { name = aota.845.b add_war_support = 0.02 } }
+
+news_event = { id = aota.846 title = aota.846.t desc = aota.846.d picture = GFX_AOTA_news_american_deadlock is_triggered_only = yes option = { name = aota.846.a } }
+news_event = { id = aota.847 title = aota.847.t desc = aota.847.d picture = GFX_AOTA_news_american_deadlock is_triggered_only = yes option = { name = aota.847.a } }
+news_event = { id = aota.848 title = aota.848.t desc = aota.848.d picture = GFX_AOTA_news_american_deadlock is_triggered_only = yes option = { name = aota.848.a } }
+news_event = { id = aota.849 title = aota.849.t desc = aota.849.d picture = GFX_AOTA_news_american_deadlock is_triggered_only = yes option = { name = aota.849.a } }
+news_event = { id = aota.850 title = aota.850.t desc = aota.850.d picture = GFX_AOTA_news_american_deadlock is_triggered_only = yes option = { name = aota.850.a } }
+news_event = { id = aota.851 title = aota.851.t desc = aota.851.d picture = GFX_AOTA_news_american_deadlock is_triggered_only = yes option = { name = aota.851.a } }
