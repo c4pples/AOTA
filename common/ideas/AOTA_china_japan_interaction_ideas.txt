@@ -1,0 +1,44 @@
+ideas = {
+    country = {
+        AOTA_china_japan_emergency_council = {
+            picture = idea_generic_major_war
+            allowed = { AOTA_is_china_region_actor = yes }
+            modifier = {
+                stability_factor = 0.03
+                war_support_factor = 0.04
+                division_defence_factor = 0.05
+            }
+        }
+
+        AOTA_china_local_accommodation = {
+            picture = idea_generic_foreign_trade
+            allowed = { AOTA_is_china_region_actor = yes }
+            modifier = {
+                stability_factor = 0.04
+                war_support_factor = -0.04
+                political_power_gain = -0.02
+                surrender_limit = 0.05
+            }
+        }
+
+        AOTA_china_collaboration_backlash = {
+            picture = idea_generic_resistance
+            allowed = { AOTA_is_china_region_actor = yes }
+            modifier = {
+                stability_factor = -0.04
+                resistance_target = 0.10
+                political_power_factor = -0.05
+            }
+        }
+
+        AOTA_japan_china_pressure_apparatus = {
+            picture = idea_generic_intelligence_exchange
+            allowed = { tag = JAP }
+            modifier = {
+                political_power_gain = 0.03
+                operative_slot = 1
+                intel_network_gain_factor = 0.10
+            }
+        }
+    }
+}

@@ -29,3 +29,23 @@ aota_market_radical_affinity = {
 }
 
  aota_conditional_recognition = { value = 20 decay = 0 }
+
+aota_trade_friendliness = {
+    value = 15
+    decay = 0
+}
+
+aota_china_refuses_diktat = {
+    value = -30
+    decay = 0
+}
+
+aota_china_temporary_settlement = {
+    value = 20
+    decay = 0
+}
+
+aota_china_collaboration_crackdown = {
+    value = -20
+    decay = 0
+}

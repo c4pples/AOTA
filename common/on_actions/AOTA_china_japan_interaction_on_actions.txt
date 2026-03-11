@@ -1,0 +1,26 @@
+on_actions = {
+    on_monthly_pulse = {
+        effect = {
+            every_country = {
+                limit = {
+                    tag = JAP
+                    AOTA_japan_china_diplomatic_phase = yes
+                    NOT = { has_country_flag = AOTA_japan_china_pulse_cooldown }
+                }
+                set_country_flag = AOTA_japan_china_pulse_cooldown
+                country_event = { id = aota_china.430 days = 1 }
+            }
+
+            every_country = {
+                limit = {
+                    AOTA_is_china_region_actor = yes
+                    has_country_flag = AOTA_japan_pressure_received
+                    has_idea = AOTA_china_local_accommodation
+                    NOT = { has_country_flag = AOTA_china_backlash_pulse_cooldown }
+                }
+                set_country_flag = AOTA_china_backlash_pulse_cooldown
+                country_event = { id = aota_china.420 days = 2 }
+            }
+        }
+    }
+}

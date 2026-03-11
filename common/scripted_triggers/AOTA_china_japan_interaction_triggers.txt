@@ -1,0 +1,30 @@
+AOTA_is_china_region_actor = {
+    OR = {
+        tag = CHI
+        tag = PRC
+        tag = GXC
+        tag = YUN
+        tag = SHX
+        tag = XSM
+        tag = SIK
+        tag = MEN
+        tag = MAN
+    }
+}
+
+AOTA_japan_pressure_focus_online = {
+    tag = JAP
+    OR = {
+        has_completed_focus = JAP_back_chinese_autonomists
+        has_completed_focus = JAP_manchurian_security_mission
+        has_completed_focus = JAP_continental_buffer_zone
+    }
+}
+
+AOTA_japan_china_diplomatic_phase = {
+    tag = JAP
+    AOTA_japan_pressure_focus_online = yes
+    date > 1936.7.1
+    NOT = { has_war_with = CHI }
+    NOT = { has_war_with = PRC }
+}

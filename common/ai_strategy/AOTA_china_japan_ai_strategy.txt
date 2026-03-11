@@ -1,0 +1,35 @@
+ai_strategy = {
+    id = AOTA_JAP_pressure_china_when_resisted
+    allowed = { tag = JAP }
+    abort_when_not_enabled = yes
+    enable = {
+        OR = {
+            CHI = { has_country_flag = AOTA_china_resistance_line }
+            PRC = { has_country_flag = AOTA_china_resistance_line }
+        }
+    }
+    strategy = { type = prepare_for_war id = CHI value = 95 }
+    strategy = { type = prepare_for_war id = PRC value = 95 }
+}
+
+ai_strategy = {
+    id = AOTA_CHI_prioritize_japan_front
+    allowed = { tag = CHI }
+    abort_when_not_enabled = yes
+    enable = {
+        has_country_flag = AOTA_china_resistance_line
+        JAP = { exists = yes }
+    }
+    strategy = { type = prepare_for_war id = JAP value = 120 }
+}
+
+ai_strategy = {
+    id = AOTA_PRC_prioritize_japan_front
+    allowed = { tag = PRC }
+    abort_when_not_enabled = yes
+    enable = {
+        has_country_flag = AOTA_china_resistance_line
+        JAP = { exists = yes }
+    }
+    strategy = { type = prepare_for_war id = JAP value = 120 }
+}
