@@ -97,6 +97,90 @@ country_event = {
     option = { name = aota_1313_b add_popularity = { ideology = communism popularity = 0.04 } }
 }
 
+
+country_event = {
+    id = aota.1314
+    title = aota_1314_title
+    desc = aota_1314_desc
+    picture = GFX_AOTA_news_foreign_reaction
+    trigger = { tag = ALG }
+    mean_time_to_happen = { days = 18 }
+    option = { name = aota_1314_a add_political_power = 40 add_stability = 0.02 }
+    option = { name = aota_1314_b add_stability = 0.03 add_popularity = { ideology = neutrality popularity = 0.03 } }
+}
+country_event = {
+    id = aota.1315
+    title = aota_1315_title
+    desc = aota_1315_desc
+    picture = GFX_AOTA_news_foreign_reaction
+    trigger = { tag = COG }
+    mean_time_to_happen = { days = 18 }
+    option = { name = aota_1315_a add_political_power = 35 add_stability = -0.01 }
+    option = { name = aota_1315_b add_war_support = 0.03 add_command_power = 15 }
+}
+
+
+country_event = {
+    id = aota.1330
+    title = aota_1330_title
+    desc = aota_1330_desc
+    picture = GFX_AOTA_news_foreign_reaction
+    trigger = { tag = GER }
+    mean_time_to_happen = { days = 18 }
+    option = { name = aota_1330_a add_political_power = 45 }
+    option = { name = aota_1330_b add_war_support = 0.03 }
+}
+country_event = {
+    id = aota.1331
+    title = aota_1331_title
+    desc = aota_1331_desc
+    picture = GFX_AOTA_news_foreign_reaction
+    trigger = { tag = ENG }
+    mean_time_to_happen = { days = 18 }
+    option = { name = aota_1331_a add_stability = 0.02 }
+    option = { name = aota_1331_b add_political_power = 40 }
+}
+country_event = {
+    id = aota.1332
+    title = aota_1332_title
+    desc = aota_1332_desc
+    picture = GFX_AOTA_news_foreign_reaction
+    trigger = { tag = ITA }
+    mean_time_to_happen = { days = 18 }
+    option = { name = aota_1332_a add_political_power = 35 add_stability = 0.01 }
+    option = { name = aota_1332_b add_war_support = 0.03 }
+}
+country_event = {
+    id = aota.1333
+    title = aota_1333_title
+    desc = aota_1333_desc
+    picture = GFX_AOTA_news_foreign_reaction
+    trigger = { tag = SOV }
+    mean_time_to_happen = { days = 18 }
+    option = { name = aota_1333_a add_stability = 0.02 }
+    option = { name = aota_1333_b add_command_power = 20 }
+}
+country_event = {
+    id = aota.1334
+    title = aota_1334_title
+    desc = aota_1334_desc
+    picture = GFX_AOTA_news_foreign_reaction
+    trigger = { tag = FRA }
+    mean_time_to_happen = { days = 18 }
+    option = { name = aota_1334_a add_political_power = 40 }
+    option = { name = aota_1334_b add_stability = 0.02 }
+}
+country_event = {
+    id = aota.1335
+    title = aota_1335_title
+    desc = aota_1335_desc
+    picture = GFX_AOTA_news_foreign_reaction
+    trigger = { tag = JAP }
+    mean_time_to_happen = { days = 18 }
+    option = { name = aota_1335_a add_war_support = 0.03 }
+    option = { name = aota_1335_b add_stability = 0.02 }
+}
+
 country_event = {
     id = aota.1320
     title = aota_1320_title

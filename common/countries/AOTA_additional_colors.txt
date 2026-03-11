@@ -1,5 +1,5 @@
-IRE = { color = { 62 126 82 } color_ui = { 62 126 82 } }
-FIN = { color = { 224 235 245 } color_ui = { 224 235 245 } }
-UKR = { color = { 132 186 84 } color_ui = { 132 186 84 } }
-ALG = { color = { 166 140 92 } color_ui = { 166 140 92 } }
-COG = { color = { 75 113 128 } color_ui = { 75 113 128 } }
+IRE = { color = { 46 112 74 } color_ui = { 46 112 74 } }
+FIN = { color = { 214 228 242 } color_ui = { 214 228 242 } }
+UKR = { color = { 104 153 74 } color_ui = { 104 153 74 } }
+ALG = { color = { 145 122 84 } color_ui = { 145 122 84 } }
+COG = { color = { 62 98 114 } color_ui = { 62 98 114 } }

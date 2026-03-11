@@ -52,3 +52,7 @@ set_popularities = {
     fascism = 24
     market_radicalism = 7
 }
+add_ideas = aota_jap_zaibatsu_mobilization_council
+recruit_character = AOTA_JAP_kijuro_shidehara
+recruit_character = AOTA_JAP_sadao_araki
+recruit_character = AOTA_JAP_yoshisuke_ayukawa

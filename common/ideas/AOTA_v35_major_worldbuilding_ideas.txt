@@ -1,0 +1,52 @@
+ideas = {
+  country = {
+    aota_ger_reichsverband_cartels = {
+      picture = generic_construct_civ_factory
+      allowed = { original_tag = GER }
+      modifier = {
+        production_factory_max_efficiency_factor = 0.05
+        consumer_goods_factor = 0.01
+      }
+    }
+    aota_eng_imperial_general_staff_committees = {
+      picture = generic_alliance
+      allowed = { original_tag = ENG }
+      modifier = {
+        political_power_gain = 0.03
+        planning_speed = 0.04
+      }
+    }
+    aota_ita_state_corporative_blocs = {
+      picture = generic_political_pressure
+      allowed = { original_tag = ITA }
+      modifier = {
+        stability_factor = 0.03
+        production_speed_arms_factory_factor = 0.05
+      }
+    }
+    aota_sov_reconstruction_compacts = {
+      picture = generic_construct_infrastructure
+      allowed = { original_tag = SOV }
+      modifier = {
+        build_speed_infrastructure_factor = 0.08
+        supply_node_range = 0.05
+      }
+    }
+    aota_fra_metropole_colony_bargain = {
+      picture = generic_trade
+      allowed = { original_tag = FRA }
+      modifier = {
+        trade_opinion_factor = 0.08
+        stability_factor = -0.02
+      }
+    }
+    aota_jap_zaibatsu_mobilization_council = {
+      picture = generic_military_high_command
+      allowed = { original_tag = JAP }
+      modifier = {
+        production_speed_arms_factory_factor = 0.05
+        naval_speed_factor = 0.03
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+characters = {
+  AOTA_IRE_sean_lemass = {
+    name = AOTA_IRE_sean_lemass_name
+    portraits = { civilian = { large = GFX_Portrait_Europe_Generic_new_7 } }
+    advisor = { slot = political_advisor idea_token = AOTA_IRE_sean_lemass_advisor allowed = { original_tag = IRE } traits = { captain_of_industry } }
+  }
+  AOTA_IRE_frank_aiken = {
+    name = AOTA_IRE_frank_aiken_name
+    portraits = { civilian = { large = GFX_Portrait_Europe_Generic_new_3 } }
+    advisor = { slot = high_command idea_token = AOTA_IRE_frank_aiken_advisor allowed = { original_tag = IRE } traits = { army_defence_1 } }
+  }
+  AOTA_IRE_hanna_sheehy = {
+    name = AOTA_IRE_hanna_sheehy_name
+    portraits = { civilian = { large = GFX_Portrait_Europe_Generic_new_8 } }
+    advisor = { slot = political_advisor idea_token = AOTA_IRE_hanna_sheehy_advisor allowed = { original_tag = IRE } traits = { democratic_reformer } }
+  }
+
+  AOTA_FIN_juho_paasikivi = {
+    name = AOTA_FIN_juho_paasikivi_name
+    portraits = { civilian = { large = GFX_Portrait_Europe_Generic_new_2 } }
+    advisor = { slot = political_advisor idea_token = AOTA_FIN_juho_paasikivi_advisor allowed = { original_tag = FIN } traits = { backroom_backstabber } }
+  }
+  AOTA_FIN_valo_nihtila = {
+    name = AOTA_FIN_valo_nihtila_name
+    portraits = { civilian = { large = GFX_Portrait_Europe_Generic_new_1 } }
+    advisor = { slot = high_command idea_token = AOTA_FIN_valo_nihtila_advisor allowed = { original_tag = FIN } traits = { army_logistics_1 } }
+  }
+  AOTA_FIN_vaino_tanner = {
+    name = AOTA_FIN_vaino_tanner_name
+    portraits = { civilian = { large = GFX_Portrait_Europe_Generic_new_6 } }
+    advisor = { slot = political_advisor idea_token = AOTA_FIN_vaino_tanner_advisor allowed = { original_tag = FIN } traits = { silent_workhorse } }
+  }
+
+  AOTA_UKR_volodymyr_vynnychenko = {
+    name = AOTA_UKR_volodymyr_vynnychenko_name
+    portraits = { civilian = { large = GFX_Portrait_Europe_Generic_new_8 } }
+    advisor = { slot = political_advisor idea_token = AOTA_UKR_volodymyr_vynnychenko_advisor allowed = { original_tag = UKR } traits = { communist_revolutionary } }
+  }
+  AOTA_UKR_omelianovych_pavlenko = {
+    name = AOTA_UKR_omelianovych_pavlenko_name
+    portraits = { civilian = { large = GFX_Portrait_Europe_Generic_new_5 } }
+    advisor = { slot = high_command idea_token = AOTA_UKR_omelianovych_pavlenko_advisor allowed = { original_tag = UKR } traits = { army_offence_1 } }
+  }
+  AOTA_UKR_nina_strokata = {
+    name = AOTA_UKR_nina_strokata_name
+    portraits = { civilian = { large = GFX_Portrait_Europe_Generic_new_4 } }
+    advisor = { slot = political_advisor idea_token = AOTA_UKR_nina_strokata_advisor allowed = { original_tag = UKR } traits = { anarchist_revolutionary } }
+  }
+
+  AOTA_ALG_marcel_regnier = {
+    name = AOTA_ALG_marcel_regnier_name
+    portraits = { civilian = { large = GFX_Portrait_Europe_Generic_new_1 } }
+    advisor = { slot = political_advisor idea_token = AOTA_ALG_marcel_regnier_advisor allowed = { original_tag = ALG } traits = { silent_workhorse } }
+  }
+  AOTA_ALG_messali_hadj = {
+    name = AOTA_ALG_messali_hadj_name
+    portraits = { civilian = { large = GFX_Portrait_Middle_East_Generic_1 } }
+    advisor = { slot = political_advisor idea_token = AOTA_ALG_messali_hadj_advisor allowed = { original_tag = ALG } traits = { communist_revolutionary } }
+  }
+  AOTA_ALG_hocine_ait = {
+    name = AOTA_ALG_hocine_ait_name
+    portraits = { civilian = { large = GFX_Portrait_Middle_East_Generic_2 } }
+    advisor = { slot = high_command idea_token = AOTA_ALG_hocine_ait_advisor allowed = { original_tag = ALG } traits = { army_offence_1 } }
+  }
+
+  AOTA_COG_albert_nyssens = {
+    name = AOTA_COG_albert_nyssens_name
+    portraits = { civilian = { large = GFX_Portrait_Europe_Generic_new_2 } }
+    advisor = { slot = political_advisor idea_token = AOTA_COG_albert_nyssens_advisor allowed = { original_tag = COG } traits = { captain_of_industry } }
+  }
+  AOTA_COG_simon_kimbangu = {
+    name = AOTA_COG_simon_kimbangu_name
+    portraits = { civilian = { large = GFX_Portrait_African_Generic_1 } }
+    advisor = { slot = political_advisor idea_token = AOTA_COG_simon_kimbangu_advisor allowed = { original_tag = COG } traits = { compassionate_gentleman } }
+  }
+  AOTA_COG_leon_bobozo = {
+    name = AOTA_COG_leon_bobozo_name
+    portraits = { civilian = { large = GFX_Portrait_African_Generic_2 } }
+    advisor = { slot = high_command idea_token = AOTA_COG_leon_bobozo_advisor allowed = { original_tag = COG } traits = { army_defence_1 } }
+  }
+}

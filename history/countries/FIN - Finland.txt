@@ -2,3 +2,7 @@ capital = 145
 set_research_slots = 2
 set_politics = { ruling_party = neutrality last_election = "1935.1.1" election_frequency = 48 elections_allowed = yes }
 create_country_leader = { name = "Pehr Evind Svinhufvud" desc = "POLITICS_SVINHUFVUD_DESC" picture = GFX_portrait_generic_political_leader ideology = neutrality traits = { } }
+add_ideas = aota_fin_white_guard_compact
+recruit_character = AOTA_FIN_juho_paasikivi
+recruit_character = AOTA_FIN_valo_nihtila
+recruit_character = AOTA_FIN_vaino_tanner

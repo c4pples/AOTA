@@ -1,0 +1,46 @@
+ideas = {
+  country = {
+    aota_ire_civic_republic_networks = {
+      picture = generic_political_pressure
+      allowed = { original_tag = IRE }
+      modifier = {
+        political_power_gain = 0.04
+        stability_factor = 0.03
+      }
+    }
+    aota_fin_white_guard_compact = {
+      picture = generic_defence
+      allowed = { original_tag = FIN }
+      modifier = {
+        army_org_factor = 0.04
+        mobilization_speed = 0.05
+      }
+    }
+    aota_ukr_frontier_atamanates = {
+      picture = generic_military_high_command
+      allowed = { original_tag = UKR }
+      modifier = {
+        division_recovery_rate = 0.05
+        stability_factor = -0.02
+      }
+    }
+    aota_alg_colonial_dual_state = {
+      picture = generic_political_reform
+      allowed = { original_tag = ALG }
+      modifier = {
+        compliance_growth = -0.05
+        political_power_gain = 0.03
+        resistance_target = 0.05
+      }
+    }
+    aota_cog_concessionary_regime = {
+      picture = generic_construct_civ_factory
+      allowed = { original_tag = COG }
+      modifier = {
+        resource_gain_factor = 0.08
+        consumer_goods_factor = 0.02
+        stability_factor = -0.03
+      }
+    }
+  }
+}

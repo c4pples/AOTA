@@ -6,6 +6,14 @@ on_actions = {
             every_country = { limit = { tag = FIN } country_event = { id = aota.1311 days = 110 } }
             every_country = { limit = { tag = POR } country_event = { id = aota.1312 days = 125 } }
             every_country = { limit = { tag = UKR } country_event = { id = aota.1313 days = 140 } }
+            every_country = { limit = { tag = ALG } country_event = { id = aota.1314 days = 150 } }
+            every_country = { limit = { tag = COG } country_event = { id = aota.1315 days = 165 } }
+            every_country = { limit = { tag = GER } country_event = { id = aota.1330 days = 175 } }
+            every_country = { limit = { tag = ENG } country_event = { id = aota.1331 days = 180 } }
+            every_country = { limit = { tag = ITA } country_event = { id = aota.1332 days = 185 } }
+            every_country = { limit = { tag = SOV } country_event = { id = aota.1333 days = 190 } }
+            every_country = { limit = { tag = FRA } country_event = { id = aota.1334 days = 195 } }
+            every_country = { limit = { tag = JAP } country_event = { id = aota.1335 days = 200 } }
         }
     }
 }

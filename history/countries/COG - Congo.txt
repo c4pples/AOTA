@@ -1,4 +1,8 @@
 capital = 521
 set_research_slots = 1
 set_politics = { ruling_party = neutrality last_election = "1934.1.1" election_frequency = 48 elections_allowed = no }
-create_country_leader = { name = "Governor-General of the Congo" desc = "AOTA_COG_DESC" picture = GFX_portrait_generic_political_leader ideology = neutrality traits = { } }
+create_country_leader = { name = "Governor-General Pierre Ryckmans" desc = "AOTA_COG_REGIME_DESC" picture = GFX_portrait_generic_political_leader ideology = neutrality traits = { } }
+add_ideas = aota_cog_concessionary_regime
+recruit_character = AOTA_COG_albert_nyssens
+recruit_character = AOTA_COG_simon_kimbangu
+recruit_character = AOTA_COG_leon_bobozo

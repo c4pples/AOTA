@@ -69,3 +69,7 @@ set_popularities = {
     fascism = 20
     communism = 12
 }
+add_ideas = aota_ita_state_corporative_blocs
+recruit_character = AOTA_ITA_alcide_de_gasperi
+recruit_character = AOTA_ITA_rodolfo_graziani
+recruit_character = AOTA_ITA_alberto_pirelli

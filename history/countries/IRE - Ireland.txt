@@ -2,3 +2,7 @@ capital = 136
 set_research_slots = 2
 set_politics = { ruling_party = neutrality last_election = "1932.1.1" election_frequency = 48 elections_allowed = yes }
 create_country_leader = { name = "Eamon de Valera" desc = "POLITICS_EAMON_DE_VALERA_DESC" picture = GFX_portrait_generic_political_leader ideology = neutrality traits = { } }
+add_ideas = aota_ire_civic_republic_networks
+recruit_character = AOTA_IRE_sean_lemass
+recruit_character = AOTA_IRE_frank_aiken
+recruit_character = AOTA_IRE_hanna_sheehy

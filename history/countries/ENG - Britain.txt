@@ -74,3 +74,7 @@ add_ideas = aota_imperial_overstretch
 add_ideas = aota_african_garrison_crisis
 
 set_country_flag = ENG_britain_overhaul_enabled
+add_ideas = aota_eng_imperial_general_staff_committees
+recruit_character = AOTA_ENG_ernest_bevin
+recruit_character = AOTA_ENG_hugh_dowding
+recruit_character = AOTA_ENG_oswald_mosley

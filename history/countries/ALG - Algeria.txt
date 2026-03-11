@@ -1,4 +1,8 @@
 capital = 513
 set_research_slots = 1
 set_politics = { ruling_party = neutrality last_election = "1934.1.1" election_frequency = 48 elections_allowed = no }
-create_country_leader = { name = "Governor-General of Algeria" desc = "AOTA_ALG_DESC" picture = GFX_portrait_generic_political_leader ideology = neutrality traits = { } }
+create_country_leader = { name = "Governor-General Marcel Peyrouton" desc = "AOTA_ALG_REGIME_DESC" picture = GFX_portrait_generic_political_leader ideology = neutrality traits = { } }
+add_ideas = aota_alg_colonial_dual_state
+recruit_character = AOTA_ALG_marcel_regnier
+recruit_character = AOTA_ALG_messali_hadj
+recruit_character = AOTA_ALG_hocine_ait
