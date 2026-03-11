@@ -14,13 +14,6 @@ focus_tree = {
         modifier = { add = 200 tag = MON }
         modifier = { add = 200 tag = TAN }
         modifier = { add = 200 tag = TIB }
-        modifier = { add = 200 tag = SIK }
-        modifier = { add = 200 tag = XSM }
-        modifier = { add = 200 tag = SHX }
-        modifier = { add = 200 tag = YUN }
-        modifier = { add = 200 tag = GXC }
-        modifier = { add = 200 tag = MEN }
-        modifier = { add = 200 tag = MAN }
         modifier = { add = 200 tag = PHI }
         modifier = { add = 200 tag = INS }
         modifier = { add = 200 tag = ECU }

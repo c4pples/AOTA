@@ -22,3 +22,18 @@ GER_continental_directorate = { color = { 80 80 80 } }
 CUB_ledger_republic = { color = { 130 120 70 } }
 ENG_commonwealth_reconstruction_authority = { color = { 170 80 80 } }
 OTT_iron_crescent_reich = { color = { 55 35 35 } }
+
+GXC_federal_republic_of_liangguang = { color = { 48 116 98 } }
+GXC_liangguang_autonomy_front = { color = { 42 96 84 } }
+YUN_southwest_salvation_government = { color = { 92 102 58 } }
+YUN_mountain_neutrality_zone = { color = { 78 90 52 } }
+SHX_north_china_discipline_regime = { color = { 118 102 78 } }
+SHX_shanxi_defensive_federalism = { color = { 98 88 68 } }
+XSM_frontier_pacification_regime = { color = { 92 122 120 } }
+XSM_northwest_faith_and_order_compact = { color = { 74 104 102 } }
+SIK_western_provincial_compact = { color = { 120 84 66 } }
+SIK_oasis_autonomy_statute = { color = { 102 70 58 } }
+MEN_inner_mongol_autonomous_command = { color = { 104 122 82 } }
+MEN_steppe_neutral_zone = { color = { 86 104 70 } }
+MAN_northeast_reorganization_authority = { color = { 88 98 124 } }
+MAN_northeast_autonomous_directorate = { color = { 72 84 108 } }

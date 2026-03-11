@@ -58,3 +58,54 @@ AOTA_china_japan_pressure_category = {
         }
     }
 }
+
+AOTA_china_warlord_statecraft_category = {
+    icon = generic_political_reform
+    allowed = { OR = { tag = GXC tag = YUN tag = SHX tag = XSM tag = SIK tag = MEN tag = MAN } }
+    visible = { OR = { tag = GXC tag = YUN tag = SHX tag = XSM tag = SIK tag = MEN tag = MAN } }
+
+    AOTA_warlord_host_provincial_assembly = {
+        icon = generic_democratic_unity
+        cost = 45
+        days_remove = 45
+        available = { has_political_power > 79 }
+        complete_effect = { add_political_power = -30 add_stability = 0.02 country_event = { id = aota_china.310 days = 1 } }
+    }
+
+    AOTA_warlord_conduct_patronage_reshuffle = {
+        icon = generic_political_pressure
+        cost = 40
+        days_remove = 40
+        available = { has_political_power > 59 }
+        complete_effect = { add_political_power = -20 add_command_power = 15 add_stability = -0.01 country_event = { id = aota_china.311 days = 1 } }
+    }
+
+    AOTA_warlord_grain_transport_emergency = {
+        icon = generic_construct_civ_factory
+        cost = 45
+        days_remove = 50
+        available = { has_war = no }
+        complete_effect = { add_stability = 0.01 add_political_power = -15 }
+    }
+
+    AOTA_warlord_border_incident_commission = {
+        icon = generic_foreign_policy
+        cost = 35
+        days_remove = 35
+        available = { has_war = no }
+        complete_effect = { add_war_support = 0.01 add_command_power = 10 }
+    }
+
+    AOTA_warlord_unification_backchannel = {
+        icon = generic_improve_relations
+        cost = 55
+        days_remove = 60
+        available = { has_political_power > 99 OR = { CHI = { exists = yes } PRC = { exists = yes } } }
+        complete_effect = {
+            add_political_power = -30
+            if = { limit = { CHI = { exists = yes } } CHI = { add_opinion_modifier = { target = ROOT modifier = aota_trade_friendliness } } }
+            if = { limit = { PRC = { exists = yes } } PRC = { add_opinion_modifier = { target = ROOT modifier = aota_trade_friendliness } } }
+            country_event = { id = aota_china.312 days = 1 }
+        }
+    }
+}
