@@ -1,0 +1,6 @@
+air_wings = {
+    118 = {
+        air_wing = { name = "Forca Aerea Metropolitana" type = fighter_equipment_0 amount = 20 }
+        air_wing = { name = "Atlântico Patrolha" type = nav_bomber_equipment_0 amount = 12 }
+    }
+}

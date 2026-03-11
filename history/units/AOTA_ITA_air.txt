@@ -1,8 +1,13 @@
 air_wings = {
     160 = {
-        air_wing = { name = "1a Stormo Caccia" type = fighter_equipment_0 amount = 60 }
-        air_wing = { name = "2a Stormo Caccia" type = fighter_equipment_0 amount = 60 }
-        air_wing = { name = "Stormo Bombardamento" type = tac_bomber_equipment_0 amount = 42 }
+        air_wing = { name = "1a Stormo Caccia" type = fighter_equipment_0 amount = 48 }
+        air_wing = { name = "2a Stormo Caccia" type = fighter_equipment_0 amount = 40 }
+        air_wing = { name = "Stormo Bombardamento" type = tac_bomber_equipment_0 amount = 30 }
     }
-    157 = { air_wing = { name = "Gruppo Alpino" type = fighter_equipment_0 amount = 24 } }
+    157 = {
+        air_wing = { name = "Gruppo Alpino" type = fighter_equipment_0 amount = 18 }
+    }
+    161 = {
+        air_wing = { name = "Squadriglia Coloniale" type = nav_bomber_equipment_0 amount = 12 }
+    }
 }

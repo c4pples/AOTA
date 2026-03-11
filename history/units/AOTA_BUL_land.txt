@@ -1,0 +1,32 @@
+division_template = {
+    name = "Royal Infantry Division"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+        artillery_brigade = { x = 0 y = 0 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+    }
+}
+division_template = {
+    name = "Macedonian Border Brigade"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 0 }
+    }
+    support = {
+        recon = { x = 0 y = 0 }
+    }
+}
+units = {
+    division = { name = "1-va Pehotna Diviziya" location = 209 division_template = "Royal Infantry Division" start_experience_factor = 0.14 start_equipment_factor = 0.70 start_manpower_factor = 0.88 }
+    division = { name = "2-ra Pehotna Diviziya" location = 209 division_template = "Royal Infantry Division" start_experience_factor = 0.12 start_equipment_factor = 0.66 start_manpower_factor = 0.84 }
+    division = { name = "Makedonska Granichna Brigada" location = 209 division_template = "Macedonian Border Brigade" start_experience_factor = 0.08 start_equipment_factor = 0.58 start_manpower_factor = 0.80 }
+}

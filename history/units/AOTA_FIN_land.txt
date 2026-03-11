@@ -1,0 +1,33 @@
+division_template = {
+    name = "Frontier Jager Division"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        mountaineers = { x = 0 y = 0 }
+        mountaineers = { x = 1 y = 0 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 1 }
+    }
+}
+division_template = {
+    name = "Guard Border Brigade"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 0 }
+    }
+    support = {
+        recon = { x = 0 y = 0 }
+    }
+}
+units = {
+    division = { name = "1st Jager Division" location = 111 division_template = "Frontier Jager Division" start_experience_factor = 0.16 start_equipment_factor = 0.72 start_manpower_factor = 0.90 }
+    division = { name = "2nd Jager Division" location = 111 division_template = "Frontier Jager Division" start_experience_factor = 0.14 start_equipment_factor = 0.68 start_manpower_factor = 0.86 }
+    division = { name = "Guard Border Brigade" location = 111 division_template = "Guard Border Brigade" start_experience_factor = 0.10 start_equipment_factor = 0.60 start_manpower_factor = 0.82 }
+}

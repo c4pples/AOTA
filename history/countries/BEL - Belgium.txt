@@ -1,5 +1,6 @@
 ﻿capital = 6
-oob = "BEL_1936"
+oob = "AOTA_BEL_land"
+set_air_oob = "AOTA_BEL_air"
 set_research_slots = 3
 set_stability = 0.59
 set_war_support = 0.12

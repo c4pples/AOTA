@@ -1,0 +1,13 @@
+units = {
+    fleet = {
+        name = "Royal Egyptian Fleet"
+        naval_base = 447
+        task_force = {
+            name = "Canal Defense Flotilla"
+            location = 447
+            ship = { name = "RES Alexandria" definition = light_cruiser_1 }
+            ship = { name = "RES Cairo" definition = destroyer_1 }
+            ship = { name = "RES Sinai" definition = submarine_1 }
+        }
+    }
+}

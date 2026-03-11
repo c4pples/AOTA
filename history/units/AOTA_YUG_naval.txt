@@ -1,0 +1,13 @@
+units = {
+    fleet = {
+        name = "Yugoslav Adriatic Fleet"
+        naval_base = 103
+        task_force = {
+            name = "Adriatic Defense Group"
+            location = 103
+            ship = { name = "YN Dubrovnik" definition = light_cruiser_1 }
+            ship = { name = "YN Beograd" definition = destroyer_1 }
+            ship = { name = "YN Hrabri" definition = submarine_1 }
+        }
+    }
+}

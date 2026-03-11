@@ -1,7 +1,12 @@
 air_wings = {
     341 = {
-        air_wing = { name = "1st Anatolian Air Group" type = fighter_equipment_0 amount = 48 }
-        air_wing = { name = "Imperial Recon Wing" type = tac_bomber_equipment_0 amount = 30 }
+        air_wing = { name = "1st Anatolian Air Group" type = fighter_equipment_0 amount = 32 }
+        air_wing = { name = "Imperial Recon Wing" type = tac_bomber_equipment_0 amount = 20 }
     }
-    677 = { air_wing = { name = "Damascus Air Detachment" type = fighter_equipment_0 amount = 24 } }
+    677 = {
+        air_wing = { name = "Damascus Air Detachment" type = fighter_equipment_0 amount = 14 }
+    }
+    684 = {
+        air_wing = { name = "Mesopotamian Liaison Flight" type = tac_bomber_equipment_0 amount = 10 }
+    }
 }

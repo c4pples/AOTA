@@ -1,50 +1,45 @@
 division_template = {
     name = "Regular Infantry Division"
     divisions = {
-        infantry = { x = 0 y = 0 }
-        infantry = { x = 1 y = 0 }
-        infantry = { x = 2 y = 0 }
-        infantry = { x = 0 y = 1 }
-        infantry = { x = 1 y = 1 }
-        infantry = { x = 2 y = 1 }
+        infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 }
         artillery_brigade = { x = 1 y = 2 }
     }
-    support = {
-        engineer = { x = 0 y = 0 }
-        recon = { x = 0 y = 1 }
-        artillery = { x = 0 y = 2 }
-    }
+    support = { engineer = { x = 0 y = 0 } recon = { x = 0 y = 1 } artillery = { x = 0 y = 2 } }
 }
 division_template = {
     name = "Imperial Garrison Brigade"
     divisions = {
-        infantry = { x = 0 y = 0 }
-        infantry = { x = 1 y = 0 }
-        infantry = { x = 0 y = 1 }
-        infantry = { x = 1 y = 1 }
+        infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 }
+        infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 }
     }
-    support = {
-        engineer = { x = 0 y = 0 }
+    support = { engineer = { x = 0 y = 0 } military_police = { x = 0 y = 1 } }
+}
+division_template = {
+    name = "Territorial Reserve Division"
+    divisions = {
+        infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 } infantry = { x = 0 y = 2 }
     }
+    support = { engineer = { x = 0 y = 0 } }
 }
 division_template = {
     name = "Mobile Column"
     divisions = {
-        motorized = { x = 0 y = 0 }
-        motorized = { x = 1 y = 0 }
-        motorized = { x = 0 y = 1 }
-        motorized = { x = 1 y = 1 }
+        motorized = { x = 0 y = 0 } motorized = { x = 1 y = 0 }
+        motorized = { x = 0 y = 1 } motorized = { x = 1 y = 1 }
     }
-    support = {
-        recon = { x = 0 y = 0 }
-        engineer = { x = 0 y = 1 }
-    }
+    support = { recon = { x = 0 y = 0 } engineer = { x = 0 y = 1 } }
 }
 units = {
-    division = { name = "1st Infantry Division" location = 126 division_template = "Regular Infantry Division" start_experience_factor = 0.25 }
-    division = { name = "2nd Infantry Division" location = 126 division_template = "Regular Infantry Division" start_experience_factor = 0.20 }
-    division = { name = "3rd Infantry Division" location = 126 division_template = "Regular Infantry Division" start_experience_factor = 0.20 }
-    division = { name = "Aldershot Garrison" location = 126 division_template = "Imperial Garrison Brigade" start_experience_factor = 0.10 }
-    division = { name = "Home Counties Garrison" location = 125 division_template = "Imperial Garrison Brigade" start_experience_factor = 0.10 }
-    division = { name = "1st Mobile Column" location = 126 division_template = "Mobile Column" start_experience_factor = 0.15 }
+    division = { name = "1st Infantry Division" location = 126 division_template = "Regular Infantry Division" start_experience_factor = 0.28 start_equipment_factor = 0.90 }
+    division = { name = "2nd Infantry Division" location = 126 division_template = "Regular Infantry Division" start_experience_factor = 0.24 start_equipment_factor = 0.86 }
+    division = { name = "3rd Infantry Division" location = 125 division_template = "Regular Infantry Division" start_experience_factor = 0.22 start_equipment_factor = 0.82 }
+    division = { name = "4th Infantry Division" location = 338 division_template = "Regular Infantry Division" start_experience_factor = 0.18 start_equipment_factor = 0.76 }
+    division = { name = "Aldershot Garrison" location = 126 division_template = "Imperial Garrison Brigade" start_experience_factor = 0.10 start_manpower_factor = 0.85 start_equipment_factor = 0.70 }
+    division = { name = "Home Counties Garrison" location = 125 division_template = "Imperial Garrison Brigade" start_experience_factor = 0.10 start_manpower_factor = 0.88 start_equipment_factor = 0.72 }
+    division = { name = "Alexandria Garrison" location = 447 division_template = "Imperial Garrison Brigade" start_experience_factor = 0.08 start_manpower_factor = 0.78 start_equipment_factor = 0.62 }
+    division = { name = "Territorial South" location = 126 division_template = "Territorial Reserve Division" start_experience_factor = 0.06 start_manpower_factor = 0.80 start_equipment_factor = 0.60 }
+    division = { name = "Territorial Midlands" location = 338 division_template = "Territorial Reserve Division" start_experience_factor = 0.06 start_manpower_factor = 0.78 start_equipment_factor = 0.58 }
+    division = { name = "1st Mobile Column" location = 126 division_template = "Mobile Column" start_experience_factor = 0.14 start_manpower_factor = 0.82 start_equipment_factor = 0.68 }
 }

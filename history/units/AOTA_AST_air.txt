@@ -1,0 +1,6 @@
+air_wings = {
+    985 = {
+        air_wing = { name = "RAAF Home Wing" type = fighter_equipment_0 amount = 30 }
+        air_wing = { name = "Long Range Patrol Wing" type = nav_bomber_equipment_0 amount = 18 }
+    }
+}

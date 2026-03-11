@@ -1,8 +1,14 @@
 air_wings = {
     126 = {
-        air_wing = { name = "No. 1 Fighter Group" type = fighter_equipment_0 amount = 72 }
-        air_wing = { name = "No. 2 Fighter Group" type = fighter_equipment_0 amount = 72 }
-        air_wing = { name = "No. 1 Bomber Group" type = tac_bomber_equipment_0 amount = 48 }
+        air_wing = { name = "No. 1 Fighter Group" type = fighter_equipment_0 amount = 56 }
+        air_wing = { name = "No. 2 Fighter Group" type = fighter_equipment_0 amount = 48 }
+        air_wing = { name = "No. 1 Bomber Group" type = tac_bomber_equipment_0 amount = 36 }
     }
-    125 = { air_wing = { name = "Coastal Recon Flight" type = nav_bomber_equipment_0 amount = 36 } }
+    125 = {
+        air_wing = { name = "Coastal Recon Flight" type = nav_bomber_equipment_0 amount = 24 }
+        air_wing = { name = "Home Training Squadron" type = fighter_equipment_0 amount = 20 }
+    }
+    447 = {
+        air_wing = { name = "Middle East Air Detachment" type = fighter_equipment_0 amount = 16 }
+    }
 }

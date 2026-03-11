@@ -1,0 +1,13 @@
+units = {
+    fleet = {
+        name = "South African Sea Command"
+        naval_base = 275
+        task_force = {
+            name = "Cape Escort Force"
+            location = 275
+            ship = { name = "SAS Table Bay" definition = light_cruiser_1 }
+            ship = { name = "SAS Good Hope" definition = destroyer_1 }
+            ship = { name = "SAS Natal" definition = destroyer_1 }
+        }
+    }
+}

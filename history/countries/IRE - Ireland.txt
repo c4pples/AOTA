@@ -1,4 +1,6 @@
-capital = 136
+﻿capital = 136
+oob = "AOTA_IRE_land"
+set_air_oob = "AOTA_IRE_air"
 set_research_slots = 2
 set_politics = { ruling_party = neutrality last_election = "1932.1.1" election_frequency = 48 elections_allowed = yes }
 create_country_leader = { name = "Eamon de Valera" desc = "POLITICS_EAMON_DE_VALERA_DESC" picture = GFX_portrait_generic_political_leader ideology = neutrality traits = { } }

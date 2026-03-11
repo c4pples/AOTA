@@ -1,0 +1,23 @@
+units = {
+    fleet = {
+        name = "Flotte de l'Atlantique"
+        naval_base = 17
+        task_force = {
+            name = "Escadre de Ligne"
+            location = 17
+            ship = { name = "FS Bretagne" definition = battleship_1 }
+            ship = { name = "FS Duquesne" definition = heavy_cruiser_1 }
+            ship = { name = "FS Colbert" definition = heavy_cruiser_1 }
+            ship = { name = "FS Bourrasque" definition = destroyer_1 }
+            ship = { name = "FS Frondeur" definition = destroyer_1 }
+        }
+        task_force = {
+            name = "Escorte Coloniale"
+            location = 18
+            ship = { name = "FS Primauguet" definition = light_cruiser_1 }
+            ship = { name = "FS Forbin" definition = destroyer_1 }
+            ship = { name = "FS Le Marsouin" definition = submarine_1 }
+            ship = { name = "FS Le Requin" definition = submarine_1 }
+        }
+    }
+}

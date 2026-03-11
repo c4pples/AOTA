@@ -1,0 +1,22 @@
+units = {
+    fleet = {
+        name = "Regia Marina"
+        naval_base = 146
+        task_force = {
+            name = "Squadra da Battaglia"
+            location = 146
+            ship = { name = "RN Conte di Cavour" definition = battleship_1 }
+            ship = { name = "RN Trento" definition = heavy_cruiser_1 }
+            ship = { name = "RN Trieste" definition = heavy_cruiser_1 }
+            ship = { name = "RN Lampo" definition = destroyer_1 }
+            ship = { name = "RN Folgore" definition = destroyer_1 }
+        }
+        task_force = {
+            name = "Forza Coloniale"
+            location = 161
+            ship = { name = "RN Luigi Cadorna" definition = light_cruiser_1 }
+            ship = { name = "RN Espero" definition = destroyer_1 }
+            ship = { name = "RN Scirè" definition = submarine_1 }
+        }
+    }
+}

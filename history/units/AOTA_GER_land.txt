@@ -1,66 +1,46 @@
 division_template = {
-    name = "Infanterie-Division 1936"
+    name = "Reichsheer Linien-Division"
     divisions = {
-        infantry = { x = 0 y = 0 }
-        infantry = { x = 1 y = 0 }
-        infantry = { x = 2 y = 0 }
-        infantry = { x = 0 y = 1 }
-        infantry = { x = 1 y = 1 }
-        infantry = { x = 2 y = 1 }
+        infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 } infantry = { x = 2 y = 1 }
         artillery_brigade = { x = 1 y = 2 }
     }
-    support = {
-        engineer = { x = 0 y = 0 }
-        recon = { x = 0 y = 1 }
-        artillery = { x = 0 y = 2 }
-    }
+    support = { engineer = { x = 0 y = 0 } recon = { x = 0 y = 1 } artillery = { x = 0 y = 2 } }
 }
 division_template = {
-    name = "Grenzschutz-Division"
+    name = "Grenzschutz-Regimentgruppe"
     divisions = {
-        infantry = { x = 0 y = 0 }
-        infantry = { x = 1 y = 0 }
-        infantry = { x = 0 y = 1 }
-        infantry = { x = 1 y = 1 }
+        infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 }
+        infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 }
         infantry = { x = 0 y = 2 }
     }
-    support = {
-        engineer = { x = 0 y = 0 }
-    }
+    support = { engineer = { x = 0 y = 0 } }
 }
 division_template = {
-    name = "Kavallerie-Brigade"
+    name = "Landwehr Sicherungs-Division"
     divisions = {
-        cavalry = { x = 0 y = 0 }
-        cavalry = { x = 1 y = 0 }
-        cavalry = { x = 0 y = 1 }
-        cavalry = { x = 1 y = 1 }
+        infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 }
+        infantry = { x = 0 y = 1 } cavalry = { x = 1 y = 1 }
     }
-    support = {
-        recon = { x = 0 y = 0 }
-    }
+    support = { military_police = { x = 0 y = 0 } }
 }
 division_template = {
-    name = "Leichte Versuchsdivision"
+    name = "Leichte Panzergruppe"
     divisions = {
-        motorized = { x = 0 y = 0 }
-        motorized = { x = 1 y = 0 }
-        motorized = { x = 0 y = 1 }
-        light_armor = { x = 1 y = 1 }
-        light_armor = { x = 2 y = 1 }
+        motorized = { x = 0 y = 0 } motorized = { x = 1 y = 0 }
+        light_armor = { x = 0 y = 1 } light_armor = { x = 1 y = 1 }
     }
-    support = {
-        engineer = { x = 0 y = 0 }
-        recon = { x = 0 y = 1 }
-        maintenance_company = { x = 0 y = 2 }
-    }
+    support = { recon = { x = 0 y = 0 } engineer = { x = 0 y = 1 } maintenance_company = { x = 0 y = 2 } }
 }
 units = {
-    division = { name = "1. Infanterie-Division" location = 64 division_template = "Infanterie-Division 1936" start_experience_factor = 0.30 }
-    division = { name = "2. Infanterie-Division" location = 64 division_template = "Infanterie-Division 1936" start_experience_factor = 0.25 }
-    division = { name = "3. Infanterie-Division" location = 64 division_template = "Infanterie-Division 1936" start_experience_factor = 0.25 }
-    division = { name = "1. Grenzschutz-Division" location = 67 division_template = "Grenzschutz-Division" start_experience_factor = 0.10 }
-    division = { name = "2. Grenzschutz-Division" location = 67 division_template = "Grenzschutz-Division" start_experience_factor = 0.10 }
-    division = { name = "1. Kavallerie-Brigade" location = 68 division_template = "Kavallerie-Brigade" start_experience_factor = 0.15 }
-    division = { name = "Panzer-Versuchsverband" location = 64 division_template = "Leichte Versuchsdivision" start_experience_factor = 0.20 }
+    division = { name = "1. Reichsheer-Division" location = 64 division_template = "Reichsheer Linien-Division" start_experience_factor = 0.35 start_equipment_factor = 0.92 }
+    division = { name = "2. Reichsheer-Division" location = 64 division_template = "Reichsheer Linien-Division" start_experience_factor = 0.30 start_equipment_factor = 0.88 }
+    division = { name = "3. Reichsheer-Division" location = 65 division_template = "Reichsheer Linien-Division" start_experience_factor = 0.26 start_equipment_factor = 0.84 }
+    division = { name = "4. Reichsheer-Division" location = 65 division_template = "Reichsheer Linien-Division" start_experience_factor = 0.24 start_equipment_factor = 0.80 }
+    division = { name = "Westgrenze I" location = 67 division_template = "Grenzschutz-Regimentgruppe" start_experience_factor = 0.12 start_manpower_factor = 0.88 start_equipment_factor = 0.70 }
+    division = { name = "Westgrenze II" location = 67 division_template = "Grenzschutz-Regimentgruppe" start_experience_factor = 0.10 start_manpower_factor = 0.84 start_equipment_factor = 0.66 }
+    division = { name = "Ostgrenze I" location = 68 division_template = "Grenzschutz-Regimentgruppe" start_experience_factor = 0.10 start_manpower_factor = 0.86 start_equipment_factor = 0.68 }
+    division = { name = "Landwehr Berlin" location = 64 division_template = "Landwehr Sicherungs-Division" start_experience_factor = 0.08 start_manpower_factor = 0.78 start_equipment_factor = 0.58 }
+    division = { name = "Landwehr Königsberg" location = 68 division_template = "Landwehr Sicherungs-Division" start_experience_factor = 0.06 start_manpower_factor = 0.74 start_equipment_factor = 0.55 }
+    division = { name = "1. Leichte Panzergruppe" location = 64 division_template = "Leichte Panzergruppe" start_experience_factor = 0.22 start_manpower_factor = 0.82 start_equipment_factor = 0.72 }
 }

@@ -1,6 +1,7 @@
 ﻿capital = 446
-oob = "EGY"
-set_naval_oob = "EGY_naval"
+oob = "AOTA_EGY_land"
+set_air_oob = "AOTA_EGY_air"
+set_naval_oob = "AOTA_EGY_naval"
 set_research_slots = 3
 set_stability = 0.47
 set_war_support = 0.18

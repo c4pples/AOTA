@@ -30,10 +30,12 @@ division_template = {
     support = { recon = { x = 0 y = 0 } engineer = { x = 0 y = 1 } }
 }
 units = {
-    division = { name = "1st Infantry Division" location = 361 division_template = "Regular Infantry Division" start_experience_factor = 0.18 }
-    division = { name = "2nd Infantry Division" location = 361 division_template = "Regular Infantry Division" start_experience_factor = 0.16 }
-    division = { name = "Pennsylvania National Guard" location = 358 division_template = "National Guard Division" start_experience_factor = 0.08 }
-    division = { name = "Illinois National Guard" location = 395 division_template = "National Guard Division" start_experience_factor = 0.08 }
-    division = { name = "1st Cavalry Brigade" location = 387 division_template = "Cavalry Brigade" start_experience_factor = 0.10 }
-    division = { name = "Motor Training Group" location = 360 division_template = "Motor Training Group" start_experience_factor = 0.12 }
+    division = { name = "1st Infantry Division" location = 361 division_template = "Regular Infantry Division" start_experience_factor = 0.16 start_equipment_factor = 0.82 }
+    division = { name = "2nd Infantry Division" location = 361 division_template = "Regular Infantry Division" start_experience_factor = 0.14 start_equipment_factor = 0.78 }
+    division = { name = "3rd Infantry Division" location = 359 division_template = "Regular Infantry Division" start_experience_factor = 0.12 start_equipment_factor = 0.72 }
+    division = { name = "Pennsylvania National Guard" location = 358 division_template = "National Guard Division" start_experience_factor = 0.08 start_manpower_factor = 0.84 start_equipment_factor = 0.60 }
+    division = { name = "Illinois National Guard" location = 395 division_template = "National Guard Division" start_experience_factor = 0.08 start_manpower_factor = 0.82 start_equipment_factor = 0.58 }
+    division = { name = "Texas National Guard" location = 387 division_template = "National Guard Division" start_experience_factor = 0.07 start_manpower_factor = 0.80 start_equipment_factor = 0.56 }
+    division = { name = "1st Cavalry Brigade" location = 387 division_template = "Cavalry Brigade" start_experience_factor = 0.10 start_manpower_factor = 0.80 start_equipment_factor = 0.62 }
+    division = { name = "Motor Training Group" location = 360 division_template = "Motor Training Group" start_experience_factor = 0.10 start_manpower_factor = 0.76 start_equipment_factor = 0.58 }
 }

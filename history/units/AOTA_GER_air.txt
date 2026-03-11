@@ -1,8 +1,11 @@
 air_wings = {
     64 = {
-        air_wing = { name = "Jagdgeschwader Berlin" type = fighter_equipment_0 amount = 80 }
-        air_wing = { name = "Jagdgeschwader Brandenburg" type = fighter_equipment_0 amount = 80 }
-        air_wing = { name = "Kampfgruppe Mitte" type = tac_bomber_equipment_0 amount = 60 }
+        air_wing = { name = "Jagdgeschwader Berlin" type = fighter_equipment_0 amount = 64 }
+        air_wing = { name = "Jagdgeschwader Brandenburg" type = fighter_equipment_0 amount = 56 }
+        air_wing = { name = "Kampfgruppe Mitte" type = tac_bomber_equipment_0 amount = 40 }
     }
-    67 = { air_wing = { name = "Grenzfliegerstaffel West" type = fighter_equipment_0 amount = 40 } }
+    67 = {
+        air_wing = { name = "Grenzfliegerstaffel West" type = fighter_equipment_0 amount = 28 }
+        air_wing = { name = "Westaufklärung 1" type = tac_bomber_equipment_0 amount = 20 }
+    }
 }

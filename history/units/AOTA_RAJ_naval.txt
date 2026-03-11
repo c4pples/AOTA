@@ -1,0 +1,13 @@
+units = {
+    fleet = {
+        name = "Royal Indian Navy Command"
+        naval_base = 429
+        task_force = {
+            name = "Arabian Sea Patrol"
+            location = 429
+            ship = { name = "RIN Delhi" definition = light_cruiser_1 }
+            ship = { name = "RIN Narmada" definition = destroyer_1 }
+            ship = { name = "RIN Sutlej" definition = destroyer_1 }
+        }
+    }
+}

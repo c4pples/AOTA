@@ -1,8 +1,13 @@
 air_wings = {
     15 = {
-        air_wing = { name = "1er Groupe de Chasse" type = fighter_equipment_0 amount = 72 }
-        air_wing = { name = "2e Groupe de Chasse" type = fighter_equipment_0 amount = 72 }
-        air_wing = { name = "Groupe de Bombardement Nord" type = tac_bomber_equipment_0 amount = 54 }
+        air_wing = { name = "1er Groupe de Chasse" type = fighter_equipment_0 amount = 56 }
+        air_wing = { name = "2e Groupe de Chasse" type = fighter_equipment_0 amount = 48 }
+        air_wing = { name = "Groupe de Bombardement Nord" type = tac_bomber_equipment_0 amount = 42 }
     }
-    28 = { air_wing = { name = "Escadre du Rhin" type = fighter_equipment_0 amount = 36 } }
+    28 = {
+        air_wing = { name = "Escadre du Rhin" type = fighter_equipment_0 amount = 28 }
+    }
+    17 = {
+        air_wing = { name = "Escadrille Coloniale" type = tac_bomber_equipment_0 amount = 18 }
+    }
 }

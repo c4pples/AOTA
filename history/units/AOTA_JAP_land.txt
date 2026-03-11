@@ -31,10 +31,12 @@ division_template = {
     support = { engineer = { x = 0 y = 0 } artillery = { x = 0 y = 1 } }
 }
 units = {
-    division = { name = "1st Imperial Division" location = 282 division_template = "Imperial Infantry Division" start_experience_factor = 0.22 }
-    division = { name = "2nd Imperial Division" location = 282 division_template = "Imperial Infantry Division" start_experience_factor = 0.20 }
-    division = { name = "SNLF Yokosuka" location = 282 division_template = "Special Naval Landing Force" start_experience_factor = 0.20 }
-    division = { name = "SNLF Kure" location = 286 division_template = "Special Naval Landing Force" start_experience_factor = 0.20 }
-    division = { name = "Manchurian Security Division" location = 285 division_template = "Manchurian Security Division" start_experience_factor = 0.10 }
-    division = { name = "1st Independent Mixed Brigade" location = 283 division_template = "Independent Mixed Brigade" start_experience_factor = 0.14 }
+    division = { name = "1st Imperial Division" location = 282 division_template = "Imperial Infantry Division" start_experience_factor = 0.26 start_equipment_factor = 0.90 }
+    division = { name = "2nd Imperial Division" location = 282 division_template = "Imperial Infantry Division" start_experience_factor = 0.22 start_equipment_factor = 0.86 }
+    division = { name = "3rd Imperial Division" location = 283 division_template = "Imperial Infantry Division" start_experience_factor = 0.18 start_equipment_factor = 0.80 }
+    division = { name = "SNLF Yokosuka" location = 282 division_template = "Special Naval Landing Force" start_experience_factor = 0.28 start_manpower_factor = 0.88 start_equipment_factor = 0.84 }
+    division = { name = "SNLF Kure" location = 286 division_template = "Special Naval Landing Force" start_experience_factor = 0.24 start_manpower_factor = 0.84 start_equipment_factor = 0.80 }
+    division = { name = "Manchurian Security Division" location = 285 division_template = "Manchurian Security Division" start_experience_factor = 0.10 start_manpower_factor = 0.80 start_equipment_factor = 0.62 }
+    division = { name = "2nd Manchurian Security Division" location = 525 division_template = "Manchurian Security Division" start_experience_factor = 0.08 start_manpower_factor = 0.76 start_equipment_factor = 0.58 }
+    division = { name = "1st Independent Mixed Brigade" location = 283 division_template = "Independent Mixed Brigade" start_experience_factor = 0.14 start_manpower_factor = 0.78 start_equipment_factor = 0.66 }
 }

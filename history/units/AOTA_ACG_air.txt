@@ -1,0 +1,6 @@
+air_wings = {
+    358 = {
+        air_wing = { name = "Corporate Air Patrol" type = fighter_equipment_0 amount = 24 }
+        air_wing = { name = "Industrial Liaison Flight" type = tac_bomber_equipment_0 amount = 12 }
+    }
+}

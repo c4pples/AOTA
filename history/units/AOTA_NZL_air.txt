@@ -1,0 +1,6 @@
+air_wings = {
+    770 = {
+        air_wing = { name = "RNZAF North Wing" type = fighter_equipment_0 amount = 22 }
+        air_wing = { name = "South Pacific Patrol" type = nav_bomber_equipment_0 amount = 12 }
+    }
+}

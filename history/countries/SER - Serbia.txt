@@ -1,5 +1,6 @@
-capital = 107
-oob = "YUG_1936"
+﻿capital = 107
+oob = "AOTA_SER_land"
+set_air_oob = "AOTA_SER_air"
 set_research_slots = 3
 set_stability = 0.46
 set_war_support = 0.22

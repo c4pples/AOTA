@@ -1,0 +1,32 @@
+division_template = {
+    name = "Lithuanian Infantry Division"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+        artillery_brigade = { x = 0 y = 0 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+    }
+}
+division_template = {
+    name = "Border Rifle Brigade"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 0 }
+    }
+    support = {
+        recon = { x = 0 y = 0 }
+    }
+}
+units = {
+    division = { name = "1st Lithuanian Division" location = 189 division_template = "Lithuanian Infantry Division" start_experience_factor = 0.12 start_equipment_factor = 0.64 start_manpower_factor = 0.86 }
+    division = { name = "2nd Lithuanian Division" location = 189 division_template = "Lithuanian Infantry Division" start_experience_factor = 0.10 start_equipment_factor = 0.60 start_manpower_factor = 0.82 }
+    division = { name = "Border Rifle Brigade" location = 189 division_template = "Border Rifle Brigade" start_experience_factor = 0.08 start_equipment_factor = 0.54 start_manpower_factor = 0.80 }
+}

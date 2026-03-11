@@ -1,0 +1,6 @@
+air_wings = {
+    447 = {
+        air_wing = { name = "Royal Air Wing Cairo" type = fighter_equipment_0 amount = 22 }
+        air_wing = { name = "Canal Patrol Flight" type = nav_bomber_equipment_0 amount = 12 }
+    }
+}

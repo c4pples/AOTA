@@ -1,0 +1,26 @@
+units = {
+    fleet = {
+        name = "Home Fleet"
+        naval_base = 125
+        task_force = {
+            name = "Main Battle Squadron"
+            location = 125
+            ship = { name = "HMS Resolution" definition = battleship_1 }
+            ship = { name = "HMS Repulse" definition = battle_cruiser_1 }
+            ship = { name = "HMS Kent" definition = heavy_cruiser_1 }
+            ship = { name = "HMS Devonshire" definition = heavy_cruiser_1 }
+            ship = { name = "HMS Acasta" definition = destroyer_1 }
+            ship = { name = "HMS Arrow" definition = destroyer_1 }
+            ship = { name = "HMS Vanoc" definition = destroyer_1 }
+        }
+        task_force = {
+            name = "Trade Protection Flotilla"
+            location = 126
+            ship = { name = "HMS Curlew" definition = light_cruiser_1 }
+            ship = { name = "HMS Coventry" definition = light_cruiser_1 }
+            ship = { name = "HMS Vehement" definition = destroyer_1 }
+            ship = { name = "HMS Vesper" definition = destroyer_1 }
+            ship = { name = "HMS Turbulent" definition = submarine_1 }
+        }
+    }
+}

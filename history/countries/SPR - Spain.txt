@@ -1,6 +1,7 @@
-capital = 171
-oob = "SPR"
-set_naval_oob = "SPR_naval"
+﻿capital = 171
+oob = "AOTA_SPR_land"
+set_air_oob = "AOTA_SPR_air"
+set_naval_oob = "AOTA_SPR_naval"
 set_research_slots = 3
 set_stability = 0.46
 set_war_support = 0.1

@@ -1,0 +1,6 @@
+air_wings = {
+    41 = {
+        air_wing = { name = "Ala de Caza Metropolitana" type = fighter_equipment_0 amount = 24 }
+        air_wing = { name = "Grupo de Apoyo Tactico" type = tac_bomber_equipment_0 amount = 12 }
+    }
+}

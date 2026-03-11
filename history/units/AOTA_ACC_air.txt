@@ -1,0 +1,6 @@
+air_wings = {
+    361 = {
+        air_wing = { name = "Federal Pursuit Wing" type = fighter_equipment_0 amount = 28 }
+        air_wing = { name = "Constitutional Support Group" type = tac_bomber_equipment_0 amount = 16 }
+    }
+}

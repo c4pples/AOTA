@@ -1,7 +1,8 @@
 air_wings = {
     4 = {
-        air_wing = { name = "Wiener Jagdgruppe" type = fighter_equipment_0 amount = 48 }
-        air_wing = { name = "Donau-Aufklärungsgruppe" type = tac_bomber_equipment_0 amount = 30 }
+        air_wing = { name = "Wiener Jagdgruppe" type = fighter_equipment_0 amount = 36 }
+        air_wing = { name = "Donau-Aufklärungsgruppe" type = tac_bomber_equipment_0 amount = 20 }
     }
-    70 = { air_wing = { name = "Prager Sicherungsstaffel" type = fighter_equipment_0 amount = 24 } }
+    70 = { air_wing = { name = "Prager Sicherungsstaffel" type = fighter_equipment_0 amount = 16 } }
+    71 = { air_wing = { name = "Danubische Reserveflugstaffel" type = fighter_equipment_0 amount = 12 } }
 }

@@ -1,0 +1,13 @@
+units = {
+    fleet = {
+        name = "Danubian River Command"
+        naval_base = 4
+        task_force = {
+            name = "Legacy Naval Staff"
+            location = 4
+            ship = { name = "Kaiserliche Donau" definition = light_cruiser_1 }
+            ship = { name = "Donau Eskorte I" definition = destroyer_1 }
+            ship = { name = "Donau Eskorte II" definition = destroyer_1 }
+        }
+    }
+}

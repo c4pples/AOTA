@@ -1,0 +1,21 @@
+units = {
+    fleet = {
+        name = "Baltic Reconstruction Squadron"
+        naval_base = 195
+        task_force = {
+            name = "Baltic Main Force"
+            location = 195
+            ship = { name = "RFS Marat" definition = battleship_1 }
+            ship = { name = "RFS Kirov" definition = light_cruiser_1 }
+            ship = { name = "RFS Gnevny" definition = destroyer_1 }
+            ship = { name = "RFS Grozyashchiy" definition = destroyer_1 }
+        }
+        task_force = {
+            name = "Submarine Brigade"
+            location = 195
+            ship = { name = "Shch-301" definition = submarine_1 }
+            ship = { name = "Shch-302" definition = submarine_1 }
+            ship = { name = "M-95" definition = submarine_1 }
+        }
+    }
+}

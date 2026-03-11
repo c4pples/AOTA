@@ -22,7 +22,7 @@ division_template = {
         infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 }
         cavalry = { x = 0 y = 1 } cavalry = { x = 1 y = 1 }
     }
-    support = { recon = { x = 0 y = 0 } }
+    support = { recon = { x = 0 y = 0 } military_police = { x = 0 y = 1 } }
 }
 division_template = {
     name = "Motorised Reserve Group"
@@ -33,11 +33,13 @@ division_template = {
     support = { recon = { x = 0 y = 0 } engineer = { x = 0 y = 1 } }
 }
 units = {
-    division = { name = "1re Division d'Infanterie" location = 15 division_template = "Metropolitan Infantry Division" start_experience_factor = 0.22 }
-    division = { name = "2e Division d'Infanterie" location = 15 division_template = "Metropolitan Infantry Division" start_experience_factor = 0.20 }
-    division = { name = "3e Division d'Infanterie" location = 16 division_template = "Metropolitan Infantry Division" start_experience_factor = 0.18 }
-    division = { name = "Secteur Fortifié du Rhin" location = 28 division_template = "Fortified Sector Division" start_experience_factor = 0.15 }
-    division = { name = "Secteur Fortifié de Metz" location = 28 division_template = "Fortified Sector Division" start_experience_factor = 0.15 }
-    division = { name = "Brigade de Sécurité Coloniale" location = 17 division_template = "Colonial Security Brigade" start_experience_factor = 0.08 }
-    division = { name = "Réserve Motorisée" location = 15 division_template = "Motorised Reserve Group" start_experience_factor = 0.14 }
+    division = { name = "1re Division d'Infanterie" location = 15 division_template = "Metropolitan Infantry Division" start_experience_factor = 0.24 start_equipment_factor = 0.88 }
+    division = { name = "2e Division d'Infanterie" location = 16 division_template = "Metropolitan Infantry Division" start_experience_factor = 0.20 start_equipment_factor = 0.84 }
+    division = { name = "3e Division d'Infanterie" location = 16 division_template = "Metropolitan Infantry Division" start_experience_factor = 0.18 start_equipment_factor = 0.80 }
+    division = { name = "4e Division d'Infanterie" location = 17 division_template = "Metropolitan Infantry Division" start_experience_factor = 0.16 start_equipment_factor = 0.76 }
+    division = { name = "Secteur Fortifié du Rhin" location = 28 division_template = "Fortified Sector Division" start_experience_factor = 0.14 start_manpower_factor = 0.90 start_equipment_factor = 0.74 }
+    division = { name = "Secteur Fortifié de Metz" location = 28 division_template = "Fortified Sector Division" start_experience_factor = 0.14 start_manpower_factor = 0.88 start_equipment_factor = 0.72 }
+    division = { name = "Brigade de Sécurité Coloniale" location = 17 division_template = "Colonial Security Brigade" start_experience_factor = 0.08 start_manpower_factor = 0.82 start_equipment_factor = 0.62 }
+    division = { name = "Réserve Motorisée" location = 15 division_template = "Motorised Reserve Group" start_experience_factor = 0.12 start_manpower_factor = 0.78 start_equipment_factor = 0.66 }
+    division = { name = "Réserve de Paris" location = 15 division_template = "Colonial Security Brigade" start_experience_factor = 0.06 start_manpower_factor = 0.76 start_equipment_factor = 0.56 }
 }

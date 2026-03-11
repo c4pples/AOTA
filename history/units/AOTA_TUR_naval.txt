@@ -1,0 +1,20 @@
+units = {
+    fleet = {
+        name = "Imperial Ottoman Fleet"
+        naval_base = 341
+        task_force = {
+            name = "Straits Defense Squadron"
+            location = 341
+            ship = { name = "TOG Yavuz" definition = battle_cruiser_1 }
+            ship = { name = "TOG Hamidiye" definition = light_cruiser_1 }
+            ship = { name = "TOG Muavenet" definition = destroyer_1 }
+            ship = { name = "TOG Peyk" definition = destroyer_1 }
+        }
+        task_force = {
+            name = "Levant Patrol"
+            location = 677
+            ship = { name = "TOG Burak Reis" definition = submarine_1 }
+            ship = { name = "TOG Sakarya" definition = submarine_1 }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+air_wings = {
+    387 = {
+        air_wing = { name = "Agrarian Air Patrol" type = fighter_equipment_0 amount = 14 }
+        air_wing = { name = "County Recon Flight" type = tac_bomber_equipment_0 amount = 8 }
+    }
+}

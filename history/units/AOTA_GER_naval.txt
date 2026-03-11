@@ -1,0 +1,22 @@
+units = {
+    fleet = {
+        name = "Hochseeflotte"
+        naval_base = 61
+        task_force = {
+            name = "Schlachtschiffgruppe"
+            location = 61
+            ship = { name = "SMS Schlesien" definition = battleship_1 }
+            ship = { name = "SMS Emden" definition = light_cruiser_1 }
+            ship = { name = "Z1 Leberecht Maass" definition = destroyer_1 }
+            ship = { name = "Z2 Georg Thiele" definition = destroyer_1 }
+        }
+        task_force = {
+            name = "Küstenschutz Ostsee"
+            location = 58
+            ship = { name = "SMS Königsberg" definition = light_cruiser_1 }
+            ship = { name = "Z3 Max Schultz" definition = destroyer_1 }
+            ship = { name = "U-21" definition = submarine_1 }
+            ship = { name = "U-27" definition = submarine_1 }
+        }
+    }
+}

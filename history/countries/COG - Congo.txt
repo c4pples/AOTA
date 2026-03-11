@@ -1,4 +1,6 @@
-capital = 521
+﻿capital = 521
+oob = "AOTA_COG_land"
+set_air_oob = "AOTA_COG_air"
 set_research_slots = 1
 set_politics = { ruling_party = neutrality last_election = "1934.1.1" election_frequency = 48 elections_allowed = no }
 create_country_leader = { name = "Governor-General Pierre Ryckmans" desc = "AOTA_COG_REGIME_DESC" picture = GFX_portrait_generic_political_leader ideology = neutrality traits = { } }

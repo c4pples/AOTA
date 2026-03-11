@@ -1,4 +1,6 @@
 ﻿capital = 284
+oob = "AOTA_NZL_land"
+set_air_oob = "AOTA_NZL_air"
 set_research_slots = 3
 set_stability = 0.77
 set_war_support = 0.16
