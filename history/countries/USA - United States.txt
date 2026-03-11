@@ -48,4 +48,3 @@ set_popularities = {
 recruit_character = AOTA_USA_morgan
 recruit_character = AOTA_USA_reed
 
-add_ideas = aota_retreating_hegemon

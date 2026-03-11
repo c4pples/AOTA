@@ -76,7 +76,6 @@ recruit_character = AOTA_GER_ludendorff
 add_ideas = aota_armistice_reckoning
 
 add_ideas = aota_german_colonial_legacy
-add_ideas = aota_ger_reichsverband_cartels
 recruit_character = AOTA_GER_hjalmar_schacht
 recruit_character = AOTA_GER_hans_von_seeckt
 recruit_character = AOTA_GER_carl_goerdeler
