@@ -1,0 +1,18 @@
+ideas = {
+    country = {
+        AOTA_CHI_fractured_authority = { picture = idea_generic_national_unity allowed = { original_tag = CHI } modifier = { stability_factor = -0.10 political_power_factor = -0.05 army_org_factor = -0.03 } }
+        AOTA_CHI_security_state = { picture = idea_generic_intelligence_exchange allowed = { original_tag = CHI } modifier = { stability_factor = 0.04 resistance_target = -0.10 political_power_gain = 0.03 } }
+        AOTA_CHI_command_state = { picture = idea_generic_major_war allowed = { original_tag = CHI } modifier = { war_support_factor = 0.06 division_attack_factor = 0.04 consumer_goods_factor = 0.02 } }
+        AOTA_CHI_federal_bargain = { picture = idea_generic_democratic_unity allowed = { original_tag = CHI } modifier = { stability_factor = 0.05 political_power_gain = 0.03 consumer_goods_factor = 0.01 } }
+        AOTA_CHI_mass_line_reconstruction = { picture = idea_generic_political_commissar allowed = { original_tag = CHI } modifier = { weekly_manpower = 600 production_speed_industrial_complex_factor = 0.05 stability_factor = -0.02 } }
+        AOTA_CHI_regional_command = { picture = idea_generic_allies_build_infantry allowed = { original_tag = CHI } modifier = { army_org_factor = 0.05 division_recovery_rate = 0.08 max_planning_factor = 0.05 } }
+        AOTA_CHI_reconstruction_bonds = { picture = idea_generic_construct_civ_factory allowed = { original_tag = CHI } modifier = { consumer_goods_factor = -0.03 production_speed_industrial_complex_factor = 0.08 factory_output = 0.03 } }
+
+        AOTA_PRC_patchwork_revolution = { picture = idea_generic_political_commissar allowed = { original_tag = PRC } modifier = { stability_factor = -0.08 war_support_factor = 0.04 political_power_gain = -0.02 } }
+        AOTA_PRC_party_army_command = { picture = idea_generic_army_doctrines allowed = { original_tag = PRC } modifier = { army_org_factor = 0.06 army_morale_factor = 0.05 division_attack_factor = 0.03 } }
+        AOTA_PRC_internal_commissariat = { picture = idea_generic_intelligence_exchange allowed = { original_tag = PRC } modifier = { resistance_target = -0.12 stability_factor = 0.02 political_power_gain = 0.02 } }
+        AOTA_PRC_mixed_front_economy = { picture = idea_generic_trade allowed = { original_tag = PRC } modifier = { consumer_goods_factor = -0.02 factory_output = 0.04 trade_opinion_factor = 0.10 } }
+        AOTA_PRC_county_federation = { picture = idea_generic_improve_relations allowed = { original_tag = PRC } modifier = { stability_factor = 0.04 recruitable_population_factor = 0.02 local_resources_factor = 0.05 } }
+        AOTA_PRC_state_planning = { picture = idea_generic_production allowed = { original_tag = PRC } modifier = { production_factory_max_efficiency_factor = 0.06 factory_output = 0.08 supply_consumption_factor = -0.05 } }
+    }
+}

@@ -1,0 +1,60 @@
+AOTA_china_fragmentation_category = {
+    icon = generic_political_reform
+    allowed = { OR = { tag = CHI tag = PRC } }
+    visible = { OR = { tag = CHI tag = PRC } }
+
+    AOTA_china_convene_provincial_brokers = {
+        icon = generic_improve_relations
+        cost = 50
+        days_remove = 45
+        available = { has_political_power > 74 }
+        complete_effect = { add_stability = 0.02 add_political_power = -25 }
+    }
+
+    AOTA_china_anti_bandit_campaigns = {
+        icon = generic_allies_build_infantry
+        cost = 45
+        days_remove = 45
+        available = { has_war = no }
+        complete_effect = { add_war_support = 0.02 add_command_power = 15 }
+    }
+
+    AOTA_china_requisition_regional_stockpiles = {
+        icon = generic_production
+        cost = 55
+        days_remove = 60
+        available = { has_political_power > 89 }
+        complete_effect = { add_army_experience = 8 add_political_power = -30 }
+    }
+}
+
+AOTA_china_japan_pressure_category = {
+    icon = generic_foreign_policy
+    allowed = { OR = { tag = CHI tag = PRC tag = JAP } }
+    visible = { OR = { tag = CHI tag = PRC tag = JAP } }
+
+    AOTA_china_file_protest_note = {
+        icon = generic_improve_relations
+        cost = 35
+        days_remove = 30
+        available = { OR = { tag = CHI tag = PRC } JAP = { exists = yes } }
+        complete_effect = {
+            add_political_power = -20
+            add_stability = 0.01
+            if = { limit = { JAP = { exists = yes } } JAP = { add_opinion_modifier = { target = ROOT modifier = aota_trade_friendliness } } }
+        }
+    }
+
+    AOTA_japan_expand_china_networks = {
+        icon = generic_intelligence_exchange
+        cost = 45
+        days_remove = 45
+        available = { tag = JAP OR = { CHI = { exists = yes } PRC = { exists = yes } } }
+        complete_effect = {
+            add_political_power = -20
+            add_command_power = 10
+            if = { limit = { CHI = { exists = yes } } CHI = { add_stability = -0.01 } }
+            if = { limit = { PRC = { exists = yes } } PRC = { add_stability = -0.01 } }
+        }
+    }
+}

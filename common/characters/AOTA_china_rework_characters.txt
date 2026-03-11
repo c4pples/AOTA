@@ -1,0 +1,32 @@
+characters = {
+    AOTA_CHI_chen_jiongming = {
+        name = AOTA_CHI_chen_jiongming
+        portraits = { civilian = { large = GFX_portrait_AOTA_karl_placeholder } }
+        advisor = { slot = political_advisor idea_token = AOTA_CHI_chen_jiongming_advisor traits = { democratic_reformer } }
+    }
+    AOTA_CHI_sun_chuanfang = {
+        name = AOTA_CHI_sun_chuanfang
+        portraits = { civilian = { large = GFX_portrait_AOTA_petain_placeholder } }
+        advisor = { slot = high_command idea_token = AOTA_CHI_sun_chuanfang_advisor traits = { army_offence_1 } }
+    }
+    AOTA_CHI_hh_kung = {
+        name = AOTA_CHI_hh_kung
+        portraits = { civilian = { large = GFX_AOTA_USA_garner } }
+        advisor = { slot = political_advisor idea_token = AOTA_CHI_hh_kung_advisor traits = { captain_of_industry } }
+    }
+    AOTA_PRC_li_lisan = {
+        name = AOTA_PRC_li_lisan
+        portraits = { civilian = { large = GFX_AOTA_FRA_gamelin } }
+        advisor = { slot = political_advisor idea_token = AOTA_PRC_li_lisan_advisor traits = { communist_revolutionary } }
+    }
+    AOTA_PRC_peng_pai = {
+        name = AOTA_PRC_peng_pai
+        portraits = { civilian = { large = GFX_AOTA_SER_petar } }
+        advisor = { slot = high_command idea_token = AOTA_PRC_peng_pai_advisor traits = { army_drill_1 } }
+    }
+    AOTA_PRC_zhang_guotao = {
+        name = AOTA_PRC_zhang_guotao
+        portraits = { civilian = { large = GFX_AOTA_BEL_leader } }
+        advisor = { slot = political_advisor idea_token = AOTA_PRC_zhang_guotao_advisor traits = { political_protege } }
+    }
+}

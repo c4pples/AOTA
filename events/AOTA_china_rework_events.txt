@@ -1,0 +1,167 @@
+add_namespace = aota_china
+
+country_event = {
+    id = aota_china.1
+    title = aota_china.1.t
+    desc = aota_china.1.d
+    picture = GFX_report_event_chinese_soldiers
+    is_triggered_only = yes
+    option = { name = aota_china.1.a add_stability = -0.01 }
+}
+
+country_event = {
+    id = aota_china.10
+    title = aota_china.10.t
+    desc = aota_china.10.d
+    picture = GFX_report_event_chinese_soldiers
+    is_triggered_only = yes
+    option = { name = aota_china.10.a add_war_support = 0.02 }
+}
+
+country_event = {
+    id = aota_china.11
+    title = aota_china.11.t
+    desc = aota_china.11.d
+    picture = GFX_report_event_journalists
+    is_triggered_only = yes
+    option = { name = aota_china.11.a add_stability = 0.02 }
+}
+
+country_event = {
+    id = aota_china.12
+    title = aota_china.12.t
+    desc = aota_china.12.d
+    picture = GFX_report_event_worker_protests
+    is_triggered_only = yes
+    option = { name = aota_china.12.a add_war_support = 0.02 }
+}
+
+country_event = {
+    id = aota_china.20
+    title = aota_china.20.t
+    desc = aota_china.20.d
+    picture = GFX_report_event_worker_protests
+    is_triggered_only = yes
+    option = { name = aota_china.20.a add_stability = -0.01 }
+}
+
+country_event = {
+    id = aota_china.21
+    title = aota_china.21.t
+    desc = aota_china.21.d
+    picture = GFX_report_event_chinese_soldiers
+    is_triggered_only = yes
+    option = { name = aota_china.21.a add_war_support = 0.03 }
+}
+
+country_event = {
+    id = aota_china.22
+    title = aota_china.22.t
+    desc = aota_china.22.d
+    picture = GFX_report_event_journalists
+    is_triggered_only = yes
+    option = { name = aota_china.22.a add_stability = 0.02 }
+}
+
+country_event = {
+    id = aota_china.23
+    title = aota_china.23.t
+    desc = aota_china.23.d
+    picture = GFX_report_event_farmers_sow_field
+    is_triggered_only = yes
+    option = { name = aota_china.23.a add_stability = 0.02 }
+}
+
+country_event = {
+    id = aota_china.100
+    title = aota_china.100.t
+    desc = aota_china.100.d
+    picture = GFX_report_event_japanese_troops
+    is_triggered_only = yes
+    option = { name = aota_china.100.a if = { limit = { JAP = { exists = yes } } JAP = { country_event = { id = aota_china.110 days = 1 } } } }
+}
+
+country_event = {
+    id = aota_china.101
+    title = aota_china.101.t
+    desc = aota_china.101.d
+    picture = GFX_report_event_japanese_troops
+    is_triggered_only = yes
+    option = { name = aota_china.101.a if = { limit = { JAP = { exists = yes } } JAP = { country_event = { id = aota_china.111 days = 1 } } } }
+}
+
+country_event = {
+    id = aota_china.102
+    title = aota_china.102.t
+    desc = aota_china.102.d
+    picture = GFX_report_event_japanese_troops
+    is_triggered_only = yes
+    option = { name = aota_china.102.a if = { limit = { JAP = { exists = yes } } JAP = { country_event = { id = aota_china.112 days = 1 } } } }
+}
+
+country_event = {
+    id = aota_china.103
+    title = aota_china.103.t
+    desc = aota_china.103.d
+    picture = GFX_report_event_japanese_troops
+    is_triggered_only = yes
+    option = { name = aota_china.103.a if = { limit = { JAP = { exists = yes } } JAP = { country_event = { id = aota_china.113 days = 1 } } } }
+}
+
+country_event = {
+    id = aota_china.110
+    title = aota_china.110.t
+    desc = aota_china.110.d
+    picture = GFX_report_event_japanese_troops
+    is_triggered_only = yes
+    option = { name = aota_china.110.a add_war_support = 0.02 }
+    option = { name = aota_china.110.b add_political_power = 35 }
+}
+
+country_event = {
+    id = aota_china.111
+    title = aota_china.111.t
+    desc = aota_china.111.d
+    picture = GFX_report_event_japanese_troops
+    is_triggered_only = yes
+    option = { name = aota_china.111.a add_political_power = 35 }
+    option = { name = aota_china.111.b add_war_support = -0.01 add_stability = 0.01 }
+}
+
+country_event = {
+    id = aota_china.112
+    title = aota_china.112.t
+    desc = aota_china.112.d
+    picture = GFX_report_event_japanese_troops
+    is_triggered_only = yes
+    option = { name = aota_china.112.a add_war_support = 0.03 }
+    option = { name = aota_china.112.b add_political_power = 30 }
+}
+
+country_event = {
+    id = aota_china.113
+    title = aota_china.113.t
+    desc = aota_china.113.d
+    picture = GFX_report_event_japanese_troops
+    is_triggered_only = yes
+    option = { name = aota_china.113.a add_stability = 0.01 }
+    option = { name = aota_china.113.b add_political_power = 30 }
+}
+
+country_event = {
+    id = aota_china.200
+    title = aota_china.200.t
+    desc = aota_china.200.d
+    picture = GFX_report_event_japanese_troops
+    is_triggered_only = yes
+    option = { name = aota_china.200.a }
+}
+
+country_event = {
+    id = aota_china.201
+    title = aota_china.201.t
+    desc = aota_china.201.d
+    picture = GFX_report_event_worker_protests
+    is_triggered_only = yes
+    option = { name = aota_china.201.a }
+}
