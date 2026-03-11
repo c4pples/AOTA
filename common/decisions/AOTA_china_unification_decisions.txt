@@ -17,6 +17,7 @@ AOTA_china_unification_category = {
             AOTA_china_refresh_unification_stage = yes
             country_event = { id = aota_china_unification.1 days = 1 }
         }
+        ai_will_do = { factor = 8 }
     }
 
     AOTA_china_convene_national_congress = {
@@ -42,6 +43,11 @@ AOTA_china_unification_category = {
                 limit = { AOTA_china_has_major_rival = no }
                 add_stability = 0.02
             }
+        }
+        ai_will_do = {
+            factor = 5
+            modifier = { factor = 1.5 has_war = no }
+            modifier = { factor = 1.2 AOTA_china_legitimacy_at_least_40 = yes }
         }
     }
 
@@ -70,6 +76,11 @@ AOTA_china_unification_category = {
                 }
                 country_event = { id = aota_china_unification.30 days = 1 }
             }
+        }
+        ai_will_do = {
+            factor = 4
+            modifier = { factor = 1.4 has_war = no }
+            modifier = { factor = 1.3 AOTA_china_legitimacy_at_least_40 = yes }
         }
     }
 
@@ -100,6 +111,11 @@ AOTA_china_unification_category = {
                 country_event = { id = aota_china_unification.40 days = 1 }
             }
         }
+        ai_will_do = {
+            factor = 3
+            modifier = { factor = 1.8 has_war = no }
+            modifier = { factor = 1.4 AOTA_china_legitimacy_at_least_60 = yes }
+        }
     }
 
     AOTA_china_proclaim_national_reunification = {
@@ -119,6 +135,10 @@ AOTA_china_unification_category = {
             country_event = { id = aota_china_unification.50 days = 1 }
             if = { limit = { JAP = { exists = yes } } JAP = { country_event = { id = aota_china_unification.200 days = 1 } } }
         }
+        ai_will_do = {
+            factor = 10
+            modifier = { factor = 1.5 has_war = no }
+        }
     }
 
     AOTA_china_launch_reconstruction_compacts = {
@@ -137,6 +157,7 @@ AOTA_china_unification_category = {
             add_political_power = -30
             country_event = { id = aota_china_unification.60 days = 1 }
         }
+        ai_will_do = { factor = 9 }
     }
 }
 
@@ -173,6 +194,7 @@ AOTA_japan_china_unification_response_category = {
                 AOTA_china_refresh_unification_stage = yes
             }
         }
+        ai_will_do = { factor = 5 }
     }
 
     AOTA_japan_offer_recognition_to_collaborationists = {
@@ -203,6 +225,10 @@ AOTA_japan_china_unification_response_category = {
                 country_event = { id = aota_china_unification.220 days = 1 }
             }
         }
+        ai_will_do = {
+            factor = 4
+            modifier = { factor = 1.3 has_war = no }
+        }
     }
 
     AOTA_japan_prepare_for_reunified_china = {
@@ -226,5 +252,6 @@ AOTA_japan_china_unification_response_category = {
             add_ideas = AOTA_japan_reunified_china_watch
             add_war_support = 0.02
         }
+        ai_will_do = { factor = 7 }
     }
 }

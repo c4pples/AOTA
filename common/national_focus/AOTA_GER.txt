@@ -12,12 +12,9 @@ focus_tree = {
     focus = { id = GER_measure_the_rhine_temperature icon = GFX_goal_generic_improve_relations x = 6 y = 2 cost = 7 prerequisite = { focus = GER_reconcile_the_veterans } completion_reward = { add_political_power = 40 add_ideas = aota_rhine_tension_stage_1 } }
 
     # Ideological split
-    available = { has_country_flag = AOTA_GER_stage1_done }
-    focus = { id = GER_restore_reichstag_confidence icon = GFX_goal_support_democracy x = 3 y = 2 cost = 7 prerequisite = { focus = GER_reconcile_the_veterans } mutually_exclusive = { focus = GER_empower_the_general_staff focus = GER_fund_the_free_unions } completion_reward = { add_popularity = { ideology = democratic popularity = 0.08 } add_stability = 0.03 } }
-    available = { has_country_flag = AOTA_GER_stage1_done }
-    focus = { id = GER_empower_the_general_staff icon = GFX_goal_generic_army_doctrines x = 8 y = 2 cost = 7 prerequisite = { focus = GER_secret_rearmament_bureaus focus = GER_measure_the_rhine_temperature } mutually_exclusive = { focus = GER_restore_reichstag_confidence focus = GER_fund_the_free_unions } completion_reward = { add_popularity = { ideology = neutrality popularity = 0.06 } add_war_support = 0.04 } }
-    available = { has_country_flag = AOTA_GER_stage1_done }
-    focus = { id = GER_fund_the_free_unions icon = GFX_goal_support_communism x = 13 y = 2 cost = 7 prerequisite = { focus = GER_eastern_credit_lines } mutually_exclusive = { focus = GER_restore_reichstag_confidence focus = GER_empower_the_general_staff } completion_reward = { add_popularity = { ideology = communism popularity = 0.07 } add_ideas = aota_red_black_schism } }
+    focus = { id = GER_restore_reichstag_confidence icon = GFX_goal_support_democracy x = 3 y = 2 cost = 7 prerequisite = { focus = GER_reconcile_the_veterans } mutually_exclusive = { focus = GER_empower_the_general_staff focus = GER_fund_the_free_unions } completion_reward = { add_popularity = { ideology = democratic popularity = 0.08 } add_stability = 0.03 } available = { has_country_flag = AOTA_GER_stage1_done }  }
+    focus = { id = GER_empower_the_general_staff icon = GFX_goal_generic_army_doctrines x = 8 y = 2 cost = 7 prerequisite = { focus = GER_secret_rearmament_bureaus focus = GER_measure_the_rhine_temperature } mutually_exclusive = { focus = GER_restore_reichstag_confidence focus = GER_fund_the_free_unions } completion_reward = { add_popularity = { ideology = neutrality popularity = 0.06 } add_war_support = 0.04 } available = { has_country_flag = AOTA_GER_stage1_done }  }
+    focus = { id = GER_fund_the_free_unions icon = GFX_goal_support_communism x = 13 y = 2 cost = 7 prerequisite = { focus = GER_eastern_credit_lines } mutually_exclusive = { focus = GER_restore_reichstag_confidence focus = GER_empower_the_general_staff } completion_reward = { add_popularity = { ideology = communism popularity = 0.07 } add_ideas = aota_red_black_schism } available = { has_country_flag = AOTA_GER_stage1_done }  }
 
     # Democratic / restrained, interventionist path
     focus = { id = GER_expand_parliamentary_compromise icon = GFX_goal_generic_political_reform x = 1 y = 3 cost = 7 prerequisite = { focus = GER_restore_reichstag_confidence } completion_reward = { add_popularity = { ideology = democratic popularity = 0.10 } add_stability = 0.04 } }
@@ -58,8 +55,7 @@ focus_tree = {
     focus = { id = GER_decentralized_border_guards icon = GFX_goal_generic_defence x = 16 y = 5 cost = 10 prerequisite = { focus = GER_federation_of_free_communes } completion_reward = { add_war_support = 0.03 army_experience = 10 } }
 
     # Shared national settlement (paced late)
-    available = { date > 1938.1.1 }
-    focus = { id = GER_a_new_german_settlement icon = GFX_goal_generic_national_unity x = 10 y = 8 cost = 10 prerequisite = { focus = GER_the_constitutional_commonwealth focus = GER_the_military_settlement focus = GER_international_brigade_networks focus = GER_decentralized_border_guards } completion_reward = { remove_ideas = aota_armistice_reckoning add_political_power = 120 add_stability = 0.05 } }
+    focus = { id = GER_a_new_german_settlement icon = GFX_goal_generic_national_unity x = 10 y = 8 cost = 10 prerequisite = { focus = GER_the_constitutional_commonwealth focus = GER_the_military_settlement focus = GER_international_brigade_networks focus = GER_decentralized_border_guards } completion_reward = { remove_ideas = aota_armistice_reckoning add_political_power = 120 add_stability = 0.05 } available = { date > 1938.1.1 }  }
 
     # Industrial branch
     focus = { id = GER_ruhr_rationalization icon = GFX_goal_generic_construct_civ_factory x = -1 y = 1 cost = 5 prerequisite = { focus = GER_unfinished_peace } completion_reward = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } add_political_power = 25 } }
@@ -68,8 +64,7 @@ focus_tree = {
     focus = { id = GER_export_machine_tools icon = GFX_goal_generic_production x = 0 y = 3 cost = 7 prerequisite = { focus = GER_wirtschaftsblock_standards } mutually_exclusive = { focus = GER_heavy_industry_quotas } completion_reward = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } add_political_power = 50 } }
     focus = { id = GER_synthetic_fuel_combine icon = GFX_goal_generic_construct_synthetic_refinery x = -2 y = 4 cost = 10 prerequisite = { focus = GER_heavy_industry_quotas } completion_reward = { add_building_construction = { type = synthetic_refinery level = 1 instant_build = yes } } }
     focus = { id = GER_continental_rail_general_plan icon = GFX_goal_generic_construct_infrastructure x = 0 y = 4 cost = 10 prerequisite = { focus = GER_export_machine_tools } completion_reward = { add_political_power = 50 add_stability = 0.02 } }
-    available = { date > 1937.6.1 }
-    focus = { id = GER_arsenal_of_mitteleuropa icon = GFX_goal_generic_construct_mil_factory x = -1 y = 5 cost = 10 prerequisite = { focus = GER_synthetic_fuel_combine focus = GER_continental_rail_general_plan } completion_reward = { add_building_construction = { type = arms_factory level = 2 instant_build = yes } add_war_support = 0.03 } }
+    focus = { id = GER_arsenal_of_mitteleuropa icon = GFX_goal_generic_construct_mil_factory x = -1 y = 5 cost = 10 prerequisite = { focus = GER_synthetic_fuel_combine focus = GER_continental_rail_general_plan } completion_reward = { add_building_construction = { type = arms_factory level = 2 instant_build = yes } add_war_support = 0.03 } available = { date > 1937.6.1 }  }
 
     # Military branch
     focus = { id = GER_general_staff_renewal icon = GFX_goal_generic_army_doctrines x = 18 y = 1 cost = 5 prerequisite = { focus = GER_secret_rearmament_bureaus } completion_reward = { army_experience = 10 } }
@@ -78,8 +73,7 @@ focus_tree = {
     focus = { id = GER_panzer_experiments icon = GFX_goal_generic_tank_production x = 17 y = 3 cost = 7 prerequisite = { focus = GER_stormtrooper_legacy } completion_reward = { army_experience = 10 add_building_construction = { type = arms_factory level = 1 instant_build = yes } } }
     focus = { id = GER_luftstreit_reborn icon = GFX_goal_generic_air_fighter2 x = 19 y = 3 cost = 7 prerequisite = { focus = GER_firepower_studies } completion_reward = { air_experience = 20 } }
     focus = { id = GER_baltic_fleet_bill icon = GFX_goal_generic_navy_doctrines_tactics x = 18 y = 4 cost = 10 prerequisite = { focus = GER_general_staff_renewal } completion_reward = { navy_experience = 15 add_political_power = 30 } }
-    available = { date > 1937.6.1 }
-    focus = { id = GER_combined_arms_high_command icon = GFX_goal_generic_prepare_for_war x = 18 y = 5 cost = 10 prerequisite = { focus = GER_panzer_experiments focus = GER_luftstreit_reborn focus = GER_baltic_fleet_bill } completion_reward = { army_experience = 20 air_experience = 10 navy_experience = 10 add_war_support = 0.04 } }
+    focus = { id = GER_combined_arms_high_command icon = GFX_goal_generic_prepare_for_war x = 18 y = 5 cost = 10 prerequisite = { focus = GER_panzer_experiments focus = GER_luftstreit_reborn focus = GER_baltic_fleet_bill } completion_reward = { army_experience = 20 air_experience = 10 navy_experience = 10 add_war_support = 0.04 } available = { date > 1937.6.1 }  }
 
     # Democratic deep branch expansion
     focus = { id = GER_civilian_crisis_planning_board icon = GFX_goal_generic_intelligence_exchange x = 0 y = 7 cost = 10 prerequisite = { focus = GER_the_constitutional_commonwealth } completion_reward = { add_stability = 0.02 add_political_power = 40 } }

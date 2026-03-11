@@ -5,6 +5,19 @@ AOTA_GER_constitutional_plan = {
     ai_strategy = { type = befriend value = 40 id = AUS }
 }
 
+AOTA_GER_hegemonic_plan = {
+    allowed = { original_tag = GER }
+    enable = {
+        OR = {
+            has_government = fascism
+            has_country_flag = AOTA_GER_PRIMARY_VILLAIN
+        }
+    }
+    ai_strategy = { type = antagonize value = 90 id = FRA }
+    ai_strategy = { type = antagonize value = 70 id = ENG }
+    ai_strategy = { type = prepare_for_war value = 110 id = FRA }
+}
+
 AOTA_FRA_socialist_plan = {
     allowed = { original_tag = FRA }
     enable = { has_government = communism }
@@ -17,4 +30,61 @@ AOTA_FRA_anarchist_plan = {
     enable = { has_government = anarchism }
     ai_strategy = { type = send_volunteers_desire value = 120 }
     ai_strategy = { type = befriend value = 60 id = SPR }
+}
+
+AOTA_SOV_reunification_plan = {
+    allowed = { original_tag = SOV }
+    enable = {
+        OR = {
+            has_country_flag = AOTA_SOV_stage1_done
+            has_country_flag = AOTA_RUS_reunification_mandate
+        }
+    }
+    ai_strategy = { type = prepare_for_war value = 85 id = UKR }
+    ai_strategy = { type = prepare_for_war value = 75 id = POL }
+}
+
+AOTA_CHI_reunification_plan = {
+    allowed = { original_tag = CHI }
+    enable = {
+        has_country_flag = AOTA_china_unification_initialized
+        NOT = { has_country_flag = AOTA_china_stage_reunified }
+    }
+    ai_strategy = { type = conquer value = 70 id = PRC }
+    ai_strategy = { type = prepare_for_war value = 100 id = JAP }
+}
+
+AOTA_PRC_reunification_plan = {
+    allowed = { original_tag = PRC }
+    enable = {
+        has_country_flag = AOTA_china_unification_initialized
+        NOT = { has_country_flag = AOTA_china_stage_reunified }
+    }
+    ai_strategy = { type = conquer value = 70 id = CHI }
+    ai_strategy = { type = prepare_for_war value = 100 id = JAP }
+}
+
+AOTA_USA_fragment_reclaim_plan = {
+    allowed = {
+        OR = {
+            tag = ACC
+            tag = AWU
+            tag = ANA
+            tag = APF
+            tag = ACG
+            tag = ASL
+            tag = CCW
+        }
+    }
+    enable = {
+        original_tag = USA
+        has_war = no
+    }
+    ai_strategy = { type = prepare_for_war value = 70 id = ACC }
+    ai_strategy = { type = prepare_for_war value = 70 id = AWU }
+    ai_strategy = { type = prepare_for_war value = 70 id = ANA }
+    ai_strategy = { type = prepare_for_war value = 70 id = APF }
+    ai_strategy = { type = prepare_for_war value = 70 id = ACG }
+    ai_strategy = { type = prepare_for_war value = 70 id = ASL }
+    ai_strategy = { type = prepare_for_war value = 70 id = CCW }
 }
