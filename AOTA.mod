@@ -1,7 +1,5 @@
-version="0.36"
-tags={
-    "Alternative History"
-}
 name="AOTA"
+path="mod/AOTA"
+version="0.36"
 supported_version="1.17.*"
 replace_path = "history/states"

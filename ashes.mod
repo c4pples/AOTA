@@ -1,5 +1,0 @@
-﻿name="Ashes of the Armistice v36 - Cuba Secret Ancap Tree"
-path="mod/folder-mod"
-version="0.36"
-supported_version="1.17.*"
-replace_path = "history/states"
