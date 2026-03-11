@@ -1,0 +1,9 @@
+GER = { color = { 72 72 72 } color_ui = { 176 176 176 } }
+FRA = { color = { 46 84 142 } color_ui = { 150 182 226 } }
+ENG = { color = { 152 38 46 } color_ui = { 214 172 96 } }
+AUS = { color = { 150 145 196 } color_ui = { 214 205 238 } }
+SOV = { color = { 108 118 132 } color_ui = { 176 186 198 } }
+ITA = { color = { 80 126 84 } color_ui = { 178 212 172 } }
+USA = { color = { 52 82 142 } color_ui = { 156 178 224 } }
+JAP = { color = { 126 106 72 } color_ui = { 206 194 164 } }
+TUR = { color = { 122 54 54 } color_ui = { 198 146 128 } }
