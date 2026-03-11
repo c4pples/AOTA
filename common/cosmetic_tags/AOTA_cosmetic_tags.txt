@@ -21,3 +21,4 @@ OTT_arab_federation = { color = { 60 120 80 } }
 GER_continental_directorate = { color = { 80 80 80 } }
 CUB_ledger_republic = { color = { 130 120 70 } }
 ENG_commonwealth_reconstruction_authority = { color = { 170 80 80 } }
+OTT_iron_crescent_reich = { color = { 55 35 35 } }

@@ -50,4 +50,32 @@ characters = {
   portraits = { }
   advisor = { slot = high_command cost = 100 traits = { } allowed = { original_tag = TUR } }
  }
+
+ AOTA_TUR_nazim_arslan = {
+  name = AOTA_TUR_nazim_arslan_name
+  portraits = { }
+  country_leader = { ideology = fascism traits = { } desc = AOTA_TUR_nazim_arslan_desc }
+  advisor = { slot = political_advisor cost = 150 traits = { fascist_demagogue } allowed = { original_tag = TUR } }
+ }
+ AOTA_TUR_sabiha_kandemir = {
+  name = AOTA_TUR_sabiha_kandemir_name
+  portraits = { }
+  advisor = { slot = political_advisor cost = 150 traits = { prince_of_terror } allowed = { original_tag = TUR } }
+ }
+ AOTA_TUR_cevdet_inal = {
+  name = AOTA_TUR_cevdet_inal_name
+  portraits = { }
+  advisor = { slot = theorist cost = 150 traits = { army_theorist } allowed = { original_tag = TUR } }
+ }
+ AOTA_TUR_hulusi_demirkan = {
+  name = AOTA_TUR_hulusi_demirkan_name
+  portraits = { }
+  advisor = { slot = industrial_concern cost = 150 traits = { war_industrialist } allowed = { original_tag = TUR } }
+ }
+ AOTA_TUR_selim_erguven = {
+  name = AOTA_TUR_selim_erguven_name
+  portraits = { }
+  advisor = { slot = high_command cost = 150 traits = { army_offense_1 } allowed = { original_tag = TUR } }
+ }
+
 }
