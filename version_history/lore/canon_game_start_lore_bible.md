@@ -385,3 +385,19 @@ This lore bible is the **official game-start canon baseline** for AOTA internal 
 Future Codex or human passes should preserve consistency with this model unless intentionally performing a declared canon revision pass.  
 When extending beyond this bible, explicitly note what was expanded, what remained ambiguous, and why the extension fits established tone and geopolitical logic.
 
+## 14) Canon Clarifications Added by Lore-Integration Pass
+
+These are conservative clarifications derived from existing canon logic and now treated as explicit guidance for implementation.
+
+- **Major-power industrial trees should name governing coalitions, not abstract production curves.** Germany, France, Britain, Japan, Italy, Russia, and the United States are expected to frame industrial mobilization through cartels, ministries, labor compacts, procurement boards, and command institutions.
+- **Military doctrine content should signal who controls escalation.** Staff reforms, mobilization acts, and command boards should indicate whether authority is parliamentary, committee-based, corporative, or emergency-military.
+- **Ottoman path-family grammar is now explicit across all route writing:**
+  - *Reform/constitutional* tracks emphasize negotiated provincial governance and legality under strain.
+  - *Military-directorate* tracks emphasize coercive centralization and security primacy.
+  - *Sacred-imperial* tracks fuse dynastic authority with mobilized religious legitimacy.
+  - *Federal-compromise* tracks trade center authority for provincial autonomy to preserve imperial continuity.
+  - *Red-black insurgent* tracks center worker/commune militancy against both palace and directorate rule.
+- **U.S. pre-fracture content should foreground constitutional time pressure.** Federal modernization language should always carry the threat that administrative delay strengthens rival regional sovereignties.
+
+These clarifications do not revise baseline canon; they formalize implementation standards implied by Sections 4-12.
+
