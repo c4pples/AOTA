@@ -1,47 +1,33 @@
 division_template = {
     name = "Anatolian Infantry Division"
     divisions = {
-        infantry = { x = 0 y = 0 }
-        infantry = { x = 1 y = 0 }
-        infantry = { x = 2 y = 0 }
-        infantry = { x = 0 y = 1 }
-        infantry = { x = 1 y = 1 }
-        infantry = { x = 2 y = 1 }
+        infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 }
     }
-    support = {
-        engineer = { x = 0 y = 0 }
-        recon = { x = 0 y = 1 }
-    }
+    support = { engineer = { x = 0 y = 0 } recon = { x = 0 y = 1 } }
 }
 division_template = {
     name = "Provincial Security Division"
     divisions = {
-        infantry = { x = 0 y = 0 }
-        infantry = { x = 1 y = 0 }
-        infantry = { x = 0 y = 1 }
-        infantry = { x = 1 y = 1 }
+        infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 }
+        infantry = { x = 0 y = 1 } infantry = { x = 1 y = 1 }
     }
-    support = {
-        military_police = { x = 0 y = 0 }
-    }
+    support = { military_police = { x = 0 y = 0 } }
 }
 division_template = {
     name = "Desert Mobile Column"
     divisions = {
-        cavalry = { x = 0 y = 0 }
-        cavalry = { x = 1 y = 0 }
-        motorized = { x = 0 y = 1 }
-        motorized = { x = 1 y = 1 }
+        cavalry = { x = 0 y = 0 } cavalry = { x = 1 y = 0 }
+        motorized = { x = 0 y = 1 } motorized = { x = 1 y = 1 }
     }
-    support = {
-        recon = { x = 0 y = 0 }
-        engineer = { x = 0 y = 1 }
-    }
+    support = { recon = { x = 0 y = 0 } engineer = { x = 0 y = 1 } }
 }
 units = {
-    division = { name = "1st Anatolian Division" location = 341 division_template = "Anatolian Infantry Division" start_experience_factor = 0.18 }
-    division = { name = "2nd Anatolian Division" location = 341 division_template = "Anatolian Infantry Division" start_experience_factor = 0.16 }
-    division = { name = "Damascus Security Division" location = 677 division_template = "Provincial Security Division" start_experience_factor = 0.08 }
-    division = { name = "Baghdad Security Division" location = 684 division_template = "Provincial Security Division" start_experience_factor = 0.08 }
-    division = { name = "Levant Mobile Column" location = 680 division_template = "Desert Mobile Column" start_experience_factor = 0.12 }
+    division = { name = "1st Anatolian Division" location = 341 division_template = "Anatolian Infantry Division" start_experience_factor = 0.18 start_equipment_factor = 0.74 }
+    division = { name = "2nd Anatolian Division" location = 341 division_template = "Anatolian Infantry Division" start_experience_factor = 0.15 start_equipment_factor = 0.70 }
+    division = { name = "3rd Anatolian Division" location = 342 division_template = "Anatolian Infantry Division" start_experience_factor = 0.12 start_equipment_factor = 0.66 }
+    division = { name = "Damascus Security Division" location = 677 division_template = "Provincial Security Division" start_experience_factor = 0.08 start_manpower_factor = 0.76 start_equipment_factor = 0.58 }
+    division = { name = "Baghdad Security Division" location = 684 division_template = "Provincial Security Division" start_experience_factor = 0.08 start_manpower_factor = 0.74 start_equipment_factor = 0.56 }
+    division = { name = "Mosul Security Division" location = 677 division_template = "Provincial Security Division" start_experience_factor = 0.07 start_manpower_factor = 0.72 start_equipment_factor = 0.54 }
+    division = { name = "Levant Mobile Column" location = 680 division_template = "Desert Mobile Column" start_experience_factor = 0.10 start_manpower_factor = 0.76 start_equipment_factor = 0.60 }
 }

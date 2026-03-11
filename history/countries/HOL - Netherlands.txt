@@ -1,5 +1,6 @@
-capital = 7
-oob = "HOL"
+﻿capital = 7
+oob = "AOTA_HOL_land"
+set_air_oob = "AOTA_HOL_air"
 set_research_slots = 3
 set_stability = 0.63
 set_war_support = 0.16

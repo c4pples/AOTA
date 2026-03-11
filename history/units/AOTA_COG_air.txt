@@ -1,0 +1,6 @@
+air_wings = {
+    295 = {
+        air_wing = { name = "Force Aerienne Coloniale" type = fighter_equipment_0 amount = 12 }
+        air_wing = { name = "Congo Recon Flight" type = tac_bomber_equipment_0 amount = 8 }
+    }
+}

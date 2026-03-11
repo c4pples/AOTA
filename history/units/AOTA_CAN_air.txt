@@ -1,0 +1,6 @@
+air_wings = {
+    739 = {
+        air_wing = { name = "RCAF Atlantic Wing" type = fighter_equipment_0 amount = 28 }
+        air_wing = { name = "Prairie Support Flight" type = tac_bomber_equipment_0 amount = 14 }
+    }
+}

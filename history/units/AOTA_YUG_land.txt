@@ -1,0 +1,32 @@
+division_template = {
+    name = "Yugoslav Infantry Division"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+        artillery_brigade = { x = 0 y = 0 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+    }
+}
+division_template = {
+    name = "Mountain Security Brigade"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        mountaineers = { x = 0 y = 0 }
+    }
+    support = {
+        recon = { x = 0 y = 0 }
+    }
+}
+units = {
+    division = { name = "1st Yugoslav Division" location = 103 division_template = "Yugoslav Infantry Division" start_experience_factor = 0.12 start_equipment_factor = 0.64 start_manpower_factor = 0.86 }
+    division = { name = "2nd Yugoslav Division" location = 103 division_template = "Yugoslav Infantry Division" start_experience_factor = 0.10 start_equipment_factor = 0.60 start_manpower_factor = 0.82 }
+    division = { name = "Mountain Security Brigade" location = 103 division_template = "Mountain Security Brigade" start_experience_factor = 0.08 start_equipment_factor = 0.54 start_manpower_factor = 0.80 }
+}

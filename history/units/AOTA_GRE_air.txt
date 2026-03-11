@@ -1,0 +1,6 @@
+air_wings = {
+    184 = {
+        air_wing = { name = "Hellenic Fighter Group" type = fighter_equipment_0 amount = 20 }
+        air_wing = { name = "Aegean Patrol Flight" type = nav_bomber_equipment_0 amount = 10 }
+    }
+}

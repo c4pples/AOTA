@@ -1,0 +1,23 @@
+units = {
+    fleet = {
+        name = "Combined Fleet"
+        naval_base = 286
+        task_force = {
+            name = "First Striking Force"
+            location = 286
+            ship = { name = "IJN Nagato" definition = battleship_1 }
+            ship = { name = "IJN Akagi" definition = carrier_1 }
+            ship = { name = "IJN Aoba" definition = heavy_cruiser_1 }
+            ship = { name = "IJN Fubuki" definition = destroyer_1 }
+            ship = { name = "IJN Shirayuki" definition = destroyer_1 }
+        }
+        task_force = {
+            name = "Northern Patrol Force"
+            location = 282
+            ship = { name = "IJN Kuma" definition = light_cruiser_1 }
+            ship = { name = "IJN Hatsuharu" definition = destroyer_1 }
+            ship = { name = "I-56" definition = submarine_1 }
+            ship = { name = "I-58" definition = submarine_1 }
+        }
+    }
+}

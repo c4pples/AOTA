@@ -1,0 +1,34 @@
+division_template = {
+    name = "Polish Line Division"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 2 y = 1 }
+        artillery_brigade = { x = 0 y = 0 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 1 }
+    }
+}
+division_template = {
+    name = "Kresy Border Brigade"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 0 }
+    }
+    support = {
+        recon = { x = 0 y = 0 }
+    }
+}
+units = {
+    division = { name = "1 Dywizja Piechoty" location = 85 division_template = "Polish Line Division" start_experience_factor = 0.16 start_equipment_factor = 0.74 start_manpower_factor = 0.90 }
+    division = { name = "2 Dywizja Piechoty" location = 85 division_template = "Polish Line Division" start_experience_factor = 0.14 start_equipment_factor = 0.70 start_manpower_factor = 0.86 }
+    division = { name = "Brygada Kresowa" location = 85 division_template = "Kresy Border Brigade" start_experience_factor = 0.10 start_equipment_factor = 0.60 start_manpower_factor = 0.82 }
+}

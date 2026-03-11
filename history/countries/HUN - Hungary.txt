@@ -1,3 +1,6 @@
+capital = 155
+oob = "AOTA_HUN_land"
+set_air_oob = "AOTA_HUN_air"
 set_politics = { ruling_party = neutrality elections_allowed = no }
 set_popularities = { democratic = 15 fascism = 18 neutrality = 55 communism = 5 anarchism = 3 market_radicalism = 4 }
 add_ideas = aota_unfinished_peace

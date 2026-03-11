@@ -1,4 +1,6 @@
-capital = 361
+﻿capital = 361
+oob = "AOTA_ACC_land"
+set_air_oob = "AOTA_ACC_air"
 set_research_slots = 3
 set_stability = 0.45
 set_war_support = 0.35

@@ -1,0 +1,33 @@
+division_template = {
+    name = "Indian Army Division"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+        artillery_brigade = { x = 0 y = 0 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 1 }
+    }
+}
+division_template = {
+    name = "Frontier Mounted Brigade"
+    divisions = {
+        cavalry = { x = 0 y = 0 }
+        cavalry = { x = 1 y = 0 }
+        cavalry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+    }
+    support = {
+        recon = { x = 0 y = 0 }
+    }
+}
+units = {
+    division = { name = "1st Indian Army Division" location = 429 division_template = "Indian Army Division" start_experience_factor = 0.14 start_equipment_factor = 0.70 start_manpower_factor = 0.88 }
+    division = { name = "2nd Indian Army Division" location = 429 division_template = "Indian Army Division" start_experience_factor = 0.12 start_equipment_factor = 0.66 start_manpower_factor = 0.84 }
+    division = { name = "Northwest Frontier Brigade" location = 429 division_template = "Frontier Mounted Brigade" start_experience_factor = 0.10 start_equipment_factor = 0.60 start_manpower_factor = 0.82 }
+}

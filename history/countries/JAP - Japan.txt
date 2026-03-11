@@ -1,8 +1,8 @@
-load_focus_tree = aota_japan_focus
+﻿load_focus_tree = aota_japan_focus
 capital = 282
 oob = "AOTA_JAP_land"
 set_air_oob = "AOTA_JAP_air"
-set_naval_oob = "JAP_naval"
+set_naval_oob = "AOTA_JAP_naval"
 set_research_slots = 4
 set_stability = 0.56
 set_war_support = 0.34

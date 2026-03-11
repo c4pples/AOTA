@@ -1,7 +1,7 @@
 ﻿capital = 360
 oob = "AOTA_USA_land"
 set_air_oob = "AOTA_USA_air"
-set_naval_oob = "USA_1936_naval"
+set_naval_oob = "AOTA_USA_naval"
 set_research_slots = 4
 set_stability = 0.48
 set_war_support = 0.12

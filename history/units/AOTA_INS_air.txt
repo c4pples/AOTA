@@ -1,0 +1,6 @@
+air_wings = {
+    335 = {
+        air_wing = { name = "Archipelago Air Flight" type = fighter_equipment_0 amount = 14 }
+        air_wing = { name = "Java Patrol Flight" type = nav_bomber_equipment_0 amount = 10 }
+    }
+}

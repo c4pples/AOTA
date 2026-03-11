@@ -1,0 +1,32 @@
+division_template = {
+    name = "Romanian Infantry Division"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+        artillery_brigade = { x = 0 y = 0 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+    }
+}
+division_template = {
+    name = "Carpathian Guard Brigade"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        mountaineers = { x = 0 y = 0 }
+    }
+    support = {
+        recon = { x = 0 y = 0 }
+    }
+}
+units = {
+    division = { name = "1st Romanian Division" location = 81 division_template = "Romanian Infantry Division" start_experience_factor = 0.14 start_equipment_factor = 0.68 start_manpower_factor = 0.88 }
+    division = { name = "2nd Romanian Division" location = 81 division_template = "Romanian Infantry Division" start_experience_factor = 0.12 start_equipment_factor = 0.64 start_manpower_factor = 0.84 }
+    division = { name = "Carpathian Guard Brigade" location = 81 division_template = "Carpathian Guard Brigade" start_experience_factor = 0.10 start_equipment_factor = 0.58 start_manpower_factor = 0.82 }
+}

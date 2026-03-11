@@ -1,4 +1,6 @@
-capital = 418
+﻿capital = 418
+oob = "AOTA_UKR_land"
+set_air_oob = "AOTA_UKR_air"
 set_research_slots = 2
 set_politics = { ruling_party = neutrality last_election = "1935.1.1" election_frequency = 48 elections_allowed = yes }
 create_country_leader = { name = "Andriy Livytskyi" desc = "POLITICS_ANDRIY_LIVYTSKYI_DESC" picture = GFX_portrait_generic_political_leader ideology = neutrality traits = { } }

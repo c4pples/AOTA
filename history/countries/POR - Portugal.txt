@@ -1,6 +1,7 @@
 ﻿capital = 112
-oob = "POR"
-set_naval_oob = "POR_naval"
+oob = "AOTA_POR_land"
+set_air_oob = "AOTA_POR_air"
+set_naval_oob = "AOTA_POR_naval"
 set_research_slots = 3
 set_convoys = 40
 starting_train_buffer = 2

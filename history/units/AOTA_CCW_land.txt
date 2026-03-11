@@ -1,0 +1,30 @@
+division_template = {
+    name = "Commonwealth Guard Division"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        artillery_brigade = { x = 0 y = 0 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+    }
+}
+division_template = {
+    name = "Parish Security Regiment"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        cavalry = { x = 0 y = 0 }
+    }
+    support = {
+        military_police = { x = 0 y = 0 }
+    }
+}
+units = {
+    division = { name = "1st Commonwealth Guard" location = 395 division_template = "Commonwealth Guard Division" start_experience_factor = 0.12 start_equipment_factor = 0.66 start_manpower_factor = 0.86 }
+    division = { name = "2nd Commonwealth Guard" location = 395 division_template = "Commonwealth Guard Division" start_experience_factor = 0.10 start_equipment_factor = 0.62 start_manpower_factor = 0.82 }
+    division = { name = "Parish Security Regiment" location = 395 division_template = "Parish Security Regiment" start_experience_factor = 0.06 start_equipment_factor = 0.52 start_manpower_factor = 0.78 }
+}

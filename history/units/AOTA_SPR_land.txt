@@ -1,0 +1,34 @@
+division_template = {
+    name = "Ejercito de Linea Division"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 2 y = 1 }
+        artillery_brigade = { x = 0 y = 0 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 1 }
+    }
+}
+division_template = {
+    name = "Guardia Interior Brigade"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 0 }
+    }
+    support = {
+        military_police = { x = 0 y = 0 }
+    }
+}
+units = {
+    division = { name = "1a Division de Linea" location = 41 division_template = "Ejercito de Linea Division" start_experience_factor = 0.14 start_equipment_factor = 0.68 start_manpower_factor = 0.88 }
+    division = { name = "2a Division de Linea" location = 41 division_template = "Ejercito de Linea Division" start_experience_factor = 0.12 start_equipment_factor = 0.64 start_manpower_factor = 0.84 }
+    division = { name = "Brigada de Guardia Interior" location = 41 division_template = "Guardia Interior Brigade" start_experience_factor = 0.08 start_equipment_factor = 0.56 start_manpower_factor = 0.80 }
+}

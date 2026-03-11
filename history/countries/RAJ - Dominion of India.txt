@@ -1,6 +1,7 @@
 ﻿capital = 891
-oob = "RAJ"
-set_naval_oob = "RAJ_naval"
+oob = "AOTA_RAJ_land"
+set_air_oob = "AOTA_RAJ_air"
+set_naval_oob = "AOTA_RAJ_naval"
 set_research_slots = 3
 set_stability = 0.42
 set_war_support = 0.26

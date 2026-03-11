@@ -1,0 +1,32 @@
+division_template = {
+    name = "Citizen Infantry Division"
+    divisions = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 1 }
+        artillery_brigade = { x = 0 y = 0 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+        recon = { x = 0 y = 1 }
+    }
+}
+division_template = {
+    name = "Outback Mounted Brigade"
+    divisions = {
+        cavalry = { x = 0 y = 0 }
+        cavalry = { x = 1 y = 0 }
+        cavalry = { x = 2 y = 0 }
+        motorized = { x = 0 y = 0 }
+    }
+    support = {
+        recon = { x = 0 y = 0 }
+    }
+}
+units = {
+    division = { name = "1st Citizen Division" location = 985 division_template = "Citizen Infantry Division" start_experience_factor = 0.16 start_equipment_factor = 0.76 start_manpower_factor = 0.92 }
+    division = { name = "2nd Citizen Division" location = 985 division_template = "Citizen Infantry Division" start_experience_factor = 0.14 start_equipment_factor = 0.72 start_manpower_factor = 0.88 }
+    division = { name = "Outback Mounted Brigade" location = 983 division_template = "Outback Mounted Brigade" start_experience_factor = 0.10 start_equipment_factor = 0.64 start_manpower_factor = 0.84 }
+}

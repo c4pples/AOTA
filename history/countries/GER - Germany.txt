@@ -1,7 +1,7 @@
 ﻿capital = 64
 oob = "AOTA_GER_land"
 set_air_oob = "AOTA_GER_air"
-set_naval_oob = "GER_naval"
+set_naval_oob = "AOTA_GER_naval"
 set_research_slots = 4
 set_stability = 0.72
 set_war_support = 0.28

@@ -1,0 +1,6 @@
+air_wings = {
+    336 = {
+        air_wing = { name = "Malay Air Guard" type = fighter_equipment_0 amount = 14 }
+        air_wing = { name = "Straits Patrol Flight" type = nav_bomber_equipment_0 amount = 10 }
+    }
+}

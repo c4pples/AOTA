@@ -1,5 +1,6 @@
-capital = 85
-oob = "POL_1936"
+﻿capital = 85
+oob = "AOTA_POL_land"
+set_air_oob = "AOTA_POL_air"
 set_research_slots = 3
 set_stability = 0.52
 set_war_support = 0.18

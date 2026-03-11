@@ -1,0 +1,23 @@
+units = {
+    fleet = {
+        name = "Atlantic Fleet"
+        naval_base = 360
+        task_force = {
+            name = "Battle Force"
+            location = 360
+            ship = { name = "USS New York" definition = battleship_1 }
+            ship = { name = "USS Lexington" definition = carrier_1 }
+            ship = { name = "USS Pensacola" definition = heavy_cruiser_1 }
+            ship = { name = "USS McCall" definition = destroyer_1 }
+            ship = { name = "USS McDougal" definition = destroyer_1 }
+        }
+        task_force = {
+            name = "Neutrality Patrol"
+            location = 358
+            ship = { name = "USS Omaha" definition = light_cruiser_1 }
+            ship = { name = "USS Raleigh" definition = light_cruiser_1 }
+            ship = { name = "USS S-42" definition = submarine_1 }
+            ship = { name = "USS S-44" definition = submarine_1 }
+        }
+    }
+}

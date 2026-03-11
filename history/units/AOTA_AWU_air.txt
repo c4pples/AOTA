@@ -1,0 +1,6 @@
+air_wings = {
+    395 = {
+        air_wing = { name = "Workers Red Air Group" type = fighter_equipment_0 amount = 18 }
+        air_wing = { name = "Urban Support Flight" type = tac_bomber_equipment_0 amount = 10 }
+    }
+}

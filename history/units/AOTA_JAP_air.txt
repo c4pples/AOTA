@@ -1,8 +1,13 @@
 air_wings = {
     282 = {
-        air_wing = { name = "1st Air Regiment" type = fighter_equipment_0 amount = 72 }
-        air_wing = { name = "2nd Air Regiment" type = fighter_equipment_0 amount = 72 }
-        air_wing = { name = "Army Bomber Group" type = tac_bomber_equipment_0 amount = 48 }
+        air_wing = { name = "1st Air Regiment" type = fighter_equipment_0 amount = 56 }
+        air_wing = { name = "2nd Air Regiment" type = fighter_equipment_0 amount = 48 }
+        air_wing = { name = "Army Bomber Group" type = tac_bomber_equipment_0 amount = 34 }
     }
-    286 = { air_wing = { name = "Naval Air Detachment" type = nav_bomber_equipment_0 amount = 36 } }
+    286 = {
+        air_wing = { name = "Naval Air Detachment" type = nav_bomber_equipment_0 amount = 24 }
+    }
+    525 = {
+        air_wing = { name = "Manchurian Patrol Flight" type = fighter_equipment_0 amount = 16 }
+    }
 }

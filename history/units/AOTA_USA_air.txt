@@ -1,8 +1,13 @@
 air_wings = {
     361 = {
-        air_wing = { name = "1st Pursuit Wing" type = fighter_equipment_0 amount = 72 }
-        air_wing = { name = "2nd Pursuit Wing" type = fighter_equipment_0 amount = 72 }
-        air_wing = { name = "Army Tactical Group" type = tac_bomber_equipment_0 amount = 48 }
+        air_wing = { name = "1st Pursuit Wing" type = fighter_equipment_0 amount = 52 }
+        air_wing = { name = "2nd Pursuit Wing" type = fighter_equipment_0 amount = 44 }
+        air_wing = { name = "Army Tactical Group" type = tac_bomber_equipment_0 amount = 30 }
     }
-    360 = { air_wing = { name = "Training Air Detachment" type = fighter_equipment_0 amount = 24 } }
+    360 = {
+        air_wing = { name = "Training Air Detachment" type = fighter_equipment_0 amount = 18 }
+    }
+    387 = {
+        air_wing = { name = "Southern Air Reserve" type = fighter_equipment_0 amount = 16 }
+    }
 }

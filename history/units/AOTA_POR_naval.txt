@@ -1,0 +1,13 @@
+units = {
+    fleet = {
+        name = "Armada de Defesa Ultramarina"
+        naval_base = 118
+        task_force = {
+            name = "Atlantic Patrol Group"
+            location = 118
+            ship = { name = "NRP Vasco da Gama" definition = light_cruiser_1 }
+            ship = { name = "NRP Douro" definition = destroyer_1 }
+            ship = { name = "NRP Lima" definition = destroyer_1 }
+        }
+    }
+}

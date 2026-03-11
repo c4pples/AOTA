@@ -1,0 +1,6 @@
+air_wings = {
+    459 = {
+        air_wing = { name = "Escadrille Nationale" type = fighter_equipment_0 amount = 16 }
+        air_wing = { name = "Sahara Recon Flight" type = tac_bomber_equipment_0 amount = 10 }
+    }
+}

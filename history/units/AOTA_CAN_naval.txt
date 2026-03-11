@@ -1,0 +1,13 @@
+units = {
+    fleet = {
+        name = "Royal Canadian Atlantic Force"
+        naval_base = 739
+        task_force = {
+            name = "North Atlantic Escort"
+            location = 739
+            ship = { name = "HMCS Quebec" definition = light_cruiser_1 }
+            ship = { name = "HMCS Ottawa" definition = destroyer_1 }
+            ship = { name = "HMCS Skeena" definition = destroyer_1 }
+        }
+    }
+}

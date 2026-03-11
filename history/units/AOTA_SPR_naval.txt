@@ -1,0 +1,13 @@
+units = {
+    fleet = {
+        name = "Armada de Vigilancia"
+        naval_base = 41
+        task_force = {
+            name = "I Escuadra de Patrulla"
+            location = 41
+            ship = { name = "ES Baleares" definition = light_cruiser_1 }
+            ship = { name = "ES Churruca" definition = destroyer_1 }
+            ship = { name = "ES Lazaga" definition = destroyer_1 }
+        }
+    }
+}

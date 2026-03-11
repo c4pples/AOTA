@@ -1,0 +1,6 @@
+air_wings = {
+    111 = {
+        air_wing = { name = "Ilmavoimat Fighter Wing" type = fighter_equipment_0 amount = 24 }
+        air_wing = { name = "Northern Recon Group" type = tac_bomber_equipment_0 amount = 12 }
+    }
+}

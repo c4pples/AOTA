@@ -1,4 +1,6 @@
-capital = 150
+﻿capital = 150
+oob = "AOTA_ASL_land"
+set_air_oob = "AOTA_ASL_air"
 set_research_slots = 2
 set_stability = 0.36
 set_war_support = 0.33

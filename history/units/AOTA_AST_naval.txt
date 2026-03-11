@@ -1,0 +1,13 @@
+units = {
+    fleet = {
+        name = "Royal Australian Squadron"
+        naval_base = 985
+        task_force = {
+            name = "Tasman Patrol Group"
+            location = 985
+            ship = { name = "HMAS Sydney" definition = light_cruiser_1 }
+            ship = { name = "HMAS Stuart" definition = destroyer_1 }
+            ship = { name = "HMAS Voyager" definition = destroyer_1 }
+        }
+    }
+}

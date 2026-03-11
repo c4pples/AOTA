@@ -32,10 +32,12 @@ division_template = {
     support = { recon = { x = 0 y = 0 } }
 }
 units = {
-    division = { name = "1. Kaiserliche Infanteriedivision" location = 4 division_template = "Imperial Infantry Division" start_experience_factor = 0.20 }
-    division = { name = "2. Kaiserliche Infanteriedivision" location = 4 division_template = "Imperial Infantry Division" start_experience_factor = 0.18 }
-    division = { name = "Prager Sicherungsdivision" location = 70 division_template = "Crownland Security Division" start_experience_factor = 0.10 }
-    division = { name = "Bosnische Sicherungsdivision" location = 104 division_template = "Crownland Security Division" start_experience_factor = 0.08 }
-    division = { name = "Danubische Artilleriegruppe" location = 71 division_template = "Danubian Artillery Group" start_experience_factor = 0.16 }
-    division = { name = "Kaiserliche Kavalleriebrigade" location = 5 division_template = "Imperial Cavalry Brigade" start_experience_factor = 0.14 }
+    division = { name = "1. Kaiserliche Infanteriedivision" location = 4 division_template = "Imperial Infantry Division" start_experience_factor = 0.22 start_equipment_factor = 0.84 }
+    division = { name = "2. Kaiserliche Infanteriedivision" location = 4 division_template = "Imperial Infantry Division" start_experience_factor = 0.18 start_equipment_factor = 0.80 }
+    division = { name = "3. Kaiserliche Infanteriedivision" location = 71 division_template = "Imperial Infantry Division" start_experience_factor = 0.15 start_equipment_factor = 0.74 }
+    division = { name = "Prager Sicherungsdivision" location = 70 division_template = "Crownland Security Division" start_experience_factor = 0.10 start_manpower_factor = 0.82 start_equipment_factor = 0.62 }
+    division = { name = "Bosnische Sicherungsdivision" location = 104 division_template = "Crownland Security Division" start_experience_factor = 0.08 start_manpower_factor = 0.78 start_equipment_factor = 0.58 }
+    division = { name = "Galizische Sicherungsdivision" location = 88 division_template = "Crownland Security Division" start_experience_factor = 0.08 start_manpower_factor = 0.76 start_equipment_factor = 0.56 }
+    division = { name = "Danubische Artilleriegruppe" location = 71 division_template = "Danubian Artillery Group" start_experience_factor = 0.16 start_manpower_factor = 0.84 start_equipment_factor = 0.72 }
+    division = { name = "Kaiserliche Kavalleriebrigade" location = 5 division_template = "Imperial Cavalry Brigade" start_experience_factor = 0.12 start_manpower_factor = 0.80 start_equipment_factor = 0.64 }
 }

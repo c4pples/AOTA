@@ -1,0 +1,6 @@
+air_wings = {
+    429 = {
+        air_wing = { name = "Indian Air Command Wing" type = fighter_equipment_0 amount = 24 }
+        air_wing = { name = "Frontier Strike Flight" type = tac_bomber_equipment_0 amount = 12 }
+    }
+}

@@ -1,8 +1,13 @@
 air_wings = {
     219 = {
-        air_wing = { name = "1st Fighter Aviation Regiment" type = fighter_equipment_0 amount = 84 }
-        air_wing = { name = "2nd Fighter Aviation Regiment" type = fighter_equipment_0 amount = 84 }
-        air_wing = { name = "1st Tactical Aviation Group" type = tac_bomber_equipment_0 amount = 54 }
+        air_wing = { name = "1st Fighter Aviation Regiment" type = fighter_equipment_0 amount = 52 }
+        air_wing = { name = "2nd Fighter Aviation Regiment" type = fighter_equipment_0 amount = 44 }
+        air_wing = { name = "1st Tactical Aviation Group" type = tac_bomber_equipment_0 amount = 30 }
     }
-    232 = { air_wing = { name = "Southern Frontier Air Group" type = fighter_equipment_0 amount = 36 } }
+    232 = {
+        air_wing = { name = "Southern Frontier Air Group" type = fighter_equipment_0 amount = 24 }
+    }
+    228 = {
+        air_wing = { name = "Caucasus Reserve Flight" type = fighter_equipment_0 amount = 16 }
+    }
 }

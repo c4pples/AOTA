@@ -1,0 +1,6 @@
+air_wings = {
+    7 = {
+        air_wing = { name = "Luchtverdediging Wing" type = fighter_equipment_0 amount = 24 }
+        air_wing = { name = "Koloniale Patrouille" type = nav_bomber_equipment_0 amount = 12 }
+    }
+}

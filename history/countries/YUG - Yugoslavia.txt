@@ -1,6 +1,7 @@
-capital = 107
-oob = "YUG"
-set_naval_oob = "YUG_naval"
+﻿capital = 107
+oob = "AOTA_YUG_land"
+set_air_oob = "AOTA_YUG_air"
+set_naval_oob = "AOTA_YUG_naval"
 set_research_slots = 2
 set_stability = 0.44
 set_war_support = 0.16

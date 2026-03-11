@@ -1,5 +1,6 @@
-capital = 106
-oob = "BUL"
+﻿capital = 106
+oob = "AOTA_BUL_land"
+set_air_oob = "AOTA_BUL_air"
 set_research_slots = 3
 set_stability = 0.49
 set_war_support = 0.27
