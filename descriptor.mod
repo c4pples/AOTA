@@ -2,6 +2,6 @@ version="0.36"
 tags={
     "Alternative History"
 }
-name="Ashes of the Armistice"
+name="AOTA"
 supported_version="1.17.*"
 replace_path = "history/states"
