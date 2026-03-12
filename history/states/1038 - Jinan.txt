@@ -1,4 +1,4 @@
-﻿state = {
+state = {
 
 	id = 1038
 	name = "STATE_1038"
@@ -45,7 +45,6 @@
 					has_dlc = "No Compromise, No Surrender" 
 				}
 			}	
-			owner = CHI
 			controller = JAP		
 		}
 	}

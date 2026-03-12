@@ -1,4 +1,4 @@
-﻿state = {
+state = {
 	id = 1039
 	name = "STATE_1039" # South Chahar
 	manpower = 367500
@@ -39,7 +39,6 @@
 		}
 
 		1938.10.25 = {
-			owner = CHI
 			controller = MEN
 		}
 

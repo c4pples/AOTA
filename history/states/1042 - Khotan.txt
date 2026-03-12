@@ -1,4 +1,4 @@
-﻿state = {
+state = {
 	id = 1042
 	name = "STATE_1042"
 	manpower = 380000
@@ -40,7 +40,6 @@
 				}
 				remove_core_of = KHM
 			}	
-			owner = SIK
 			controller = SIK		
 		}
 	}
