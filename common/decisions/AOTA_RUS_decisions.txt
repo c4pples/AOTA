@@ -1,14 +1,73 @@
+categories = {
+  AOTA_russian_reunification_category = {
+    icon = generic_war_preparation
+    allowed = { original_tag = SOV }
+    visible = { tag = SOV }
+    decision = {
+      id = SOV_call_the_regional_congress
+      icon = generic_prepare_coup
+      cost = 50
+      days_remove = 30
+      available = { tag = SOV }
+      visible = { has_idea = aota_russian_fragility }
+      complete_effect = { add_political_power = 25 add_stability = 0.02 }
+    }
+    decision = {
+      id = SOV_negotiate_with_cossack_hosts
+      icon = generic_improve_relations
+      cost = 40
+      days_remove = 30
+      available = { tag = SOV }
+      visible = { has_idea = aota_russian_fragility }
+      complete_effect = { add_ideas = aota_rus_regional_liaison }
+    }
+    decision = {
+      id = SOV_requisition_frontier_stores
+      icon = generic_military_sphere
+      cost = 35
+      days_remove = 30
+      available = { tag = SOV }
+      visible = { has_war_support > 0.1 }
+      complete_effect = { army_experience = 10 }
+    }
+    decision = {
+      id = SOV_issue_reunification_manifesto
+      icon = generic_demand_territory
+      cost = 50
+      days_remove = 45
+      available = { tag = SOV }
+      visible = { has_idea = aota_rus_reunification_pressure }
+      complete_effect = { add_named_threat = { threat = 2 name = SOV_manifesto } }
+    }
+  }
 
-decision_categories = {
-  AOTA_russian_reunification_category = { icon = generic_war_preparation allowed = { original_tag = SOV } visible = { tag = SOV } }
-  AOTA_red_black_rivalry_category = { icon = generic_propaganda_campaign allowed = { original_tag = SOV } visible = { tag = SOV } }
-  AOTA_borderlands_category = { icon = generic_foreign_support allowed = { original_tag = SOV } visible = { tag = SOV } }
-}
-decisions = {
-  SOV_call_the_regional_congress = { icon = generic_prepare_coup cost = 50 days_remove = 30 available = { tag = SOV } visible = { has_idea = aota_russian_fragility } complete_effect = { add_political_power = 25 add_stability = 0.02 } }
-  SOV_negotiate_with_cossack_hosts = { icon = generic_improve_relations cost = 40 days_remove = 30 available = { tag = SOV } visible = { has_idea = aota_russian_fragility } complete_effect = { add_ideas = aota_rus_regional_liaison } }
-  SOV_requisition_frontier_stores = { icon = generic_military_sphere cost = 35 days_remove = 30 available = { tag = SOV } visible = { has_war_support > 0.1 } complete_effect = { army_experience = 10 } }
-  SOV_issue_reunification_manifesto = { icon = generic_demand_territory cost = 50 days_remove = 45 available = { tag = SOV } visible = { has_idea = aota_rus_reunification_pressure } complete_effect = { add_named_threat = { threat = 2 name = SOV_manifesto } } }
-  SOV_back_the_borderland_partisans = { icon = generic_covert_action cost = 50 days_remove = 45 available = { tag = SOV } visible = { has_idea = aota_rus_reunification_pressure } complete_effect = { country_event = { id = aota.2213 days = 1 } } }
-  SOV_settle_the_red_black_schism = { icon = generic_propaganda_campaign cost = 50 days_remove = 40 available = { tag = SOV } visible = { has_idea = aota_red_black_schism } complete_effect = { remove_ideas = aota_red_black_schism add_stability = 0.03 } }
+  AOTA_red_black_rivalry_category = {
+    icon = generic_propaganda_campaign
+    allowed = { original_tag = SOV }
+    visible = { tag = SOV }
+    decision = {
+      id = SOV_settle_the_red_black_schism
+      icon = generic_propaganda_campaign
+      cost = 50
+      days_remove = 40
+      available = { tag = SOV }
+      visible = { has_idea = aota_red_black_schism }
+      complete_effect = { remove_ideas = aota_red_black_schism add_stability = 0.03 }
+    }
+  }
+
+  AOTA_borderlands_category = {
+    icon = generic_foreign_support
+    allowed = { original_tag = SOV }
+    visible = { tag = SOV }
+    decision = {
+      id = SOV_back_the_borderland_partisans
+      icon = generic_covert_action
+      cost = 50
+      days_remove = 45
+      available = { tag = SOV }
+      visible = { has_idea = aota_rus_reunification_pressure }
+      complete_effect = { country_event = { id = aota.2213 days = 1 } }
+    }
+  }
 }

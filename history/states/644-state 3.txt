@@ -18,7 +18,8 @@ state = {
 	provinces = {
 		1819 4006 4229 4455 12592 13061
 	}
-	manpower = buildings_max_level_factor = 1
+	manpower = 0
+	buildings_max_level_factor = 1
 	state_category = "wasteland"
 
 	local_supplies = 0.0 

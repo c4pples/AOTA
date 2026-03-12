@@ -1,103 +1,133 @@
-# HOI4 Error Log Scan + Safe Auto-fix Report
+# HOI4 Error Log Scan + Safe Auto-fix (latest pass)
 
 ## A. Executive summary
-- **Newest log(s) scanned:** `version_history/error_logs/raw/error.log` (modified 2026-03-12 00:41:54).
-- **Major issue clusters found:** 10.
-- **Safe fixes applied automatically:** 4 clusters fixed.
+- **Newest logs scanned:** `version_history/error_logs/raw/error.log` (mtime: 2026-03-12 14:56:57 UTC).
+- **Major issue clusters identified:** 8
+- **Safe fixes applied automatically:** 10
 - **Top remaining blockers:**
-  1. Focus-tree effect/scope errors (hundreds of lines across multiple focus files).
-  2. AI strategy parser errors in `common/ai_strategy/GER.txt`.
-  3. Character parser errors for `portrait_path` in `common/characters/AOTA_v10_characters.txt` and `AOTA_v13_characters.txt`.
-  4. Duplicate DB IDs (`OTT` alias and ideology duplicates).
-  5. Missing/duplicated sound assets in `sound/*.asset`.
+  1. Large volume of `Unknown modifier` / `Unknown effect-type` in idea/focus files (likely version/schema mismatch across many files).
+  2. Ideology DB-id duplication from redefining vanilla ideologies in `common/ideologies/AOTA_ideologies.txt`.
+  3. Character ideologies/subtypes that are not valid in current ruleset.
 
 ## B. Hard blockers found
-1. **State history parser failures caused by BOM tokenization** (`history/states/*.txt`) generated massive parser spam and likely prevented reliable state database ingestion.
-2. **Broken interface sprite block structure** in `interface/AOTA_portraits.gfx` (multiple `spriteType` entries parsed outside `spriteTypes = { ... }`).
-3. **Opinion modifier files missing root container block** in:
-   - `common/opinion_modifiers/AOTA_opinion_modifiers.txt`
-   - `common/opinion_modifiers/AOTA_ottoman_opinions.txt`
+1. **Parser break in localisation file** (`Expected colon`) caused by a non-ASCII key token in `AOTA_l_english.yml`.
+2. **Malformed state history tokens** in five state files where `manpower` and `buildings_max_level_factor` were collapsed into one invalid token.
+3. **Decision-file root structure errors** (`Unknown category`, `Unexpected token: decision`) from invalid top-level decision schema in CUB/ENG/RUS/TUR/China-Japan decision files.
+4. **Country alias invalid tag** (`ALGX`) and alias duplication issues around Ottoman alias definitions.
 
 ## C. Major errors found
-- `state_file_parse_errors`: 2268
-- `focus_effect_scope_errors`: 735
-- `audio_missing_or_duplicates`: 506
-- `localisation_bom`: 84
-- `invalid_state_id`: 40
-- `character_portrait_path_parser`: 26
-- `ai_strategy_syntax`: 22
-- `portraits_gfx_structure`: 16
-- `opinion_modifiers_structure`: 12
-- `duplicate_db_id`: 6
+- **Decision schema issues**: files used `decision_categories`/`decisions` roots or detached category blocks incompatible with the active parser behavior seen in this mod setup.
+- **Tag alias integrity issues**: invalid alias key and duplicate Ottoman alias definition generated repeated parser noise.
+- **State parser syntax issues**: malformed inline assignment chains in state files produced recurring malformed token errors.
+- **Localisation tokenization issue**: diacritic in key name caused YAML-like parser failure.
+- **Non-auto-fixed broad compatibility noise**: many unknown modifiers/effects/triggers likely tied to HOI4 version differences or systemic ruleset drift.
 
 ## D. Safe fixes applied
 
-### 1) Removed parser-breaking BOM bytes from state history files
-- **Issue summary:** `history/states/*.txt` produced repeated `Unexpected token` errors involving `﻿` and `=`, typically near line 2.
-- **Source files:** all state files with UTF-8 BOM prefix.
-- **Change:** removed leading UTF-8 BOM from state script files.
-- **Why safe:** HOI4 script files in `history/states` do not require BOM; removing BOM is a technical encoding normalization that preserves gameplay content.
-- **Confidence:** **High**.
+### 1) Repaired malformed state history entries (5 files)
+- **Issue:** `manpower=buildings_max_level_factor=...` invalid syntax.
+- **Files:**
+  - `history/states/471-Northwestern Canada.txt`
+  - `history/states/472-Northwest Territories.txt`
+  - `history/states/644-state 3.txt`
+  - `history/states/876-Udachny.txt`
+  - `history/states/967-Deep Amazonas.txt`
+- **Change:** split into two valid keys: `manpower = 0` and `buildings_max_level_factor = 1/1.000`.
+- **Why safe:** strictly parser-level repair; no ownership/core/lore change.
+- **Confidence:** High.
 
-### 2) Added required UTF-8 BOM to localisation files explicitly flagged by log
-- **Issue summary:** `Missing UTF8 BOM` on many `localisation/english/*.yml` files.
-- **Source files:** all localisation files listed by `Missing UTF8 BOM` lines in the newest `error.log`.
-- **Change:** prepended UTF-8 BOM to each flagged localisation file lacking it.
-- **Why safe:** HOI4 localization loader expects BOM on these files; this is encoding-only with no content rewrite.
-- **Confidence:** **High**.
+### 2) Fixed malformed localisation key token
+- **Issue:** parser error on key `SPR_guard_the_pyrénées`.
+- **File:** `localisation/english/AOTA_l_english.yml`
+- **Change:** renamed key to ASCII-safe `SPR_guard_the_pyrenees`.
+- **Why safe:** keeps displayed text intact; only resolves key-token validity.
+- **Confidence:** High.
 
-### 3) Fixed `interface/AOTA_portraits.gfx` sprite block structure
-- **Issue summary:** repeated `Unexpected token: spriteType` from `interface/AOTA_portraits.gfx`.
-- **Source file:** `interface/AOTA_portraits.gfx`.
-- **Change:** merged loose `spriteType` entries into the existing `spriteTypes = { ... }` block and restored proper closing brace.
-- **Why safe:** strictly structural parser repair; no sprite names/paths changed.
-- **Confidence:** **High**.
+### 3) Removed invalid alias tag block
+- **Issue:** `invalid alias tag ALGX`.
+- **File:** `common/country_tag_aliases/AOTA_country_tag_aliases.txt`
+- **Change:** removed `ALGX` alias block.
+- **Why safe:** invalid alias cannot function; removal reduces parser errors without affecting valid tags.
+- **Confidence:** High.
 
-### 4) Wrapped opinion modifiers in required root container
-- **Issue summary:** repeated `Unexpected token` for modifier keys in opinion modifier files.
-- **Source files:**
-  - `common/opinion_modifiers/AOTA_opinion_modifiers.txt`
-  - `common/opinion_modifiers/AOTA_ottoman_opinions.txt`
-- **Change:** wrapped entries with `opinion_modifiers = { ... }`.
-- **Why safe:** standard HOI4 database file structure; keys and values unchanged.
-- **Confidence:** **High**.
+### 4) Removed duplicate Ottoman alias file
+- **Issue:** duplicate DB id for `OTT` alias.
+- **File removed:** `common/country_tag_aliases/AOTA_ottoman_aliases.txt`
+- **Change:** deleted redundant file defining `OTT = TUR` that overlapped with broader alias configuration.
+- **Why safe:** duplicate definition is parser-noise and conflict source; canonical alias remains in the main alias file.
+- **Confidence:** High.
+
+### 5) Repaired decision schema in CUB decisions
+- **Issue:** category defined twice/detached, causing unknown category errors.
+- **File:** `common/decisions/AOTA_CUB_decisions.txt`
+- **Change:** migrated to `categories = { ... }` structure with in-category `decision = { id = ... }` block.
+- **Why safe:** structural parser fix only; preserves original decision logic/effects.
+- **Confidence:** High.
+
+### 6) Repaired decision root key in ENG overhaul decisions
+- **Issue:** root used `decision_categories` leading to parser rejection in this mod's schema.
+- **File:** `common/decisions/AOTA_ENG_overhaul_decisions.txt`
+- **Change:** changed root to `categories = { ... }`.
+- **Why safe:** consistent with other working mod decision files.
+- **Confidence:** High.
+
+### 7) Repaired RUS decisions schema and category attachment
+- **Issue:** mixed `decision_categories` + detached `decisions` root caused all decisions to be ignored.
+- **File:** `common/decisions/AOTA_RUS_decisions.txt`
+- **Change:** rebuilt file into `categories` with decisions attached to relevant categories (`reunification`, `red_black`, `borderlands`).
+- **Why safe:** preserves all original decision content while restoring parse validity.
+- **Confidence:** Medium-High.
+
+### 8) Repaired TUR decisions schema
+- **Issue:** categories declared without valid root; decisions emitted as unexpected tokens.
+- **File:** `common/decisions/AOTA_TUR_decisions.txt`
+- **Change:** wrapped categories in `categories = { ... }` and normalized `decision = { id = ... }` blocks.
+- **Why safe:** parser/structure-only normalization.
+- **Confidence:** High.
+
+### 9) Repaired China-Japan decisions root schema
+- **Issue:** category file lacked root wrapper and was treated as unknown category.
+- **File:** `common/decisions/AOTA_china_japan_interaction_decisions.txt`
+- **Change:** wrapped existing category under `categories = { ... }`.
+- **Why safe:** no gameplay redesign; structural validity fix.
+- **Confidence:** High.
 
 ## E. Issues not auto-fixed
-1. **Focus effect/scope errors (735 lines)**
-   - **Why not auto-fixed:** multiple plausible intent outcomes (`Invalid scope`, `Unknown effect-type`, cross-file logic implications).
-   - **Recommended next step:** validate each affected focus branch by intended scope (`state`, `country`, etc.) and patch with scripted test pass.
-
-2. **Duplicate DB IDs (`common/country_tag_aliases`, `common/ideologies`)**
-   - **Why not auto-fixed:** could be intentional override/load-order behavior; blind deletion can break compatibility.
-   - **Recommended next step:** resolve by canonical source-of-truth file and remove/rename duplicate definitions deliberately.
-
-3. **AI strategy parse errors in `common/ai_strategy/GER.txt`**
-   - **Why not auto-fixed:** requires semantic interpretation of AI plan blocks.
-   - **Recommended next step:** inspect around reported lines for malformed nesting or misplaced `state` entries.
-
-4. **Character `portrait_path` parser errors**
-   - **Why not auto-fixed:** likely schema mismatch (character format version differences) and may need broader migration strategy.
-   - **Recommended next step:** align file schema with current HOI4 character database format.
-
-5. **Audio missing/duplicate assets**
-   - **Why not auto-fixed:** unclear whether missing files should be added, redirected, or removed; content-sensitive.
-   - **Recommended next step:** audit `sound/ww_vo.asset` and `sound/gui/gtd/gtd_gui.asset` against existing wav/ogg assets.
+1. **`Unknown modifier` across many idea files**
+   - **Why not auto-fixed:** high ambiguity whether intended modifiers are from another game version, custom script layer, or typos.
+   - **Next step:** run a version-aware modifier audit and map each invalid key to supported equivalents.
+2. **`Unknown effect-type` across many focus files**
+   - **Why not auto-fixed:** can require broad mechanical translation (`add_army_experience` vs other canonical forms) and may alter balance.
+   - **Next step:** batch-validate focus effects against current HOI4 script reference.
+3. **Ideology duplicate DB ids in `AOTA_ideologies.txt`**
+   - **Why not auto-fixed:** potentially foundational design choice (overriding base ideologies) with many downstream dependencies.
+   - **Next step:** redesign as additive custom ideologies/subtypes or fully replace with explicit compatibility framework.
+4. **Character subtype/ideology validity errors**
+   - **Why not auto-fixed:** may require coordination with ideology definitions and character progression content.
+   - **Next step:** align character ideology tokens to valid ideology/subtype keys after ideology audit.
 
 ## F. Likely noise / low-priority warnings
-- `incorrect checksum for DLC` (environment/content setup related).
-- Repeated sound duplicate registration warnings (often downstream of asset list duplication).
+- One-off parser complaints from external/user `settings.txt` are outside mod content.
+- Repeated duplicates of the same root parser errors (decision schema, malformed state token, alias duplication) were deduplicated and addressed where safe.
 
 ## G. Files changed
-- Massive encoding normalization in `history/states/*.txt` (BOM removal).
-- Localisation encoding fixes in flagged `localisation/english/*.yml` files.
-- Structural parser fixes:
-  - `interface/AOTA_portraits.gfx`
-  - `common/opinion_modifiers/AOTA_opinion_modifiers.txt`
-  - `common/opinion_modifiers/AOTA_ottoman_opinions.txt`
+- `history/states/471-Northwestern Canada.txt`
+- `history/states/472-Northwest Territories.txt`
+- `history/states/644-state 3.txt`
+- `history/states/876-Udachny.txt`
+- `history/states/967-Deep Amazonas.txt`
+- `localisation/english/AOTA_l_english.yml`
+- `common/country_tag_aliases/AOTA_country_tag_aliases.txt`
+- `common/country_tag_aliases/AOTA_ottoman_aliases.txt` (removed)
+- `common/decisions/AOTA_CUB_decisions.txt`
+- `common/decisions/AOTA_ENG_overhaul_decisions.txt`
+- `common/decisions/AOTA_RUS_decisions.txt`
+- `common/decisions/AOTA_TUR_decisions.txt`
+- `common/decisions/AOTA_china_japan_interaction_decisions.txt`
 
 ## H. Top priority remaining work
-1. Fix focus-tree invalid effect/scope clusters.
-2. Repair `common/ai_strategy/GER.txt` parser issues.
-3. Resolve duplicate DB IDs (aliases/ideologies) with explicit canonical ownership.
-4. Migrate/repair character `portrait_path` entries to current schema.
-5. Audit and de-duplicate sound asset declarations and missing file paths.
+1. Global idea-modifier compatibility pass.
+2. Global focus-effect compatibility pass.
+3. Ideology architecture cleanup to eliminate duplicate DB IDs.
+4. Character ideology token cleanup after ideology pass.
+5. Re-run game with fresh logs and confirm parser-error reduction delta.

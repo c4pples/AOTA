@@ -1,3 +1,4 @@
+categories = {
 AOTA_china_japan_ladder_category = {
     icon = generic_foreign_policy
     allowed = {
@@ -182,4 +183,6 @@ AOTA_china_japan_ladder_category = {
             }
         }
     }
+}
+
 }

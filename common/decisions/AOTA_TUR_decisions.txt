@@ -1,18 +1,57 @@
-AOTA_ottoman_management = {
- icon = generic_empire
- allowed = { original_tag = TUR }
- visible = { original_tag = TUR }
- decision = { id = TUR_convene_the_provincial_notables icon = generic_political_reform available = { has_idea = aota_ottoman_arab_unrest } complete_effect = { add_political_power = 50 add_stability = 0.02 } days_remove = 60 }
- decision = { id = TUR_rotate_the_gendarmerie icon = generic_army_reform available = { has_idea = aota_ottoman_internal_security_apparatus } complete_effect = { add_war_support = 0.02 } days_remove = 45 }
- decision = { id = TUR_call_the_court_physicians icon = generic_improve_relations complete_effect = { add_stability = 0.01 } days_remove = 30 }
-}
+categories = {
+  AOTA_ottoman_management = {
+    icon = generic_empire
+    allowed = { original_tag = TUR }
+    visible = { original_tag = TUR }
+    decision = {
+      id = TUR_convene_the_provincial_notables
+      icon = generic_political_reform
+      available = { has_idea = aota_ottoman_arab_unrest }
+      complete_effect = { add_political_power = 50 add_stability = 0.02 }
+      days_remove = 60
+    }
+    decision = {
+      id = TUR_rotate_the_gendarmerie
+      icon = generic_army_reform
+      available = { has_idea = aota_ottoman_internal_security_apparatus }
+      complete_effect = { add_war_support = 0.02 }
+      days_remove = 45
+    }
+    decision = {
+      id = TUR_call_the_court_physicians
+      icon = generic_improve_relations
+      complete_effect = { add_stability = 0.01 }
+      days_remove = 30
+    }
+  }
 
-AOTA_iron_crescent_directorate = {
- icon = generic_political_violence
- allowed = { original_tag = TUR }
- visible = { has_completed_focus = TUR_sacred_proclaim_the_iron_crescent }
- decision = { id = TUR_iron_crescent_expand_the_special_tribunals icon = generic_political_pressure days_remove = 35 complete_effect = { add_political_power = 40 add_stability = -0.01 add_war_support = 0.01 add_named_threat = { threat = 1 name = aota.2128.t } } }
- decision = { id = TUR_iron_crescent_raise_legionary_columns icon = generic_army_reform days_remove = 45 complete_effect = { add_manpower = 50000 army_experience = 8 add_stability = -0.01 } }
- decision = { id = TUR_iron_crescent_forced_industrial_quotas icon = generic_production days_remove = 50 complete_effect = { add_timed_idea = { idea = aota_ottoman_tithe_of_steel days = 240 } add_stability = -0.02 } }
- decision = { id = TUR_iron_crescent_frontier_incidents icon = generic_border_war days_remove = 30 complete_effect = { add_named_threat = { threat = 2 name = aota.2122.t } add_war_support = 0.02 } }
+  AOTA_iron_crescent_directorate = {
+    icon = generic_political_violence
+    allowed = { original_tag = TUR }
+    visible = { has_completed_focus = TUR_sacred_proclaim_the_iron_crescent }
+    decision = {
+      id = TUR_iron_crescent_expand_the_special_tribunals
+      icon = generic_political_pressure
+      days_remove = 35
+      complete_effect = { add_political_power = 40 add_stability = -0.01 add_war_support = 0.01 add_named_threat = { threat = 1 name = aota.2128.t } }
+    }
+    decision = {
+      id = TUR_iron_crescent_raise_legionary_columns
+      icon = generic_army_reform
+      days_remove = 45
+      complete_effect = { add_manpower = 50000 army_experience = 8 add_stability = -0.01 }
+    }
+    decision = {
+      id = TUR_iron_crescent_forced_industrial_quotas
+      icon = generic_production
+      days_remove = 50
+      complete_effect = { add_timed_idea = { idea = aota_ottoman_tithe_of_steel days = 240 } add_stability = -0.02 }
+    }
+    decision = {
+      id = TUR_iron_crescent_frontier_incidents
+      icon = generic_border_war
+      days_remove = 30
+      complete_effect = { add_named_threat = { threat = 2 name = aota.2122.t } add_war_support = 0.02 }
+    }
+  }
 }

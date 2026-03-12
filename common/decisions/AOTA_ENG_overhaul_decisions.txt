@@ -1,4 +1,4 @@
-decision_categories = {
+categories = {
   aota_britain_imperial_management = {
     icon = generic_alliance
     allowed = { original_tag = ENG }

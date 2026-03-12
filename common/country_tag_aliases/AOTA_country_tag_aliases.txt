@@ -55,10 +55,6 @@ CNG = {
 	original_tag = COG
 	fallback = COG
 }
-ALGX = {
-	original_tag = ALG
-	fallback = ALG
-}
 UKX = {
 	original_tag = UKR
 	fallback = UKR
