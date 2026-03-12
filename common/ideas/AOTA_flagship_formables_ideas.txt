@@ -32,7 +32,7 @@ ideas = {
 		allowed = { original_tag = FRA }
 		modifier = {
 			stability_factor = 0.05
-			improve_relation_factor = 0.15
+			improve_relations_maintain_cost_factor = 0.15
 			political_power_factor = 0.04
 		}
 	}

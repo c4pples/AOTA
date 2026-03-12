@@ -9,7 +9,7 @@ ideas = {
     aota_imperial_bargaining = { picture = generic_improve_relations allowed = { always = yes } modifier = { stability_factor = 0.02 trade_opinion_factor = 10 } }
     aota_sterling_reconstruction = { picture = generic_trade allowed = { always = yes } modifier = { consumer_goods_factor = -0.02 production_speed_industrial_complex_factor = 0.05 } }
     aota_civil_defence_network = { picture = generic_air_production allowed = { always = yes } modifier = { air_accidents_factor = -0.1 } }
-    aota_concert_of_stability = { picture = generic_alliance allowed = { always = yes } modifier = { improve_relation_factor = 0.15 } }
+    aota_concert_of_stability = { picture = generic_alliance allowed = { always = yes } modifier = { improve_relations_maintain_cost_factor = 0.15 } }
     aota_colonial_discipline = { picture = generic_police allowed = { always = yes } modifier = { compliance_gain = 0.02 } }
     aota_dominion_obligations = { picture = generic_alliance allowed = { always = yes } modifier = { send_volunteer_divisions_required = -1 } }
     aota_hold_the_raj = { picture = generic_major_war allowed = { always = yes } modifier = { army_attack_factor = 0.03 } }

@@ -18,37 +18,48 @@ IND = {
 
 ### U.S. splinter aliases
 USC = {
+	original_tag = USA
 	tag = ACC
 }
 USR = {
+	original_tag = USA
 	tag = AWU
 }
 USN = {
+	original_tag = USA
 	tag = ANA
 }
 USP = {
+	original_tag = USA
 	tag = APF
 }
 USM = {
+	original_tag = USA
 	tag = ACG
 }
 USS = {
+	original_tag = USA
 	tag = ASL
 }
 USX = {
+	original_tag = USA
 	tag = CCW
 }
 
 ### Colonial / regional convenience aliases
 CNG = {
+	original_tag = CHI
 	tag = COG
 }
 UKX = {
+	original_tag = ENG
 	tag = UKR
 }
 IRL = {
+	original_tag = IRE
 	tag = IRE
 }
 FNX = {
+	original_tag = FIN
 	tag = FIN
 }

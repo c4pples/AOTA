@@ -2,7 +2,7 @@ characters = {
  AOTA_TUR_abdulmecid = {
   name = AOTA_TUR_abdulmecid_name
   portraits = { }
-  country_leader = { ideology = neutrality traits = { } desc = AOTA_TUR_abdulmecid_desc }
+  country_leader = { ideology = monarchist_subtype traits = { } desc = AOTA_TUR_abdulmecid_desc }
   advisor = { slot = political_advisor cost = 100 traits = { } allowed = { original_tag = TUR } }
  }
  AOTA_TUR_fevzi = {
@@ -54,7 +54,7 @@ characters = {
  AOTA_TUR_nazim_arslan = {
   name = AOTA_TUR_nazim_arslan_name
   portraits = { }
-  country_leader = { ideology = fascism traits = { } desc = AOTA_TUR_nazim_arslan_desc }
+  country_leader = { ideology = national_revivalist_subtype traits = { } desc = AOTA_TUR_nazim_arslan_desc }
   advisor = { slot = political_advisor cost = 150 traits = { fascist_demagogue } allowed = { original_tag = TUR } }
  }
  AOTA_TUR_sabiha_kandemir = {

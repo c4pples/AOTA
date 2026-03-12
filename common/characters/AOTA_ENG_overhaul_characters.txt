@@ -2,7 +2,7 @@ characters = {
   AOTA_ENG_neville_chamberlain = {
     name = AOTA_ENG_neville_chamberlain
     portraits = { civilian = { large = GFX_Portrait_Europe_Generic_new_8 } }
-    country_leader = { ideology = democratic desc = ENG_neville_chamberlain_desc traits = { } }
+    country_leader = { ideology = parliamentary_democrat_subtype desc = ENG_neville_chamberlain_desc traits = { } }
   }
   ENG_oswald_mosley_alt = {
     name = ENG_oswald_mosley_alt

@@ -3,7 +3,7 @@ ideas = {
     country = {
         aota_acc_remnant_bureaucracy = { picture = generic_political_reform allowed = { always = yes } modifier = { political_power_gain = -0.05 stability_factor = -0.05 } }
         aota_acc_bill_of_salvation = { picture = generic_political_reform allowed = { always = yes } modifier = { stability_factor = 0.06 democratic_drift = 0.05 } }
-        aota_acc_war_production = { picture = generic_production allowed = { always = yes } modifier = { production_speed_arms_factory_factor = 0.1 production_speed_arms_factory_factor = 0.1 } }
+        aota_acc_war_production = { picture = generic_production allowed = { always = yes } modifier = { production_speed_arms_factory_factor = 0.1 } }
         aota_acc_union_must_endure = { picture = generic_allies_build_infantry allowed = { always = yes } modifier = { war_support_factor = 0.1 army_org_factor = 0.05 } }
 
         aota_awu_workers_congress = { picture = generic_support_communism allowed = { always = yes } modifier = { political_power_gain = 0.08 communism_drift = 0.04 } }

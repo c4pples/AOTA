@@ -1,6 +1,6 @@
 
 characters = {
- GER_theodor_heuss_aota = { name = GER_theodor_heuss_aota portraits = { civilian = { large = "gfx/leaders/GER/AOTA_GER_wilhelm.png" } } country_leader = { ideology = democratic traits = { } desc = GER_theodor_heuss_aota_desc } advisor = { slot = political_advisor cost = 150 traits = { democratic_reformer } } }
+ GER_theodor_heuss_aota = { name = GER_theodor_heuss_aota portraits = { civilian = { large = "gfx/leaders/GER/AOTA_GER_wilhelm.png" } } country_leader = { ideology = parliamentary_democrat_subtype traits = { } desc = GER_theodor_heuss_aota_desc } advisor = { slot = political_advisor cost = 150 traits = { democratic_reformer } } }
  GER_ernst_niekisch_aota = { name = GER_ernst_niekisch_aota portraits = { civilian = { large = "gfx/leaders/GER/AOTA_GER_wilhelm.png" } } advisor = { slot = political_advisor cost = 150 traits = { communist_revolutionary } } }
  FRA_marc_sangnier_aota = { name = FRA_marc_sangnier_aota portraits = { civilian = { large = "gfx/leaders/FRA/AOTA_FRA_gamelin.png" } } advisor = { slot = political_advisor cost = 150 traits = { democratic_reformer } } }
  FRA_georges_valois_aota = { name = FRA_georges_valois_aota portraits = { civilian = { large = "gfx/leaders/FRA/AOTA_FRA_gamelin.png" } } advisor = { slot = political_advisor cost = 150 traits = { fascist_demagogue } } }
