@@ -5,7 +5,7 @@ ideas = {
         AOTA_CHI_command_state = { picture = idea_generic_major_war allowed = { original_tag = CHI } modifier = { war_support_factor = 0.06 army_attack_factor = 0.04 consumer_goods_factor = 0.02 } }
         AOTA_CHI_federal_bargain = { picture = idea_generic_democratic_unity allowed = { original_tag = CHI } modifier = { stability_factor = 0.05 political_power_gain = 0.03 consumer_goods_factor = 0.01 } }
         AOTA_CHI_mass_line_reconstruction = { picture = idea_generic_political_commissar allowed = { original_tag = CHI } modifier = { weekly_manpower = 600 production_speed_industrial_complex_factor = 0.05 stability_factor = -0.02 } }
-        AOTA_CHI_regional_command = { picture = idea_generic_allies_build_infantry allowed = { original_tag = CHI } modifier = { army_org_factor = 0.05 army_recovery_rate = 0.08 max_planning_factor = 0.05 } }
+        AOTA_CHI_regional_command = { picture = idea_generic_allies_build_infantry allowed = { original_tag = CHI } modifier = { army_org_factor = 0.05 army_org_regain = 0.08 max_planning_factor = 0.05 } }
         AOTA_CHI_reconstruction_bonds = { picture = idea_generic_construct_civ_factory allowed = { original_tag = CHI } modifier = { consumer_goods_factor = -0.03 production_speed_industrial_complex_factor = 0.08 industrial_capacity_factory = 0.03 } }
 
         AOTA_PRC_patchwork_revolution = { picture = idea_generic_political_commissar allowed = { original_tag = PRC } modifier = { stability_factor = -0.08 war_support_factor = 0.04 political_power_gain = -0.02 } }
@@ -19,7 +19,7 @@ ideas = {
         AOTA_GXC_southern_federal_machine = { picture = idea_generic_improve_relations allowed = { original_tag = GXC } modifier = { stability_factor = 0.04 political_power_gain = 0.03 consumer_goods_factor = 0.01 } }
         AOTA_YUN_mountain_arsenal_compacts = { picture = idea_generic_construct_mil_factory allowed = { original_tag = YUN } modifier = { army_defence_factor = 0.04 production_speed_arms_factory_factor = 0.06 } }
         AOTA_SHX_railway_garrison_state = { picture = idea_generic_defence allowed = { original_tag = SHX } modifier = { supply_consumption_factor = -0.05 army_org_factor = 0.04 } }
-        AOTA_XSM_frontier_commanderies = { picture = idea_generic_allies_build_infantry allowed = { original_tag = XSM } modifier = { cavalry_attack_factor = 0.08 army_attrition_factor = -0.06 } }
+        AOTA_XSM_frontier_commanderies = { picture = idea_generic_allies_build_infantry allowed = { original_tag = XSM } modifier = { cavalry_attack_factor = 0.08 attrition = -0.06 } }
         AOTA_SIK_governorate_of_corridors = { picture = idea_generic_trade allowed = { original_tag = SIK } modifier = { local_resources_factor = 0.08 trade_opinion_factor = 0.10 stability_factor = 0.02 } }
         AOTA_MEN_steppe_banner_administration = { picture = idea_generic_special_forces allowed = { original_tag = MEN } modifier = { cavalry_defence_factor = 0.08 army_speed_factor = 0.03 } }
         AOTA_MAN_concessionary_statecraft = { picture = idea_generic_foreign_policy allowed = { original_tag = MAN } modifier = { political_power_gain = 0.03 consumer_goods_factor = -0.02 industrial_capacity_factory = 0.03 } }
@@ -30,7 +30,7 @@ ideas = {
         AOTA_GXC_unification_program = { picture = idea_generic_major_war allowed = { original_tag = GXC } modifier = { army_attack_factor = 0.04 planning_speed = 0.05 } }
         AOTA_YUN_unification_program = { picture = idea_generic_major_war allowed = { original_tag = YUN } modifier = { army_defence_factor = 0.04 army_speed_factor = 0.03 } }
         AOTA_SHX_unification_program = { picture = idea_generic_major_war allowed = { original_tag = SHX } modifier = { army_org_factor = 0.05 supply_consumption_factor = -0.04 } }
-        AOTA_XSM_unification_program = { picture = idea_generic_major_war allowed = { original_tag = XSM } modifier = { cavalry_attack_factor = 0.10 army_attrition_factor = -0.05 } }
+        AOTA_XSM_unification_program = { picture = idea_generic_major_war allowed = { original_tag = XSM } modifier = { cavalry_attack_factor = 0.10 attrition = -0.05 } }
         AOTA_SIK_unification_program = { picture = idea_generic_major_war allowed = { original_tag = SIK } modifier = { stability_factor = 0.03 local_resources_factor = 0.05 } }
         AOTA_MEN_unification_program = { picture = idea_generic_major_war allowed = { original_tag = MEN } modifier = { cavalry_defence_factor = 0.10 army_speed_factor = 0.02 } }
         AOTA_MAN_unification_program = { picture = idea_generic_major_war allowed = { original_tag = MAN } modifier = { production_factory_max_efficiency_factor = 0.05 industrial_capacity_factory = 0.04 } }

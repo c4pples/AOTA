@@ -1,19 +1,7 @@
-decision_categories = {
-  AOTA_night_pact_category = {
-    icon = generic_major_war
-    visible = { OR = { has_country_flag = AOTA_GER_PRIMARY_VILLAIN has_country_flag = AOTA_SOFT_VILLAIN_MEMBER } }
-  }
-  AOTA_hope_front_category = {
-    icon = generic_democracy
-    visible = { OR = { has_country_flag = AOTA_ENG_HOPE_PATH has_country_flag = AOTA_HOPE_TARGETED } }
-  }
-  AOTA_hidden_ledger_category = {
-    icon = generic_trade
-    visible = { has_country_flag = AOTA_CUB_LEDGER_PATH }
-  }
-}
+AOTA_night_pact_category = {
+  icon = generic_major_war
+  visible = { OR = { has_country_flag = AOTA_GER_PRIMARY_VILLAIN has_country_flag = AOTA_SOFT_VILLAIN_MEMBER } }
 
-decisions = {
   AOTA_invite_to_night_pact = {
     icon = generic_alliance
     cost = 60
@@ -37,6 +25,7 @@ decisions = {
         country_event = { id = aota.5002 days = 1 }
       }
     }
+    ai_will_do = { factor = 4 }
   }
 
   AOTA_night_pact_financial_protocol = {
@@ -46,6 +35,7 @@ decisions = {
     visible = { has_country_flag = AOTA_SOFT_VILLAIN_MEMBER }
     available = { has_country_flag = AOTA_SOFT_VILLAIN_MEMBER }
     complete_effect = { add_ideas = aota_soft_villain_finance add_political_power = 35 }
+    ai_will_do = { factor = 3 }
   }
 
   AOTA_night_pact_security_protocol = {
@@ -55,7 +45,43 @@ decisions = {
     visible = { has_country_flag = AOTA_SOFT_VILLAIN_MEMBER }
     available = { has_country_flag = AOTA_SOFT_VILLAIN_MEMBER }
     complete_effect = { add_ideas = aota_soft_villain_security_exchange army_experience = 10 }
+    ai_will_do = { factor = 3 }
   }
+
+  AOTA_night_pact_client_audits = {
+    icon = generic_political_pressure
+    cost = 45
+    days_remove = 45
+    visible = { has_country_flag = AOTA_GER_PRIMARY_VILLAIN }
+    available = { has_country_flag = AOTA_SOFT_VILLAIN_ENGINE_ON }
+    complete_effect = {
+      add_political_power = 40
+      random_other_country = {
+        limit = { has_country_flag = AOTA_SOFT_VILLAIN_MEMBER }
+        add_stability = -0.01
+      }
+    }
+    ai_will_do = { factor = 2 }
+  }
+
+  AOTA_night_pact_proxy_credit = {
+    icon = generic_trade
+    cost = 40
+    days_remove = 45
+    visible = { has_country_flag = AOTA_SOFT_VILLAIN_MEMBER }
+    available = { has_country_flag = AOTA_SOFT_VILLAIN_MEMBER }
+    complete_effect = {
+      add_political_power = 30
+      add_stability = -0.01
+      add_ideas = aota_soft_villain_finance
+    }
+    ai_will_do = { factor = 3 }
+  }
+}
+
+AOTA_hope_front_category = {
+  icon = generic_democracy
+  visible = { OR = { has_country_flag = AOTA_ENG_HOPE_PATH has_country_flag = AOTA_HOPE_TARGETED } }
 
   AOTA_hope_issue_sanctions = {
     icon = generic_political_pressure
@@ -75,6 +101,7 @@ decisions = {
       }
       add_political_power = -20
     }
+    ai_will_do = { factor = 4 }
   }
 
   AOTA_hope_ship_reconstruction_aid = {
@@ -89,47 +116,7 @@ decisions = {
       add_political_power = -30
       add_war_support = -0.01
     }
-  }
-
-  AOTA_cub_export_compliance_battalions = {
-    icon = generic_war_propaganda
-    cost = 35
-    days_remove = 30
-    visible = { has_country_flag = AOTA_CUB_LEDGER_PATH }
-    available = { has_country_flag = AOTA_CUB_LEDGER_PATH }
-    complete_effect = {
-      add_ideas = aota_cub_debt_discipline
-      add_war_support = 0.02
-      add_stability = -0.01
-    }
-  }
-
-  AOTA_night_pact_client_audits = {
-    icon = generic_political_pressure
-    cost = 45
-    days_remove = 45
-    visible = { has_country_flag = AOTA_GER_PRIMARY_VILLAIN }
-    available = { has_country_flag = AOTA_SOFT_VILLAIN_ENGINE_ON }
-    complete_effect = {
-      add_political_power = 40
-      random_other_country = {
-        limit = { has_country_flag = AOTA_SOFT_VILLAIN_MEMBER }
-        add_stability = -0.01
-      }
-    }
-  }
-
-  AOTA_night_pact_proxy_credit = {
-    icon = generic_trade
-    cost = 40
-    days_remove = 45
-    visible = { has_country_flag = AOTA_SOFT_VILLAIN_MEMBER }
-    available = { has_country_flag = AOTA_SOFT_VILLAIN_MEMBER }
-    complete_effect = {
-      add_political_power = 30
-      add_stability = -0.01
-      add_ideas = aota_soft_villain_finance
-    }
+    ai_will_do = { factor = 2 }
   }
 
   AOTA_hope_refugee_corridors = {
@@ -143,6 +130,7 @@ decisions = {
       add_manpower = 20000
       add_stability = 0.01
     }
+    ai_will_do = { factor = 3 }
   }
 
   AOTA_hope_counter_propoganda_bureaus = {
@@ -158,6 +146,25 @@ decisions = {
         random_other_country = { limit = { has_country_flag = AOTA_SOFT_VILLAIN_MEMBER } add_stability = -0.01 }
       }
     }
+    ai_will_do = { factor = 3 }
   }
+}
 
+AOTA_hidden_ledger_category = {
+  icon = generic_trade
+  visible = { has_country_flag = AOTA_CUB_LEDGER_PATH }
+
+  AOTA_cub_export_compliance_battalions = {
+    icon = generic_war_propaganda
+    cost = 35
+    days_remove = 30
+    visible = { has_country_flag = AOTA_CUB_LEDGER_PATH }
+    available = { has_country_flag = AOTA_CUB_LEDGER_PATH }
+    complete_effect = {
+      add_ideas = aota_cub_debt_discipline
+      add_war_support = 0.02
+      add_stability = -0.01
+    }
+    ai_will_do = { factor = 4 }
+  }
 }

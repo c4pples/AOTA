@@ -1,9 +1,7 @@
-﻿
-category = {
-    id = AOTA_american_reunification
+AOTA_american_reunification = {
     icon = generic_major_war
     picture = GFX_AOTA_news_usa_collapse
-    visibility = {
+    visible = {
         OR = { tag = ACC tag = AWU tag = ANA tag = APF tag = ACG tag = ASL tag = CCW }
         has_war = yes
     }

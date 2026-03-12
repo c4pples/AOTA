@@ -20,7 +20,7 @@
       picture = generic_military_high_command
       allowed = { original_tag = UKR }
       modifier = {
-        army_recovery_rate = 0.05
+        army_org_regain = 0.05
         stability_factor = -0.02
       }
     }

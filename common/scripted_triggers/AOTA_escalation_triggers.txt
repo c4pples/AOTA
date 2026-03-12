@@ -1,0 +1,16 @@
+aota_is_escalation_minor_target = {
+    OR = {
+        tag = IRE
+        tag = FIN
+        tag = POR
+        tag = UKR
+        tag = BEL
+        tag = POL
+        tag = GRE
+        tag = LIT
+        tag = HUN
+        tag = ROM
+        tag = BUL
+        tag = SPR
+    }
+}

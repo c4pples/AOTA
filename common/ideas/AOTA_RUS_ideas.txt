@@ -8,7 +8,7 @@ ideas = {
     aota_rus_free_territories = { picture = generic_anarchism modifier = { stability_factor = -0.02 recruitable_population_factor = 0.05 local_resources_factor = 0.1 } }
     aota_rus_national_union = { picture = generic_fascism modifier = { war_support_factor = 0.1 army_attack_factor = 0.03 } }
     aota_rus_regional_liaison = { picture = generic_political_reform modifier = { political_power_gain = 0.1 compliance_gain = 0.01 } }
-    aota_rus_general_staff_reforms = { picture = generic_army_doctrine modifier = { army_experience_gain = 0.1 planning_speed = 0.05 } }
+    aota_rus_general_staff_reforms = { picture = generic_army_doctrine modifier = { army_experience_gain_factor = 0.1 planning_speed = 0.05 } }
     aota_rus_internal_compromise = { picture = generic_national_unity modifier = { stability_factor = 0.04 } }
     aota_rus_reunification_pressure = { picture = generic_war_support modifier = { justify_war_goal_time = -0.1 war_support_factor = 0.05 } }
     aota_rus_frontier_garrisons = { picture = generic_defensive_focus modifier = { dig_in_speed_factor = 0.1 max_dig_in = 2 } }

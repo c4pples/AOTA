@@ -1,5 +1,4 @@
-decisions = {
-	aota_flagship_formables = {
+AOTA_flagship_formables_category = {
 		icon = generic_diplomacy
 		allowed = { OR = { original_tag = GER original_tag = FRA original_tag = ITA } }
 		visible = { OR = { tag = GER tag = FRA tag = ITA } }
@@ -168,4 +167,3 @@ decisions = {
 			complete_effect = { country_event = { id = aota_formables.6 } }
 		}
 	}
-}

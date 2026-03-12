@@ -11,7 +11,7 @@ ideas = {
   aota_ottoman_german_missions = { picture = generic_trade allowed = { original_tag = TUR } modifier = { production_speed_arms_factory_factor = 0.1 production_factory_efficiency_gain_factor = 0.05 } }
   aota_ottoman_debt_restructuring = { picture = generic_consumer_goods allowed = { original_tag = TUR } modifier = { consumer_goods_factor = -0.05 stability_factor = 0.02 } }
   aota_ottoman_railways_of_empire = { picture = generic_construct_infrastructure allowed = { original_tag = TUR } modifier = { supply_node_range = 0.1 production_speed_infrastructure_factor = 0.1 } }
-  aota_ottoman_desert_armies = { picture = generic_army_reform allowed = { original_tag = TUR } modifier = { army_attrition_factor = -0.08 army_org_factor = 0.03 } }
+  aota_ottoman_desert_armies = { picture = generic_army_reform allowed = { original_tag = TUR } modifier = { attrition = -0.08 army_org_factor = 0.03 } }
   aota_ottoman_eastern_mediterranean_fleet = { picture = generic_navy_doctrines allowed = { original_tag = TUR } modifier = { naval_speed_factor = 0.05 navy_org_factor = 0.05 } }
   aota_ottoman_internal_security_apparatus = { picture = generic_police allowed = { original_tag = TUR } modifier = { resistance_target = -0.08 stability_factor = 0.03 } }
   aota_ottoman_arsenals_of_anatolia = { picture = generic_production allowed = { original_tag = TUR } modifier = { production_factory_max_efficiency_factor = 0.05 industrial_capacity_factory = 0.05 } }

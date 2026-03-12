@@ -144,7 +144,7 @@ ideas = {
             picture = idea_generic_improve_relations
             allowed = { always = yes }
             modifier = {
-                improve_relation = 0.2
+                improve_relation_modifier = 0.2
                 opinion_gain_monthly = 0.1
             }
         }
@@ -199,7 +199,7 @@ ideas = {
                 stability_factor = -0.10
                 weekly_manpower = 800
                 max_planning_factor = 0.10
-                army_recovery_rate = 0.08
+                army_org_regain = 0.08
             }
         }
         aota_serbian_black_march = {
@@ -352,7 +352,7 @@ ideas = {
             modifier = {
                 stability_factor = -0.04
                 weekly_manpower = 300
-                army_recovery_rate = -0.03
+                army_org_regain = -0.03
             }
         }
         aota_commune_momentum = {

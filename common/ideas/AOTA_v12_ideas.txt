@@ -4,10 +4,10 @@ ideas = {
         aota_german_constitutional_cabinet = { picture = GFX_idea_generic_political_reform allowed = { original_tag = GER } modifier = { stability_factor = 0.08 political_power_factor = 0.05 } }
         aota_german_reconstruction_front = { picture = GFX_idea_generic_construct_civ_factory allowed = { original_tag = GER } modifier = { industrial_capacity_factory = 0.05 consumer_goods_factor = -0.03 } }
         aota_french_republican_union = { picture = GFX_idea_generic_national_unity allowed = { original_tag = FRA } modifier = { stability_factor = 0.06 war_support_factor = 0.03 } }
-        aota_french_black_front = { picture = GFX_idea_generic_support_the_left_right allowed = { original_tag = FRA } modifier = { resistance_growth = 0.10 army_recovery_rate = 0.05 } }
+        aota_french_black_front = { picture = GFX_idea_generic_support_the_left_right allowed = { original_tag = FRA } modifier = { resistance_growth = 0.10 army_org_regain = 0.05 } }
         aota_american_contingency_plans = { picture = GFX_idea_generic_war_propaganda allowed = { original_tag = USA } modifier = { war_support_factor = 0.05 max_command_power = 10 } }
-        aota_imperial_preparedness = { picture = GFX_idea_generic_navy_doctrines allowed = { original_tag = ENG } modifier = { navy_experience_gain = 0.10 political_power_factor = 0.03 } }
-        aota_russian_reunification_staff = { picture = GFX_idea_generic_army_doctrines allowed = { original_tag = SOV } modifier = { army_experience_gain = 0.10 planning_speed = 0.05 } }
+        aota_imperial_preparedness = { picture = GFX_idea_generic_navy_doctrines allowed = { original_tag = ENG } modifier = { navy_experience_gain_factor = 0.10 political_power_factor = 0.03 } }
+        aota_russian_reunification_staff = { picture = GFX_idea_generic_army_doctrines allowed = { original_tag = SOV } modifier = { army_experience_gain_factor = 0.10 planning_speed = 0.05 } }
         aota_italian_industrial_trusts = { picture = GFX_idea_generic_production allowed = { original_tag = ITA } modifier = { industrial_capacity_factory = 0.05 production_factory_efficiency_gain_factor = 0.05 } }
         aota_greek_gamble = { picture = GFX_idea_generic_demand_territory_or_war allowed = { original_tag = GRE } modifier = { war_support_factor = 0.08 stability_factor = -0.03 } }
         aota_lithuanian_last_bastion = { picture = GFX_idea_generic_defence allowed = { original_tag = LIT } modifier = { dig_in_speed_factor = 0.15 stability_factor = 0.03 } }
