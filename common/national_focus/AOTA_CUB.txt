@@ -267,7 +267,7 @@ focus_tree = {
         cost = 10
         allow_branch = { has_country_flag = AOTA_CUB_ANCAP_PATH_OPEN }
         prerequisite = { focus = CUB_payroll_battalions }
-        completion_reward = { naval_experience = 15 add_war_support = 0.03 }
+        completion_reward = { navy_experience = 15 add_war_support = 0.03 }
     }
     focus = {
         id = CUB_antillean_non_compete_zone
@@ -385,7 +385,7 @@ focus_tree = {
         cost = 10
         allow_branch = { has_country_flag = AOTA_CUB_ANCAP_PATH_OPEN }
         prerequisite = { focus = CUB_quantify_the_citizen focus = CUB_blackwater_customs_service }
-        completion_reward = { naval_experience = 15 add_command_power = 10 }
+        completion_reward = { navy_experience = 15 add_command_power = 10 }
     }
     focus = {
         id = CUB_debtors_registry_of_the_antilles

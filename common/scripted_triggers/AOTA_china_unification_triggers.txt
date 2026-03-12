@@ -4,13 +4,11 @@ AOTA_china_unification_actor = {
 
 AOTA_china_has_major_rival = {
     any_country = {
-        limit = {
-            AOTA_china_unification_actor = yes
-            NOT = { tag = ROOT }
-            is_subject = no
-            exists = yes
-            has_capitulated = no
-        }
+        AOTA_china_unification_actor = yes
+        NOT = { tag = ROOT }
+        is_subject = no
+        exists = yes
+        has_capitulated = no
     }
 }
 

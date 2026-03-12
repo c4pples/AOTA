@@ -1,63 +1,66 @@
-ai_strategy = {
-    id = AOTA_JAP_pressure_china_when_resisted
+ai_strategy_plan = {
+    name = AOTA_JAP_pressure_china_when_resisted
+    desc = ""
     allowed = { tag = JAP }
-    abort_when_not_enabled = yes
     enable = {
         OR = {
             CHI = { has_country_flag = AOTA_china_resistance_line }
             PRC = { has_country_flag = AOTA_china_resistance_line }
         }
     }
-    strategy = { type = prepare_for_war id = CHI value = 95 }
-    strategy = { type = prepare_for_war id = PRC value = 95 }
+    abort = { always = no }
+    ai_strategy = { type = prepare_for_war id = CHI value = 95 }
+    ai_strategy = { type = prepare_for_war id = PRC value = 95 }
 }
 
-ai_strategy = {
-    id = AOTA_CHI_prioritize_japan_front
+ai_strategy_plan = {
+    name = AOTA_CHI_prioritize_japan_front
+    desc = ""
     allowed = { tag = CHI }
-    abort_when_not_enabled = yes
     enable = {
         has_country_flag = AOTA_china_resistance_line
         JAP = { exists = yes }
     }
-    strategy = { type = prepare_for_war id = JAP value = 120 }
+    abort = { always = no }
+    ai_strategy = { type = prepare_for_war id = JAP value = 120 }
 }
 
-ai_strategy = {
-    id = AOTA_PRC_prioritize_japan_front
+ai_strategy_plan = {
+    name = AOTA_PRC_prioritize_japan_front
+    desc = ""
     allowed = { tag = PRC }
-    abort_when_not_enabled = yes
     enable = {
         has_country_flag = AOTA_china_resistance_line
         JAP = { exists = yes }
     }
-    strategy = { type = prepare_for_war id = JAP value = 120 }
+    abort = { always = no }
+    ai_strategy = { type = prepare_for_war id = JAP value = 120 }
 }
 
-ai_strategy = {
-    id = AOTA_JAP_counter_reunified_china
+ai_strategy_plan = {
+    name = AOTA_JAP_counter_reunified_china
+    desc = ""
     allowed = { tag = JAP }
-    abort_when_not_enabled = yes
     enable = {
         any_country = {
-            limit = {
-                AOTA_china_unification_actor = yes
-                has_country_flag = AOTA_china_stage_reunified
-            }
+            AOTA_china_unification_actor = yes
+            has_country_flag = AOTA_china_stage_reunified
         }
     }
-    strategy = { type = prepare_for_war id = CHI value = 130 }
-    strategy = { type = prepare_for_war id = PRC value = 130 }
+    abort = { always = no }
+    ai_strategy = { type = prepare_for_war id = CHI value = 130 }
+    ai_strategy = { type = prepare_for_war id = PRC value = 130 }
 }
 
-ai_strategy = {
-    id = AOTA_CHINA_seek_legitimacy_before_wars
+ai_strategy_plan = {
+    name = AOTA_CHINA_seek_legitimacy_before_wars
+    desc = ""
     allowed = { AOTA_china_unification_actor = yes }
-    abort_when_not_enabled = yes
     enable = {
         has_country_flag = AOTA_china_unification_initialized
         NOT = { AOTA_china_legitimacy_at_least_40 = yes }
     }
-    strategy = { type = alliance id = PRC value = 30 }
-    strategy = { type = alliance id = CHI value = 30 }
+    abort = { always = no }
+    ai_strategy = { type = alliance id = PRC value = 30 }
+    ai_strategy = { type = alliance id = CHI value = 30 }
 }

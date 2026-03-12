@@ -197,12 +197,12 @@ country_event = {
             363 = { add_core_of = CCW set_state_owner = CCW }
             369 = { add_core_of = CCW set_state_owner = CCW }
             361 = { add_core_of = CCW }
-            AWU = { set_capital = 395 declare_war_on = { target = USA type = annex_everything } }
-            ANA = { set_capital = 375 declare_war_on = { target = USA type = annex_everything } }
-            APF = { set_capital = 378 declare_war_on = { target = USA type = annex_everything } }
-            ACG = { set_capital = 358 declare_war_on = { target = USA type = annex_everything } }
-            ASL = { set_capital = 150 declare_war_on = { target = USA type = annex_everything } }
-            CCW = { set_capital = 362 declare_war_on = { target = USA type = annex_everything } }
+            AWU = { set_capital = { state = 395 } declare_war_on = { target = USA type = annex_everything } }
+            ANA = { set_capital = { state = 375 } declare_war_on = { target = USA type = annex_everything } }
+            APF = { set_capital = { state = 378 } declare_war_on = { target = USA type = annex_everything } }
+            ACG = { set_capital = { state = 358 } declare_war_on = { target = USA type = annex_everything } }
+            ASL = { set_capital = { state = 150 } declare_war_on = { target = USA type = annex_everything } }
+            CCW = { set_capital = { state = 362 } declare_war_on = { target = USA type = annex_everything } }
             
             ACC = { country_event = { id = aota.210 days = 1 } }
             AWU = { country_event = { id = aota.211 days = 1 } }
@@ -249,9 +249,9 @@ country_event = {
             385 = { add_core_of = APF set_state_owner = APF }
             386 = { add_core_of = APF set_state_owner = APF }
             379 = { add_core_of = APF set_state_owner = APF }
-            AWU = { set_capital = 395 declare_war_on = { target = USA type = annex_everything } }
-            ANA = { set_capital = 375 declare_war_on = { target = USA type = annex_everything } }
-            APF = { set_capital = 378 declare_war_on = { target = USA type = annex_everything } }
+            AWU = { set_capital = { state = 395 } declare_war_on = { target = USA type = annex_everything } }
+            ANA = { set_capital = { state = 375 } declare_war_on = { target = USA type = annex_everything } }
+            APF = { set_capital = { state = 378 } declare_war_on = { target = USA type = annex_everything } }
             
             ACC = { country_event = { id = aota.210 days = 1 } }
             AWU = { country_event = { id = aota.211 days = 1 } }

@@ -947,7 +947,7 @@
         y = 16
         cost = 10
         prerequisite = { focus = ENG_ana_local_defence_leagues }
-        completion_reward = { add_trade_opinion_factor = 15 }
+        completion_reward = { }
     }
     focus = {
         id = ENG_ana_federation_of_communes
@@ -1010,7 +1010,7 @@
         y = 7
         cost = 10
         prerequisite = { focus = ENG_ind_civil_aviation_boards }
-        completion_reward = { add_infrastructure = 1 }
+        completion_reward = { every_controlled_state = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } } }
     }
     focus = {
         id = ENG_ind_imperial_raw_materials
