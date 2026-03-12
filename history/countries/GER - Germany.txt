@@ -79,3 +79,12 @@ add_ideas = aota_german_colonial_legacy
 recruit_character = AOTA_GER_hjalmar_schacht
 recruit_character = AOTA_GER_hans_von_seeckt
 recruit_character = AOTA_GER_carl_goerdeler
+
+
+if = {
+    limit = { NOT = { has_global_flag = AOTA_country_presence_resolved } }
+    set_global_flag = AOTA_country_presence_resolved
+    AOTA_resolve_country_presence = yes
+    every_country = { limit = { has_country_flag = AOTA_presence_keep_expand } country_event = { id = aota_country_presence.2 hours = 2 } }
+    every_country = { limit = { has_country_flag = AOTA_presence_background_state } country_event = { id = aota_country_presence.3 hours = 3 } }
+}

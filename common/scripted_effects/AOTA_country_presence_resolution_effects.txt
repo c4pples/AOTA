@@ -1,0 +1,66 @@
+AOTA_resolve_country_presence = {
+    # Absorptions
+    if = { limit = { AFA = { exists = yes } ETH = { exists = yes } } ETH = { annex_country = { target = AFA transfer_troops = no } } }
+    if = { limit = { TAN = { exists = yes } SOV = { exists = yes } } SOV = { annex_country = { target = TAN transfer_troops = no } } }
+
+    # Subordinate ring
+    if = { limit = { RAJ = { exists = yes } BHU = { exists = yes } } RAJ = { set_autonomy = { target = BHU autonomy_state = autonomy_puppet } } BHU = { add_ideas = aota_subordinate_administration set_rule = { can_create_factions = no } } }
+    if = { limit = { RAJ = { exists = yes } NEP = { exists = yes } } RAJ = { set_autonomy = { target = NEP autonomy_state = autonomy_puppet } } NEP = { add_ideas = aota_subordinate_administration set_rule = { can_create_factions = no } } }
+    if = { limit = { RAJ = { exists = yes } BRM = { exists = yes } } RAJ = { set_autonomy = { target = BRM autonomy_state = autonomy_puppet } } BRM = { add_ideas = aota_subordinate_administration set_rule = { can_create_factions = no } } }
+
+    if = { limit = { DEN = { exists = yes } ICE = { exists = yes } } DEN = { set_autonomy = { target = ICE autonomy_state = autonomy_puppet } } ICE = { add_ideas = aota_subordinate_administration set_rule = { can_create_factions = no } } }
+    if = { limit = { USA = { exists = yes } PHI = { exists = yes } } USA = { set_autonomy = { target = PHI autonomy_state = autonomy_dominion } } PHI = { add_ideas = aota_subordinate_administration set_rule = { can_create_factions = no } } }
+
+    if = { limit = { AUS = { exists = yes } SER = { exists = yes } } AUS = { set_autonomy = { target = SER autonomy_state = autonomy_puppet } } SER = { add_ideas = aota_subordinate_administration set_rule = { can_create_factions = no } } }
+
+    if = { limit = { TUR = { exists = yes } IRQ = { exists = yes } } TUR = { set_autonomy = { target = IRQ autonomy_state = autonomy_puppet } } IRQ = { add_ideas = aota_subordinate_administration set_rule = { can_create_factions = no } } }
+    if = { limit = { TUR = { exists = yes } SYR = { exists = yes } } TUR = { set_autonomy = { target = SYR autonomy_state = autonomy_puppet } } SYR = { add_ideas = aota_subordinate_administration set_rule = { can_create_factions = no } } }
+    if = { limit = { TUR = { exists = yes } KUW = { exists = yes } } TUR = { set_autonomy = { target = KUW autonomy_state = autonomy_puppet } } KUW = { add_ideas = aota_subordinate_administration set_rule = { can_create_factions = no } } }
+    if = { limit = { TUR = { exists = yes } OMA = { exists = yes } } TUR = { set_autonomy = { target = OMA autonomy_state = autonomy_puppet } } OMA = { add_ideas = aota_subordinate_administration set_rule = { can_create_factions = no } } }
+    if = { limit = { TUR = { exists = yes } YEM = { exists = yes } } TUR = { set_autonomy = { target = YEM autonomy_state = autonomy_puppet } } YEM = { add_ideas = aota_subordinate_administration set_rule = { can_create_factions = no } } }
+
+    # Kept and expanded actors (minimum viable package activation)
+    ALG = { if = { limit = { exists = yes } add_ideas = aota_minimum_viable_statecraft set_country_flag = AOTA_presence_keep_expand } }
+    BEL = { if = { limit = { exists = yes } add_ideas = aota_minimum_viable_statecraft set_country_flag = AOTA_presence_keep_expand } }
+    BUL = { if = { limit = { exists = yes } add_ideas = aota_minimum_viable_statecraft set_country_flag = AOTA_presence_keep_expand } }
+    COG = { if = { limit = { exists = yes } add_ideas = aota_minimum_viable_statecraft set_country_flag = AOTA_presence_keep_expand } }
+    EGY = { if = { limit = { exists = yes } add_ideas = aota_minimum_viable_statecraft set_country_flag = AOTA_presence_keep_expand } }
+    ETH = { if = { limit = { exists = yes } add_ideas = aota_minimum_viable_statecraft set_country_flag = AOTA_presence_keep_expand } }
+    GXC = { if = { limit = { exists = yes } add_ideas = aota_frontier_realignment_authority set_country_flag = AOTA_presence_keep_expand } }
+    MAN = { if = { limit = { exists = yes } add_ideas = aota_frontier_realignment_authority set_country_flag = AOTA_presence_keep_expand } }
+    MEN = { if = { limit = { exists = yes } add_ideas = aota_frontier_realignment_authority set_country_flag = AOTA_presence_keep_expand } }
+    PER = { if = { limit = { exists = yes } add_ideas = aota_minimum_viable_statecraft set_country_flag = AOTA_presence_keep_expand } }
+    POR = { if = { limit = { exists = yes } add_ideas = aota_minimum_viable_statecraft set_country_flag = AOTA_presence_keep_expand } }
+    SAU = { if = { limit = { exists = yes } add_ideas = aota_minimum_viable_statecraft set_country_flag = AOTA_presence_keep_expand } }
+    SHX = { if = { limit = { exists = yes } add_ideas = aota_frontier_realignment_authority set_country_flag = AOTA_presence_keep_expand } }
+    SIA = { if = { limit = { exists = yes } add_ideas = aota_minimum_viable_statecraft set_country_flag = AOTA_presence_keep_expand } }
+    SIK = { if = { limit = { exists = yes } add_ideas = aota_frontier_realignment_authority set_country_flag = AOTA_presence_keep_expand } }
+    SPR = { if = { limit = { exists = yes } add_ideas = aota_minimum_viable_statecraft set_country_flag = AOTA_presence_keep_expand } }
+    XSM = { if = { limit = { exists = yes } add_ideas = aota_frontier_realignment_authority set_country_flag = AOTA_presence_keep_expand } }
+    YUN = { if = { limit = { exists = yes } add_ideas = aota_frontier_realignment_authority set_country_flag = AOTA_presence_keep_expand } }
+    VEN = { if = { limit = { exists = yes } add_ideas = aota_minimum_viable_statecraft set_country_flag = AOTA_presence_keep_expand } }
+
+    # Constrained background states
+    every_country = {
+        limit = {
+            OR = {
+                tag = BOL tag = CHL tag = COL tag = COS tag = DOM tag = ECU tag = ELS
+                tag = GUA tag = HAI tag = HON tag = LIB tag = MON tag = NIC tag = PAN
+                tag = PAR tag = PRU tag = URG tag = TIB
+            }
+        }
+        add_ideas = aota_limited_strategic_bandwidth
+        set_rule = { can_create_factions = no }
+        set_country_flag = AOTA_presence_background_state
+    }
+
+    # Manual review case receives constrained starter package instead of full arc.
+    AFG = {
+        if = {
+            limit = { exists = yes }
+            add_ideas = aota_buffer_state_neutrality
+            set_rule = { can_create_factions = no }
+            set_country_flag = AOTA_presence_manual_review
+        }
+    }
+}

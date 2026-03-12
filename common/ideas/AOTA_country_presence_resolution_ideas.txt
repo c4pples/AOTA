@@ -1,0 +1,56 @@
+ideas = {
+  country = {
+    aota_subordinate_administration = {
+      picture = generic_political_pressure
+      allowed = { always = yes }
+      modifier = {
+        autonomy_gain = -0.2
+        political_power_gain = -0.05
+        justify_war_goal_time = 0.5
+      }
+    }
+
+    aota_minimum_viable_statecraft = {
+      picture = generic_political_reform
+      allowed = { always = yes }
+      modifier = {
+        stability_factor = 0.05
+        political_power_gain = 0.05
+        join_faction_tension = 0.2
+      }
+    }
+
+    aota_frontier_realignment_authority = {
+      picture = generic_military_staff
+      allowed = { always = yes }
+      modifier = {
+        stability_factor = 0.03
+        army_experience_gain_factor = 0.05
+        surrender_limit = 0.05
+        join_faction_tension = 0.3
+      }
+    }
+
+    aota_limited_strategic_bandwidth = {
+      picture = generic_neutrality_focus
+      allowed = { always = yes }
+      modifier = {
+        political_power_gain = -0.05
+        generate_wargoal_tension_limit = 1.0
+        justify_war_goal_time = 0.6
+        stability_factor = 0.04
+      }
+    }
+
+    aota_buffer_state_neutrality = {
+      picture = generic_diplomacy
+      allowed = { always = yes }
+      modifier = {
+        stability_factor = 0.06
+        drift_defence_factor = 0.1
+        join_faction_tension = 0.35
+        justify_war_goal_time = 0.5
+      }
+    }
+  }
+}

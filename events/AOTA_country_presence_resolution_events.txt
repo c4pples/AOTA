@@ -1,0 +1,30 @@
+add_namespace = aota_country_presence
+
+country_event = {
+    id = aota_country_presence.2
+    title = aota_country_presence.2.t
+    desc = aota_country_presence.2.d
+    picture = GFX_report_event_generic_propaganda
+    is_triggered_only = yes
+    trigger = { has_country_flag = AOTA_presence_keep_expand }
+
+    option = {
+        name = aota_country_presence.2.a
+        add_political_power = 35
+        add_stability = 0.02
+    }
+}
+
+country_event = {
+    id = aota_country_presence.3
+    title = aota_country_presence.3.t
+    desc = aota_country_presence.3.d
+    picture = GFX_report_event_generic_neutrality
+    is_triggered_only = yes
+    trigger = { has_country_flag = AOTA_presence_background_state }
+
+    option = {
+        name = aota_country_presence.3.a
+        add_stability = 0.03
+    }
+}
