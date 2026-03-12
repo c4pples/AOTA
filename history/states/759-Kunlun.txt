@@ -1,4 +1,4 @@
-﻿state={
+state={
 	id=759
 	name="STATE_759"
 	provinces={
@@ -39,7 +39,6 @@
 				}
 				remove_core_of = KHM
 			}	
-			owner = SIK
 			controller = SIK		
 		}
 

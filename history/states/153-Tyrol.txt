@@ -1,4 +1,4 @@
-﻿
+
 state={
 	id=153
 	name="STATE_153"
@@ -14,7 +14,6 @@ state={
 		}
 		add_core_of = AUS
 		1938.3.12 = {
-			owner = AUS
 			controller = AUS
 			add_core_of = GER
 		}

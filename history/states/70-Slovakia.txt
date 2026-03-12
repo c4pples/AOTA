@@ -1,4 +1,4 @@
-﻿state = {
+state = {
 
 	id = 70
 
@@ -40,7 +40,6 @@
 		add_core_of = SLO
 
 		1939.3.14 = {
-			owner = AUS
 			controller = AUS
 		}
 		

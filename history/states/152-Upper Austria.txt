@@ -1,4 +1,4 @@
-﻿state = {
+state = {
 	id = 152
 	name = "STATE_152"
 	manpower = 675377 # was 2275377
@@ -30,7 +30,6 @@
 		}
 
 		1938.3.12 = {
-			owner = AUS
 			controller = AUS
 			add_core_of = GER
 		}

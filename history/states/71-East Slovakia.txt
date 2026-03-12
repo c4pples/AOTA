@@ -1,4 +1,4 @@
-﻿state = {
+state = {
 	id = 71
 	name = "STATE_71"
 	manpower = 1197800
@@ -28,7 +28,6 @@
 		}
 
 		1939.3.14 = {
-			owner = AUS
 			controller = AUS
 		}
 	}
