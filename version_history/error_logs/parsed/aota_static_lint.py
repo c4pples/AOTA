@@ -10,6 +10,8 @@ CHECKS = [
     (Path("common/decisions"), re.compile(r"^(decision_categories|decisions)\s*=|^category\s*=", re.M), "legacy decision root wrapper"),
     (Path("events"), re.compile(r"\badd_opinion\s*=\s*\{"), "deprecated add_opinion effect"),
     (Path("events"), re.compile(r"\bbecome_subject\s*=\s*\{"), "deprecated become_subject effect"),
+    (Path("common/national_focus"), re.compile(r"\badd_autonomy_ratio\s*=\s*[-]?\d"), "legacy scalar add_autonomy_ratio syntax"),
+    (Path("common/characters"), re.compile(r"\bportrait_path\s*="), "legacy character portrait_path syntax"),
     (Path("common/ideas"), re.compile(r"\b(improve_relation|coastal_bunker_cost|operative_mission_speed|army_experience_gain|navy_experience_gain|army_recovery_rate|army_attrition_factor)\s*="), "legacy idea modifier token"),
 ]
 

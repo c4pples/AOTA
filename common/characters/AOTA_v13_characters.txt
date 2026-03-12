@@ -1,16 +1,16 @@
 
 characters = {
- GER_hans_delbruck_aota = { name = GER_hans_delbruck_aota portrait_path = "gfx/leaders/GER/AOTA_GER_wilhelm.png" advisor = { slot = political_advisor cost = 150 traits = { democratic_reformer } } }
- GER_arthur_moeller_aota = { name = GER_arthur_moeller_aota portrait_path = "gfx/leaders/GER/AOTA_GER_wilhelm.png" advisor = { slot = political_advisor cost = 150 traits = { fascist_demagogue } } }
- GER_gustav_landauer_aota = { name = GER_gustav_landauer_aota portrait_path = "gfx/leaders/GER/AOTA_GER_wilhelm.png" advisor = { slot = political_advisor cost = 150 traits = { communist_revolutionary } } }
- FRA_leon_blum_aota = { name = FRA_leon_blum_aota portrait_path = "gfx/leaders/FRA/AOTA_FRA_gamelin.png" advisor = { slot = political_advisor cost = 150 traits = { democratic_reformer } } }
- FRA_georges_bernanos_aota = { name = FRA_georges_bernanos_aota portrait_path = "gfx/leaders/FRA/AOTA_FRA_gamelin.png" advisor = { slot = political_advisor cost = 150 traits = { compassionate_gentleman } } }
- AUS_ignaz_seipel_aota = { name = AUS_ignaz_seipel_aota portrait_path = "gfx/leaders/AUS/AOTA_AUS_karl.png" advisor = { slot = political_advisor cost = 150 traits = { silent_workhorse } } }
- USA_william_dudley_pelley_aota = { name = USA_william_dudley_pelley_aota portrait_path = "gfx/leaders/USA/AOTA_USA_garner.png" advisor = { slot = political_advisor cost = 150 traits = { fascist_demagogue } } }
- USA_henry_george_jr_aota = { name = USA_henry_george_jr_aota portrait_path = "gfx/leaders/USA/AOTA_USA_garner.png" advisor = { slot = political_advisor cost = 150 traits = { backroom_backstabber } } }
- USA_dorothy_day_aota = { name = USA_dorothy_day_aota portrait_path = "gfx/leaders/USA/AOTA_USA_garner.png" advisor = { slot = political_advisor cost = 150 traits = { compassionate_gentleman } } }
- IRE_michael_collins_aota = { name = IRE_michael_collins_aota portrait_path = "gfx/leaders/ENG/AOTA_george_placeholder.png" advisor = { slot = political_advisor cost = 150 traits = { charismatic } } }
- FIN_mannerheim_aota = { name = FIN_mannerheim_aota portrait_path = "gfx/leaders/ENG/AOTA_george_placeholder.png" advisor = { slot = political_advisor cost = 150 traits = { war_industrialist } } }
- POR_salazar_aota = { name = POR_salazar_aota portrait_path = "gfx/leaders/ENG/AOTA_george_placeholder.png" advisor = { slot = political_advisor cost = 150 traits = { silent_workhorse } } }
- UKR_makhno_aota = { name = UKR_makhno_aota portrait_path = "gfx/leaders/SOV/AOTA_russian_regent.png" advisor = { slot = political_advisor cost = 150 traits = { communist_revolutionary } } }
+ GER_hans_delbruck_aota = { name = GER_hans_delbruck_aota portraits = { civilian = { large = "gfx/leaders/GER/AOTA_GER_wilhelm.png" } } advisor = { slot = political_advisor cost = 150 traits = { democratic_reformer } } }
+ GER_arthur_moeller_aota = { name = GER_arthur_moeller_aota portraits = { civilian = { large = "gfx/leaders/GER/AOTA_GER_wilhelm.png" } } advisor = { slot = political_advisor cost = 150 traits = { fascist_demagogue } } }
+ GER_gustav_landauer_aota = { name = GER_gustav_landauer_aota portraits = { civilian = { large = "gfx/leaders/GER/AOTA_GER_wilhelm.png" } } advisor = { slot = political_advisor cost = 150 traits = { communist_revolutionary } } }
+ FRA_leon_blum_aota = { name = FRA_leon_blum_aota portraits = { civilian = { large = "gfx/leaders/FRA/AOTA_FRA_gamelin.png" } } advisor = { slot = political_advisor cost = 150 traits = { democratic_reformer } } }
+ FRA_georges_bernanos_aota = { name = FRA_georges_bernanos_aota portraits = { civilian = { large = "gfx/leaders/FRA/AOTA_FRA_gamelin.png" } } advisor = { slot = political_advisor cost = 150 traits = { compassionate_gentleman } } }
+ AUS_ignaz_seipel_aota = { name = AUS_ignaz_seipel_aota portraits = { civilian = { large = "gfx/leaders/AUS/AOTA_AUS_karl.png" } } advisor = { slot = political_advisor cost = 150 traits = { silent_workhorse } } }
+ USA_william_dudley_pelley_aota = { name = USA_william_dudley_pelley_aota portraits = { civilian = { large = "gfx/leaders/USA/AOTA_USA_garner.png" } } advisor = { slot = political_advisor cost = 150 traits = { fascist_demagogue } } }
+ USA_henry_george_jr_aota = { name = USA_henry_george_jr_aota portraits = { civilian = { large = "gfx/leaders/USA/AOTA_USA_garner.png" } } advisor = { slot = political_advisor cost = 150 traits = { backroom_backstabber } } }
+ USA_dorothy_day_aota = { name = USA_dorothy_day_aota portraits = { civilian = { large = "gfx/leaders/USA/AOTA_USA_garner.png" } } advisor = { slot = political_advisor cost = 150 traits = { compassionate_gentleman } } }
+ IRE_michael_collins_aota = { name = IRE_michael_collins_aota portraits = { civilian = { large = "gfx/leaders/ENG/AOTA_george_placeholder.png" } } advisor = { slot = political_advisor cost = 150 traits = { charismatic } } }
+ FIN_mannerheim_aota = { name = FIN_mannerheim_aota portraits = { civilian = { large = "gfx/leaders/ENG/AOTA_george_placeholder.png" } } advisor = { slot = political_advisor cost = 150 traits = { war_industrialist } } }
+ POR_salazar_aota = { name = POR_salazar_aota portraits = { civilian = { large = "gfx/leaders/ENG/AOTA_george_placeholder.png" } } advisor = { slot = political_advisor cost = 150 traits = { silent_workhorse } } }
+ UKR_makhno_aota = { name = UKR_makhno_aota portraits = { civilian = { large = "gfx/leaders/SOV/AOTA_russian_regent.png" } } advisor = { slot = political_advisor cost = 150 traits = { communist_revolutionary } } }
 }
