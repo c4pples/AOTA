@@ -16,7 +16,7 @@ ideas = {
         aota_ana_national_crusade = { picture = generic_major_war allowed = { always = yes } modifier = { justify_war_goal_time = -0.1 war_support_factor = 0.08 } }
 
         aota_apf_harbor_republic = { picture = generic_trade allowed = { always = yes } modifier = { trade_opinion_factor = 0.15 stability_factor = 0.04 } }
-        aota_apf_setting_sun = { picture = generic_air_fighter2 allowed = { always = yes } modifier = { air_experience_gain_factor = 0.1 naval_speed_factor = 0.05 } }
+        aota_apf_setting_sun = { picture = generic_air_fighter2 allowed = { always = yes } modifier = { experience_gain_air_factor = 0.1 naval_speed_factor = 0.05 } }
 
         aota_acg_boardroom_state = { picture = generic_trade allowed = { always = yes } modifier = { political_power_gain = 0.08 market_radicalism_drift = 0.06 consumer_goods_factor = -0.03 } }
         aota_acg_private_security = { picture = generic_allies_build_infantry allowed = { always = yes } modifier = { army_defence_factor = 0.05 army_org_factor = -0.02 } }

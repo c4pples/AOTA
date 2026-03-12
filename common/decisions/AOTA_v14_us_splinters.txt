@@ -1,6 +1,5 @@
 AOTA_american_reunification = {
     icon = generic_major_war
-    picture = GFX_AOTA_news_usa_collapse
     visible = {
         OR = { tag = ACC tag = AWU tag = ANA tag = APF tag = ACG tag = ASL tag = CCW }
         has_war = yes
@@ -59,7 +58,7 @@ AOTA_american_reunification = {
         available = { tag = ACG has_completed_focus = ACG_dividends_before_dawn }
         visible = { tag = ACG }
         cost = 50
-        complete_effect = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+        complete_effect = { capital_scope = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } } }
     }
 
     ASL_raise_new_county_columns = {

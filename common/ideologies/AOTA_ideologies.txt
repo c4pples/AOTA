@@ -101,4 +101,127 @@ ideologies = {
         }
         war_impact_on_world_tension = 0.55
     }
+
+    # Compatibility ideologies for legacy content still referenced by AOTA and vanilla files
+    marxism = {
+        types = { marxism_subtype = {} }
+        color = { 205 20 20 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = yes can_puppet = yes can_send_volunteers = yes }
+        war_impact_on_world_tension = 1
+    }
+    stalinism = {
+        types = { stalinism_subtype = {} }
+        color = { 190 15 15 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = yes can_puppet = yes can_send_volunteers = yes }
+        war_impact_on_world_tension = 1
+    }
+    socialism = {
+        types = { socialism_subtype = {} }
+        color = { 210 40 40 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = yes can_puppet = yes can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.95
+    }
+    leninism = {
+        types = { leninism_subtype = {} }
+        color = { 180 20 20 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = yes can_puppet = yes can_send_volunteers = yes }
+        war_impact_on_world_tension = 1
+    }
+    anti_revisionism = {
+        types = { anti_revisionism_subtype = {} }
+        color = { 170 20 20 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = yes can_puppet = yes can_send_volunteers = yes }
+        war_impact_on_world_tension = 1
+    }
+    anarchist_communism = {
+        types = { anarchist_communism_subtype = {} }
+        color = { 45 45 45 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = yes can_puppet = no can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.9
+    }
+    nazism = {
+        types = { nazism_subtype = {} }
+        color = { 85 50 25 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = yes can_puppet = yes can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.5
+    }
+    fascism_ideology = {
+        types = { fascism_ideology_subtype = {} }
+        color = { 85 50 25 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = yes can_puppet = yes can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.5
+    }
+    falangism = {
+        types = { falangism_subtype = {} }
+        color = { 95 55 25 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = yes can_puppet = yes can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.5
+    }
+    rexism = {
+        types = { rexism_subtype = {} }
+        color = { 90 55 35 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = yes can_puppet = yes can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.5
+    }
+    gen_nazism = {
+        types = { gen_nazism_subtype = {} }
+        color = { 90 45 20 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = yes can_puppet = yes can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.5
+    }
+    emperor_fascism = {
+        types = { emperor_fascism_subtype = {} }
+        color = { 95 60 25 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = yes can_puppet = yes can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.5
+    }
+    japan_militarism_ideology = {
+        types = { japan_militarism_subtype = {} }
+        color = { 95 55 25 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = yes can_puppet = yes can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.5
+    }
+    liberalism = {
+        types = { liberalism_subtype = {} }
+        color = { 0 106 167 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = no can_puppet = no can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.75
+    }
+    conservatism = {
+        types = { conservatism_subtype = {} }
+        color = { 0 102 155 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = no can_puppet = no can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.75
+    }
+    centrism = {
+        types = { centrism_subtype = {} }
+        color = { 20 110 170 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = no can_puppet = no can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.75
+    }
+    moderatism = {
+        types = { moderatism_subtype = {} }
+        color = { 10 108 165 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = no can_puppet = no can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.75
+    }
+    populism = {
+        types = { populism_subtype = {} }
+        color = { 15 118 165 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = no can_puppet = no can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.75
+    }
+    despotism = {
+        types = { despotism_subtype = {} }
+        color = { 90 90 90 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = no can_puppet = yes can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.5
+    }
+    oligarchism = {
+        types = { oligarchism_subtype = {} }
+        color = { 90 90 90 }
+        rules = { can_join_factions = yes can_create_factions = yes can_force_government = no can_puppet = yes can_send_volunteers = yes }
+        war_impact_on_world_tension = 0.5
+    }
+
 }

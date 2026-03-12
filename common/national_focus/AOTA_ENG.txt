@@ -974,7 +974,7 @@
         y = 3
         cost = 7
         prerequisite = { focus = ENG_treasury_emergency }
-        completion_reward = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+        completion_reward = { capital_scope = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } } }
     }
     focus = {
         id = ENG_ind_coal_to_power
@@ -992,7 +992,7 @@
         y = 5
         cost = 10
         prerequisite = { focus = ENG_ind_coal_to_power }
-        completion_reward = { add_building_construction = { type = dockyard level = 1 instant_build = yes } }
+        completion_reward = { capital_scope = { add_building_construction = { type = dockyard level = 1 instant_build = yes } } }
     }
     focus = {
         id = ENG_ind_civil_aviation_boards
@@ -1055,7 +1055,7 @@
         y = 12
         cost = 10
         prerequisite = { focus = ENG_ind_housing_program }
-        completion_reward = { add_building_construction = { type = refinery level = 1 instant_build = yes } }
+        completion_reward = { capital_scope = { add_building_construction = { type = refinery level = 1 instant_build = yes } } }
     }
     focus = {
         id = ENG_ind_commonwealth_standards
@@ -1109,7 +1109,7 @@
         y = 18
         cost = 10
         prerequisite = { focus = ENG_ind_rearmament_commission }
-        completion_reward = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+        completion_reward = { capital_scope = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } } }
     }
     focus = {
         id = ENG_mil_home_army_review

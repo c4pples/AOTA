@@ -51,7 +51,7 @@ ideas = {
         original_tag = ENG
       }
       modifier = {
-        navy_experience_gain_factor = 0.10 political_power_factor = 0.03
+        experience_gain_navy_factor = 0.10 political_power_factor = 0.03
       }
     }
     aota_russian_reunification_staff = {
@@ -60,7 +60,7 @@ ideas = {
         original_tag = SOV
       }
       modifier = {
-        army_experience_gain_factor = 0.10 planning_speed = 0.05
+        experience_gain_army_factor = 0.10 planning_speed = 0.05
       }
     }
     aota_italian_industrial_trusts = {

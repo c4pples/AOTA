@@ -37,7 +37,7 @@ ideas = {
       picture = generic_construct_civ_factory
       allowed = { original_tag = COG }
       modifier = {
-        resource_gain_factor = 0.08
+        local_resources_factor = 0.08
         consumer_goods_factor = 0.02
         stability_factor = -0.03
       }

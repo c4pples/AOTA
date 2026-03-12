@@ -18,7 +18,7 @@ focus_tree = {
                 if = { limit = { has_idea = aota_usa_constitutional_breakdown_stage_2 } remove_ideas = aota_usa_constitutional_breakdown_stage_2 }
             }
              add_stability = 0.06 add_ideas = aota_ccw_common_prayer } }
-    focus = { id = CCW_houses_of_hospitality icon = GFX_goal_generic_construct_civ_factory x = 3 y = 1 cost = 5 prerequisite = { focus = CCW_the_common_prayer } completion_reward = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } } }
+    focus = { id = CCW_houses_of_hospitality icon = GFX_goal_generic_construct_civ_factory x = 3 y = 1 cost = 5 prerequisite = { focus = CCW_the_common_prayer } completion_reward = { capital_scope = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } } } }
     focus = { id = CCW_gospel_and_commune icon = GFX_goal_support_anarchism x = 5 y = 1 cost = 5 prerequisite = { focus = CCW_the_common_prayer } completion_reward = { add_popularity = { ideology = anarchism popularity = 0.1 } } }
     focus = { id = CCW_shield_the_small_parishes icon = GFX_goal_generic_defence x = 7 y = 1 cost = 5 prerequisite = { focus = CCW_the_common_prayer } completion_reward = { army_experience = 10 } }
 

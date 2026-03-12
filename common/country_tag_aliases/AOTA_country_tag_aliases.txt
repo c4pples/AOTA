@@ -1,27 +1,54 @@
 ### AOTA compatibility and script convenience aliases
-### These do not change ownership by themselves.
-### They give future events/decisions a stable semantic handle.
+### Pattern aligned with KR tag_aliases: alias key maps via a scope block.
 
 ### Surviving Ottoman state
-OTT = TUR
+OTT = {
+	original_tag = TUR
+}
 
 ### Danubian / Habsburg state, regardless of cosmetic presentation
-DNB = AUS
+DNB = {
+	original_tag = AUS
+}
 
 ### Unified Raj handle
-IND = RAJ
+IND = {
+	original_tag = RAJ
+}
 
 ### U.S. splinter aliases
-USC = ACC
-USR = AWU
-USN = ANA
-USP = APF
-USM = ACG
-USS = ASL
-USX = CCW
+USC = {
+	tag = ACC
+}
+USR = {
+	tag = AWU
+}
+USN = {
+	tag = ANA
+}
+USP = {
+	tag = APF
+}
+USM = {
+	tag = ACG
+}
+USS = {
+	tag = ASL
+}
+USX = {
+	tag = CCW
+}
 
 ### Colonial / regional convenience aliases
-CNG = COG
-UKX = UKR
-IRL = IRE
-FNX = FIN
+CNG = {
+	tag = COG
+}
+UKX = {
+	tag = UKR
+}
+IRL = {
+	tag = IRE
+}
+FNX = {
+	tag = FIN
+}

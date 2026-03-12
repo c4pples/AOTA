@@ -191,9 +191,9 @@ focus_tree = {
   focus = {
     id = ALG_survey_the_colony icon = GFX_goal_generic_construct_civ_factory x = 21 y = 0 cost = 5
     completion_reward = {
-      add_building_construction = {
+      capital_scope = { add_building_construction = {
         type = industrial_complex level = 1 instant_build = yes
-      }
+      } }
     }
   }
   focus = {
@@ -202,9 +202,9 @@ focus_tree = {
       focus = ALG_survey_the_colony
     }
     completion_reward = {
-      add_building_construction = {
+      capital_scope = { add_building_construction = {
         type = industrial_complex level = 1 instant_build = yes
-      }
+      } }
       add_stability = 0.02
     }
   }
@@ -214,9 +214,9 @@ focus_tree = {
       focus = ALG_survey_the_colony
     }
     completion_reward = {
-      add_building_construction = {
+      capital_scope = { add_building_construction = {
         type = infrastructure level = 1 instant_build = yes
-      }
+      } }
       add_command_power = 10
     }
   }
@@ -226,9 +226,9 @@ focus_tree = {
       focus = ALG_survey_the_colony
     }
     completion_reward = {
-      add_building_construction = {
+      capital_scope = { add_building_construction = {
         type = arms_factory level = 1 instant_build = yes
-      }
+      } }
     }
   }
   focus = {
@@ -255,9 +255,9 @@ focus_tree = {
       focus = ALG_colonial_workshops
     }
     completion_reward = {
-      add_building_construction = {
+      capital_scope = { add_building_construction = {
         type = arms_factory level = 1 instant_build = yes
-      }
+      } }
       add_war_support = 0.03
     }
   }
@@ -313,9 +313,9 @@ focus_tree = {
       focus = ALG_expand_the_army_of_africa
     }
     completion_reward = {
-      add_building_construction = {
+      capital_scope = { add_building_construction = {
         type = arms_factory level = 1 instant_build = yes
-      }
+      } }
     }
   }
   focus = {

@@ -144,7 +144,7 @@ ideas = {
             picture = idea_generic_improve_relations
             allowed = { always = yes }
             modifier = {
-                improve_relation_modifier = 0.2
+                improve_relation_factor = 0.2
                 opinion_gain_monthly = 0.1
             }
         }

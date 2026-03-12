@@ -8,7 +8,7 @@ focus_tree = {
 
     focus = { id = CUB_crossroads_of_the_caribbean icon = GFX_goal_generic_national_unity x = 10 y = 0 cost = 5 completion_reward = { add_political_power = 80 add_stability = 0.02 } }
     focus = { id = CUB_guard_the_republic icon = GFX_goal_support_democracy x = 7 y = 1 cost = 5 prerequisite = { focus = CUB_crossroads_of_the_caribbean } completion_reward = { add_stability = 0.03 add_political_power = 35 } }
-    focus = { id = CUB_sugar_and_customhouses icon = GFX_goal_generic_trade x = 10 y = 1 cost = 5 prerequisite = { focus = CUB_crossroads_of_the_caribbean } completion_reward = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } } }
+    focus = { id = CUB_sugar_and_customhouses icon = GFX_goal_generic_trade x = 10 y = 1 cost = 5 prerequisite = { focus = CUB_crossroads_of_the_caribbean } completion_reward = { capital_scope = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } } } }
     focus = { id = CUB_watch_the_florida_strait icon = GFX_goal_generic_major_war x = 13 y = 1 cost = 5 prerequisite = { focus = CUB_crossroads_of_the_caribbean } completion_reward = { add_war_support = 0.03 } }
 
     # === SECRET ANCAP BRANCH (gated behind AOTA_CUB_ANCAP_PATH_OPEN flag) ===
@@ -65,7 +65,7 @@ focus_tree = {
         allow_branch = { has_country_flag = AOTA_CUB_ANCAP_PATH_OPEN }
         prerequisite = { focus = CUB_harbor_the_executives }
         completion_reward = {
-            add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+            capital_scope = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
             add_political_power = 40
         }
     }
@@ -102,8 +102,8 @@ focus_tree = {
         allow_branch = { has_country_flag = AOTA_CUB_ANCAP_PATH_OPEN }
         prerequisite = { focus = CUB_free_port_charters }
         completion_reward = {
-            add_building_construction = { type = dockyard level = 1 instant_build = yes }
-            add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+            capital_scope = { add_building_construction = { type = dockyard level = 1 instant_build = yes } }
+            capital_scope = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
         }
     }
     focus = {
@@ -146,7 +146,7 @@ focus_tree = {
         allow_branch = { has_country_flag = AOTA_CUB_ANCAP_PATH_OPEN }
         prerequisite = { focus = CUB_auction_the_docks focus = CUB_franchise_the_customs_service }
         completion_reward = {
-            add_building_construction = { type = industrial_complex level = 2 instant_build = yes }
+            capital_scope = { add_building_construction = { type = industrial_complex level = 2 instant_build = yes } }
             add_ideas = aota_cub_charter_havana
         }
     }
@@ -158,8 +158,8 @@ focus_tree = {
         allow_branch = { has_country_flag = AOTA_CUB_ANCAP_PATH_OPEN }
         prerequisite = { focus = CUB_franchise_the_customs_service focus = CUB_contract_the_shantytowns }
         completion_reward = {
-            add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
-            add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+            capital_scope = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+            capital_scope = { add_building_construction = { type = infrastructure level = 1 instant_build = yes } }
         }
     }
     focus = {
@@ -256,7 +256,7 @@ focus_tree = {
         allow_branch = { has_country_flag = AOTA_CUB_ANCAP_PATH_OPEN }
         prerequisite = { focus = CUB_the_right_to_exit }
         completion_reward = {
-            add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+            capital_scope = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
             add_political_power = 35
         }
     }

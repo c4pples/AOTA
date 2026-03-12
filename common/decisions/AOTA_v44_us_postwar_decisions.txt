@@ -1,6 +1,5 @@
 AOTA_american_postwar_settlement = {
     icon = generic_political_reform
-    picture = GFX_AOTA_news_usa_collapse
     visible = { OR = { tag = ACC tag = AWU tag = ANA tag = APF tag = ACG tag = ASL } has_war = no }
     allowed = { original_tag = USA }
 
