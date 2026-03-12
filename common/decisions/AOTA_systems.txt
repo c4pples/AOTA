@@ -1,6 +1,5 @@
 AOTA_revolutionary_rivalry_category = {
     icon = generic_production
-    allowed = { OR = { has_idea = aota_anarchist_agitation has_idea = aota_commune_momentum } }
     visible = { OR = { has_idea = aota_anarchist_agitation has_idea = aota_commune_momentum } }
 
     AOTA_back_the_communes = {

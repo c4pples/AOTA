@@ -1,6 +1,5 @@
 AOTA_china_unification_category = {
     icon = generic_national_unity
-    allowed = { AOTA_china_unification_actor = yes }
     visible = { AOTA_china_unification_actor = yes }
 
     AOTA_china_initialize_legitimacy_framework = {

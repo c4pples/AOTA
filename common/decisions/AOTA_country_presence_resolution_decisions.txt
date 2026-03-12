@@ -1,6 +1,5 @@
 AOTA_country_presence_statecraft_category = {
     icon = generic_diplomacy
-    allowed = { has_country_flag = AOTA_presence_keep_expand }
     visible = { has_country_flag = AOTA_presence_keep_expand }
 
     AOTA_presence_regional_compact = {
@@ -40,7 +39,6 @@ AOTA_country_presence_statecraft_category = {
 
 AOTA_country_presence_background_category = {
     icon = generic_neutrality_focus
-    allowed = { has_country_flag = AOTA_presence_background_state }
     visible = { has_country_flag = AOTA_presence_background_state }
 
     AOTA_presence_reaffirm_neutrality = {

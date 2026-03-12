@@ -3,4 +3,11 @@ aota_imperial_solidarity = {
  value = 25
  decay = 0
 }
+
+aota_ottoman_war_alarm = {
+    value = -60
+    decay = 1
+    min = -80
+    max = 0
+}
 }

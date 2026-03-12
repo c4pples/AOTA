@@ -37,7 +37,6 @@ country_event = {
     option = {
         name = aota_china_unification.30.a
         ai_chance = { factor = 55 }
-        become_subject = ROOT
         set_autonomy = { target = ROOT autonomy_state = autonomy_puppet }
         add_opinion_modifier = { target = ROOT modifier = aota_trade_friendliness }
         ROOT = {
@@ -66,7 +65,6 @@ country_event = {
     option = {
         name = aota_china_unification.40.a
         ai_chance = { factor = 40 }
-        become_subject = ROOT
         set_autonomy = { target = ROOT autonomy_state = autonomy_integrated_puppet }
         ROOT = { AOTA_china_gain_legitimacy_medium = yes add_war_support = 0.01 }
     }
