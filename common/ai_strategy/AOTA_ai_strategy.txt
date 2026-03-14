@@ -1,5 +1,4 @@
 ai_strategy_plan = {
-	name = aota_general_strategies
 	allowed = { always = yes }
 	enable = { always = yes }
 	abort = { always = no }
@@ -16,7 +15,7 @@ ai_strategy_plan = {
 	}
 	ai_strategy = {
 		type = area_defense
-		id = "361"
+		id = 361
 		value = 200
 	}
 }
