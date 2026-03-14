@@ -18,7 +18,7 @@ aota_controls_capital_of_egy = { EGY = { capital_scope = { is_owned_by = ROOT is
 aota_ger_reichsordnung_territorial_req = {
 	tag = GER
 	has_government = fascism
-	num_owned_and_controlled_states > 140
+	num_owned_states > 140
 	aota_controls_capital_of_fra = yes
 	aota_controls_capital_of_pol = yes
 	aota_controls_capital_of_bel = yes
@@ -35,7 +35,7 @@ aota_ger_reichsordnung_territorial_req = {
 aota_ger_compact_territorial_req = {
 	tag = GER
 	OR = { has_government = democratic has_government = neutrality }
-	num_owned_and_controlled_states > 95
+	num_owned_states > 95
 	aota_controls_capital_of_aut = yes
 	aota_controls_capital_of_cze = yes
 	aota_controls_capital_of_pol = yes
@@ -58,7 +58,7 @@ aota_ger_compact_territorial_req = {
 aota_fra_hegemonie_territorial_req = {
 	tag = FRA
 	OR = { has_government = fascism has_government = communism }
-	num_owned_and_controlled_states > 130
+	num_owned_states > 130
 	aota_controls_capital_of_ger = yes
 	aota_controls_capital_of_ita = yes
 	aota_controls_capital_of_bel = yes
@@ -73,7 +73,7 @@ aota_fra_hegemonie_territorial_req = {
 aota_fra_union_territorial_req = {
 	tag = FRA
 	OR = { has_government = democratic has_government = neutrality has_government = anarchism }
-	num_owned_and_controlled_states > 80
+	num_owned_states > 80
 	is_faction_leader = yes
 	num_faction_members > 7
 	FRA = { is_in_faction_with = ROOT }
@@ -88,7 +88,7 @@ aota_fra_union_territorial_req = {
 aota_ita_imperium_territorial_req = {
 	tag = ITA
 	OR = { has_government = fascism has_government = neutrality }
-	num_owned_and_controlled_states > 110
+	num_owned_states > 110
 	aota_controls_capital_of_fra = yes
 	aota_controls_capital_of_yug = yes
 	aota_controls_capital_of_gre = yes
@@ -102,7 +102,7 @@ aota_ita_imperium_territorial_req = {
 aota_ita_concordat_territorial_req = {
 	tag = ITA
 	OR = { has_government = democratic has_government = communism }
-	num_owned_and_controlled_states > 75
+	num_owned_states > 75
 	is_faction_leader = yes
 	num_faction_members > 6
 	FRA = { is_in_faction_with = ROOT }

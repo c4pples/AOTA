@@ -4,7 +4,7 @@ aota_britain_imperial_management = {
         cost = 50
         days_remove = 30
         visible = { has_country_flag = ENG_britain_overhaul_enabled }
-        available = { political_power > 50 }
+        available = { always = yes }
         complete_effect = { add_stability = 0.02 }
     }
     ENG_issue_white_paper = {
@@ -12,7 +12,7 @@ aota_britain_imperial_management = {
         cost = 35
         days_remove = 20
         visible = { has_country_flag = ENG_britain_overhaul_enabled }
-        available = { political_power > 35 }
+        available = { always = yes }
         complete_effect = { add_political_power = -35 add_stability = 0.01 }
     }
     ENG_raise_territorials = {
@@ -20,7 +20,7 @@ aota_britain_imperial_management = {
         cost = 40
         days_remove = 25
         visible = { has_country_flag = ENG_britain_overhaul_enabled }
-        available = { political_power > 40 }
+        available = { always = yes }
         complete_effect = { add_war_support = 0.02 army_experience = 5 }
     }
 }

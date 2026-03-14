@@ -13,37 +13,37 @@ AOTA_china_refresh_unification_stage = {
     clr_country_flag = AOTA_china_stage_reunified
 
     if = {
-        limit = { check_variable = { AOTA_china_legitimacy < 20 } }
+        limit = { check_variable = { which = AOTA_china_legitimacy value = 20 compare = less_than } }
         add_ideas = AOTA_china_claimant_regime
         set_country_flag = AOTA_china_stage_claimant
     }
     if = {
         limit = {
-            check_variable = { AOTA_china_legitimacy >= 20 }
-            check_variable = { AOTA_china_legitimacy < 40 }
+            check_variable = { which = AOTA_china_legitimacy value = 20 compare = greater_than_or_equals }
+            check_variable = { which = AOTA_china_legitimacy value = 40 compare = less_than }
         }
         add_ideas = AOTA_china_provisional_authority
         set_country_flag = AOTA_china_stage_provisional
     }
     if = {
         limit = {
-            check_variable = { AOTA_china_legitimacy >= 40 }
-            check_variable = { AOTA_china_legitimacy < 60 }
+            check_variable = { which = AOTA_china_legitimacy value = 40 compare = greater_than_or_equals }
+            check_variable = { which = AOTA_china_legitimacy value = 60 compare = less_than }
         }
         add_ideas = AOTA_china_coalition_government
         set_country_flag = AOTA_china_stage_coalition
     }
     if = {
         limit = {
-            check_variable = { AOTA_china_legitimacy >= 60 }
-            check_variable = { AOTA_china_legitimacy < 80 }
+            check_variable = { which = AOTA_china_legitimacy value = 60 compare = greater_than_or_equals }
+            check_variable = { which = AOTA_china_legitimacy value = 80 compare = less_than }
         }
         add_ideas = AOTA_china_contested_hegemon
         set_country_flag = AOTA_china_stage_contested
     }
     if = {
         limit = {
-            check_variable = { AOTA_china_legitimacy >= 80 }
+            check_variable = { which = AOTA_china_legitimacy value = 80 compare = greater_than_or_equals }
         }
         add_ideas = AOTA_china_reunified_unstable
         set_country_flag = AOTA_china_stage_reunified
@@ -52,21 +52,21 @@ AOTA_china_refresh_unification_stage = {
 
 AOTA_china_gain_legitimacy_small = {
     add_to_variable = { AOTA_china_legitimacy = 3 }
-    if = { limit = { check_variable = { AOTA_china_legitimacy > 100 } } set_variable = { AOTA_china_legitimacy = 100 } }
-    if = { limit = { check_variable = { AOTA_china_legitimacy < 0 } } set_variable = { AOTA_china_legitimacy = 0 } }
+    if = { limit = { check_variable = { which = AOTA_china_legitimacy value = 100 compare = greater_than } } set_variable = { AOTA_china_legitimacy = 100 } }
+    if = { limit = { check_variable = { which = AOTA_china_legitimacy value = 0 compare = less_than } } set_variable = { AOTA_china_legitimacy = 0 } }
     AOTA_china_refresh_unification_stage = yes
 }
 
 AOTA_china_gain_legitimacy_medium = {
     add_to_variable = { AOTA_china_legitimacy = 6 }
-    if = { limit = { check_variable = { AOTA_china_legitimacy > 100 } } set_variable = { AOTA_china_legitimacy = 100 } }
-    if = { limit = { check_variable = { AOTA_china_legitimacy < 0 } } set_variable = { AOTA_china_legitimacy = 0 } }
+    if = { limit = { check_variable = { which = AOTA_china_legitimacy value = 100 compare = greater_than } } set_variable = { AOTA_china_legitimacy = 100 } }
+    if = { limit = { check_variable = { which = AOTA_china_legitimacy value = 0 compare = less_than } } set_variable = { AOTA_china_legitimacy = 0 } }
     AOTA_china_refresh_unification_stage = yes
 }
 
 AOTA_china_lose_legitimacy_small = {
     add_to_variable = { AOTA_china_legitimacy = -4 }
-    if = { limit = { check_variable = { AOTA_china_legitimacy > 100 } } set_variable = { AOTA_china_legitimacy = 100 } }
-    if = { limit = { check_variable = { AOTA_china_legitimacy < 0 } } set_variable = { AOTA_china_legitimacy = 0 } }
+    if = { limit = { check_variable = { which = AOTA_china_legitimacy value = 100 compare = greater_than } } set_variable = { AOTA_china_legitimacy = 100 } }
+    if = { limit = { check_variable = { which = AOTA_china_legitimacy value = 0 compare = less_than } } set_variable = { AOTA_china_legitimacy = 0 } }
     AOTA_china_refresh_unification_stage = yes
 }

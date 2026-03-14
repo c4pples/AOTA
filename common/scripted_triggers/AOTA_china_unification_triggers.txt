@@ -12,7 +12,15 @@ AOTA_china_has_major_rival = {
     }
 }
 
-AOTA_china_legitimacy_at_least_20 = { check_variable = { AOTA_china_legitimacy >= 20 } }
-AOTA_china_legitimacy_at_least_40 = { check_variable = { AOTA_china_legitimacy >= 40 } }
-AOTA_china_legitimacy_at_least_60 = { check_variable = { AOTA_china_legitimacy >= 60 } }
-AOTA_china_legitimacy_at_least_80 = { check_variable = { AOTA_china_legitimacy >= 80 } }
+AOTA_china_legitimacy_at_least_20 = {
+    check_variable = { which = AOTA_china_legitimacy value = 20 compare = greater_than_or_equals }
+}
+AOTA_china_legitimacy_at_least_40 = {
+    check_variable = { which = AOTA_china_legitimacy value = 40 compare = greater_than_or_equals }
+}
+AOTA_china_legitimacy_at_least_60 = {
+    check_variable = { which = AOTA_china_legitimacy value = 60 compare = greater_than_or_equals }
+}
+AOTA_china_legitimacy_at_least_80 = {
+    check_variable = { which = AOTA_china_legitimacy value = 80 compare = greater_than_or_equals }
+}

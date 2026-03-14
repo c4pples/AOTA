@@ -6,20 +6,18 @@ bookmarks = {
         picture = GFX_select_date_1936
         default_country = GER
         default = yes
-        country = {
-            GER = { ideology = neutrality }
-            FRA = { ideology = democratic }
-            ENG = { ideology = democratic }
-            AUS = { ideology = neutrality }
-            SOV = { ideology = communism }
-            ITA = { ideology = fascism }
-            USA = { ideology = democratic }
-            POL = { ideology = neutrality }
-            BEL = { ideology = democratic }
-            SPR = { ideology = democratic }
-            ROM = { ideology = neutrality }
-            HOL = { ideology = democratic }
-            BUL = { ideology = neutrality }
-        }
+        GER = { ideology = neutrality }
+        FRA = { ideology = democratic }
+        ENG = { ideology = democratic }
+        AUS = { ideology = neutrality }
+        SOV = { ideology = communism }
+        ITA = { ideology = fascism }
+        USA = { ideology = democratic }
+        POL = { ideology = neutrality }
+        BEL = { ideology = democratic }
+        SPR = { ideology = democratic }
+        ROM = { ideology = neutrality }
+        HOL = { ideology = democratic }
+        BUL = { ideology = neutrality }
     }
 }
