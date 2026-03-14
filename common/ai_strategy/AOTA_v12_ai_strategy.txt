@@ -1,29 +1,32 @@
-ai_strategy = {
-    type = prepare_for_war
-    id = "FRA"
-    value = 50
-}
+ai_strategy_plan = {
+	name = aota_v12_strategies
+	allowed = { always = yes }
+	enable = { always = yes }
+	abort = { always = no }
 
-ai_strategy = {
-    type = befriend
-    id = "ENG"
-    value = 60
-}
-
-ai_strategy = {
-    type = protect
-    id = "HUN"
-    value = 40
-}
-
-ai_strategy = {
-    type = conquer
-    id = "ACC"
-    value = 20
-}
-
-ai_strategy = {
-    type = conquer
-    id = "POL"
-    value = 25
+	ai_strategy = {
+		type = prepare_for_war
+		id = "FRA"
+		value = 50
+	}
+	ai_strategy = {
+		type = befriend
+		id = "ENG"
+		value = 60
+	}
+	ai_strategy = {
+		type = protect
+		id = "HUN"
+		value = 40
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ACC"
+		value = 20
+	}
+	ai_strategy = {
+		type = conquer
+		id = "POL"
+		value = 25
+	}
 }
