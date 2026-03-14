@@ -1,7 +1,0 @@
-name="AOTA"
-path="mod/AOTA"
-version="0.36"
-supported_version="1.17.*"
-replace_path = "history/states"
-replace_path = "common/ideologies"
-picture="thumbnail.png"
