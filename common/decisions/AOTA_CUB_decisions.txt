@@ -1,31 +1,24 @@
 AOTA_cuban_secret_path = {
-    icon = generic_political_reform
-    allowed = { tag = CUB }
-    visible = {
-      tag = CUB
-      NOT = { has_country_flag = AOTA_CUB_ANCAP_PATH_OPEN }
-      NOT = { has_country_flag = AOTA_CUB_REJECTED_BOARDROOM_EXILES }
-    }
     CUB_meet_the_corporate_exiles = {
-      icon = generic_improve_relations
-      cost = 35
-      days_remove = 35
-      fire_only_once = yes
-      available = {
-        tag = CUB
-        date > 1937.3.1
-        OR = {
-          has_global_flag = AOTA_US_CRISIS_BEGUN
-          USA = { has_war = yes }
-          USA = { has_stability < 0.4 }
-          date > 1937.9.1
+        icon = generic_improve_relations
+        cost = 35
+        days_remove = 35
+        fire_only_once = yes
+        available = {
+            tag = CUB
+            date > 1937.3.1
+            OR = {
+                has_global_flag = AOTA_US_CRISIS_BEGUN
+                USA = { has_war = yes }
+                USA = { has_stability < 0.4 }
+                date > 1937.9.1
+            }
         }
-      }
-      visible = {
-        tag = CUB
-        NOT = { has_country_flag = AOTA_CUB_ANCAP_PATH_OPEN }
-        NOT = { has_country_flag = AOTA_CUB_REJECTED_BOARDROOM_EXILES }
-      }
-      complete_effect = { country_event = { id = aota.3600 hours = 6 } }
+        visible = {
+            tag = CUB
+            NOT = { has_country_flag = AOTA_CUB_ANCAP_PATH_OPEN }
+            NOT = { has_country_flag = AOTA_CUB_REJECTED_BOARDROOM_EXILES }
+        }
+        complete_effect = { country_event = { id = aota.3600 hours = 6 } }
     }
-  }
+}

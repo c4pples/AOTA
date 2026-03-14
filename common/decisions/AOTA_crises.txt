@@ -1,55 +1,46 @@
 AOTA_german_crisis_category = {
-    icon = generic_prepare_for_war
-    allowed = { original_tag = GER }
-    visible = { original_tag = GER }
     AOTA_balance_the_reichstag = {
         icon = generic_political_reform
+        visible = { original_tag = GER }
         available = { has_idea = aota_armistice_reckoning }
         cost = 50
-        complete_effect = {
-            add_stability = 0.03
-            add_political_power = -25
-        }
+        complete_effect = { add_stability = 0.03 add_political_power = -25 }
     }
     AOTA_fund_veteran_leagues = {
         icon = generic_allies_build_infantry
+        visible = { original_tag = GER }
         available = { has_idea = aota_armistice_reckoning }
         cost = 40
-        complete_effect = {
-            add_war_support = 0.04
-            add_popularity = { ideology = fascism popularity = 0.03 }
-        }
+        complete_effect = { add_war_support = 0.04 add_popularity = { ideology = fascism popularity = 0.03 } }
     }
 }
 AOTA_french_crisis_category = {
-    icon = generic_civil_war
-    allowed = { original_tag = FRA }
-    visible = { original_tag = FRA }
     AOTA_repair_the_republic = {
         icon = generic_political_reform
+        visible = { original_tag = FRA }
         available = { has_idea = aota_french_fractured_republic }
         cost = 50
         complete_effect = { add_stability = 0.04 add_political_power = -20 }
     }
     AOTA_rally_the_border_garrisons = {
         icon = generic_prepare_for_war
+        visible = { original_tag = FRA }
         available = { has_idea = aota_french_fractured_republic }
         cost = 40
         complete_effect = { add_war_support = 0.05 army_experience = 10 }
     }
 }
 AOTA_danubian_crisis_category = {
-    icon = generic_political_reform
-    allowed = { original_tag = AUS }
-    visible = { original_tag = AUS }
     AOTA_convene_the_crownlands = {
         icon = generic_improve_relations
+        visible = { original_tag = AUS }
         available = { has_idea = aota_danubian_nationalities_crisis }
         cost = 50
         complete_effect = { add_stability = 0.03 add_ideas = aota_federal_bargain }
     }
     AOTA_rule_by_decree = {
         icon = generic_prepare_for_war
+        visible = { original_tag = AUS }
         available = { has_idea = aota_danubian_nationalities_crisis }
         cost = 40
         complete_effect = { add_war_support = 0.05 add_popularity = { ideology = neutrality popularity = 0.04 } }

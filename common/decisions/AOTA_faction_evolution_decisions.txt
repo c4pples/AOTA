@@ -1,93 +1,56 @@
 AOTA_faction_evolution_category = {
-    icon = generic_improve_relations
-    visible = {
-        OR = {
-            has_country_flag = AOTA_LEADS_CONTINENTAL_ACCORD
-            has_country_flag = AOTA_LEADS_REPUBLICAN_SECURITY_PACT
-            has_country_flag = AOTA_LEADS_DANUBIAN_COMPACT
-            has_country_flag = AOTA_LEADS_EASTERN_ACCORD
-        }
-    }
-
     AOTA_invite_aus_to_continental_accord = {
         icon = generic_improve_relations
-        available = {
-            has_country_flag = AOTA_LEADS_CONTINENTAL_ACCORD
-            is_faction_leader = yes
-            AUS = { exists = yes NOT = { is_in_faction_with = ROOT } NOT = { has_war_with = ROOT } }
-        }
+        visible = { OR = { has_country_flag = AOTA_LEADS_CONTINENTAL_ACCORD has_country_flag = AOTA_LEADS_REPUBLICAN_SECURITY_PACT has_country_flag = AOTA_LEADS_DANUBIAN_COMPACT has_country_flag = AOTA_LEADS_EASTERN_ACCORD } }
+        available = { has_country_flag = AOTA_LEADS_CONTINENTAL_ACCORD is_faction_leader = yes AUS = { exists = yes NOT = { is_in_faction_with = ROOT } NOT = { has_war_with = ROOT } } }
         cost = 35
         complete_effect = { AUS = { country_event = { id = aota_faction.1 days = 1 } } }
         ai_will_do = { factor = 4 }
     }
-
     AOTA_invite_hun_to_danubian_compact = {
         icon = generic_improve_relations
-        available = {
-            has_country_flag = AOTA_LEADS_DANUBIAN_COMPACT
-            is_faction_leader = yes
-            HUN = { exists = yes NOT = { is_in_faction_with = ROOT } NOT = { has_war_with = ROOT } }
-        }
+        visible = { OR = { has_country_flag = AOTA_LEADS_CONTINENTAL_ACCORD has_country_flag = AOTA_LEADS_REPUBLICAN_SECURITY_PACT has_country_flag = AOTA_LEADS_DANUBIAN_COMPACT has_country_flag = AOTA_LEADS_EASTERN_ACCORD } }
+        available = { has_country_flag = AOTA_LEADS_DANUBIAN_COMPACT is_faction_leader = yes HUN = { exists = yes NOT = { is_in_faction_with = ROOT } NOT = { has_war_with = ROOT } } }
         cost = 30
         complete_effect = { HUN = { country_event = { id = aota_faction.2 days = 1 } } }
         ai_will_do = { factor = 4 }
     }
-
     AOTA_invite_rom_to_danubian_compact = {
         icon = generic_improve_relations
-        available = {
-            has_country_flag = AOTA_LEADS_DANUBIAN_COMPACT
-            is_faction_leader = yes
-            ROM = { exists = yes NOT = { is_in_faction_with = ROOT } NOT = { has_war_with = ROOT } }
-        }
+        visible = { OR = { has_country_flag = AOTA_LEADS_CONTINENTAL_ACCORD has_country_flag = AOTA_LEADS_REPUBLICAN_SECURITY_PACT has_country_flag = AOTA_LEADS_DANUBIAN_COMPACT has_country_flag = AOTA_LEADS_EASTERN_ACCORD } }
+        available = { has_country_flag = AOTA_LEADS_DANUBIAN_COMPACT is_faction_leader = yes ROM = { exists = yes NOT = { is_in_faction_with = ROOT } NOT = { has_war_with = ROOT } } }
         cost = 30
         complete_effect = { ROM = { country_event = { id = aota_faction.2 days = 1 } } }
         ai_will_do = { factor = 4 }
     }
-
     AOTA_invite_bel_to_republican_security_pact = {
         icon = generic_improve_relations
-        available = {
-            has_country_flag = AOTA_LEADS_REPUBLICAN_SECURITY_PACT
-            is_faction_leader = yes
-            BEL = { exists = yes NOT = { is_in_faction_with = ROOT } NOT = { has_war_with = ROOT } }
-        }
+        visible = { OR = { has_country_flag = AOTA_LEADS_CONTINENTAL_ACCORD has_country_flag = AOTA_LEADS_REPUBLICAN_SECURITY_PACT has_country_flag = AOTA_LEADS_DANUBIAN_COMPACT has_country_flag = AOTA_LEADS_EASTERN_ACCORD } }
+        available = { has_country_flag = AOTA_LEADS_REPUBLICAN_SECURITY_PACT is_faction_leader = yes BEL = { exists = yes NOT = { is_in_faction_with = ROOT } NOT = { has_war_with = ROOT } } }
         cost = 30
         complete_effect = { BEL = { country_event = { id = aota_faction.3 days = 1 } } }
         ai_will_do = { factor = 4 }
     }
-
     AOTA_invite_spr_to_republican_security_pact = {
         icon = generic_improve_relations
-        available = {
-            has_country_flag = AOTA_LEADS_REPUBLICAN_SECURITY_PACT
-            is_faction_leader = yes
-            SPR = { exists = yes NOT = { is_in_faction_with = ROOT } NOT = { has_war_with = ROOT } }
-        }
+        visible = { OR = { has_country_flag = AOTA_LEADS_CONTINENTAL_ACCORD has_country_flag = AOTA_LEADS_REPUBLICAN_SECURITY_PACT has_country_flag = AOTA_LEADS_DANUBIAN_COMPACT has_country_flag = AOTA_LEADS_EASTERN_ACCORD } }
+        available = { has_country_flag = AOTA_LEADS_REPUBLICAN_SECURITY_PACT is_faction_leader = yes SPR = { exists = yes NOT = { is_in_faction_with = ROOT } NOT = { has_war_with = ROOT } } }
         cost = 30
         complete_effect = { SPR = { country_event = { id = aota_faction.3 days = 1 } } }
         ai_will_do = { factor = 4 }
     }
-
     AOTA_invite_irq_to_eastern_accord = {
         icon = generic_improve_relations
-        available = {
-            has_country_flag = AOTA_LEADS_EASTERN_ACCORD
-            is_faction_leader = yes
-            IRQ = { exists = yes NOT = { is_in_faction_with = ROOT } NOT = { has_war_with = ROOT } }
-        }
+        visible = { OR = { has_country_flag = AOTA_LEADS_CONTINENTAL_ACCORD has_country_flag = AOTA_LEADS_REPUBLICAN_SECURITY_PACT has_country_flag = AOTA_LEADS_DANUBIAN_COMPACT has_country_flag = AOTA_LEADS_EASTERN_ACCORD } }
+        available = { has_country_flag = AOTA_LEADS_EASTERN_ACCORD is_faction_leader = yes IRQ = { exists = yes NOT = { is_in_faction_with = ROOT } NOT = { has_war_with = ROOT } } }
         cost = 30
         complete_effect = { IRQ = { country_event = { id = aota_faction.4 days = 1 } } }
         ai_will_do = { factor = 4 }
     }
-
     AOTA_invite_egy_to_eastern_accord = {
         icon = generic_improve_relations
-        available = {
-            has_country_flag = AOTA_LEADS_EASTERN_ACCORD
-            is_faction_leader = yes
-            EGY = { exists = yes NOT = { is_in_faction_with = ROOT } NOT = { has_war_with = ROOT } }
-        }
+        visible = { OR = { has_country_flag = AOTA_LEADS_CONTINENTAL_ACCORD has_country_flag = AOTA_LEADS_REPUBLICAN_SECURITY_PACT has_country_flag = AOTA_LEADS_DANUBIAN_COMPACT has_country_flag = AOTA_LEADS_EASTERN_ACCORD } }
+        available = { has_country_flag = AOTA_LEADS_EASTERN_ACCORD is_faction_leader = yes EGY = { exists = yes NOT = { is_in_faction_with = ROOT } NOT = { has_war_with = ROOT } } }
         cost = 30
         complete_effect = { EGY = { country_event = { id = aota_faction.4 days = 1 } } }
         ai_will_do = { factor = 4 }

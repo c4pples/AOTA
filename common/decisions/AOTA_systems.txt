@@ -1,11 +1,8 @@
 AOTA_revolutionary_rivalry_category = {
-    icon = generic_production
-    visible = { OR = { has_idea = aota_anarchist_agitation has_idea = aota_commune_momentum } }
-
     AOTA_back_the_communes = {
         icon = generic_political_reform
         available = { NOT = { has_government = anarchism } }
-        visible = { always = yes }
+        visible = { OR = { has_idea = aota_anarchist_agitation has_idea = aota_commune_momentum } }
         cost = 50
         days_remove = 30
         complete_effect = {
@@ -14,11 +11,10 @@ AOTA_revolutionary_rivalry_category = {
             hidden_effect = { AOTA_apply_anarchist_pressure = yes }
         }
     }
-
     AOTA_back_the_party = {
         icon = generic_major_war
         available = { NOT = { has_government = communism } }
-        visible = { always = yes }
+        visible = { OR = { has_idea = aota_anarchist_agitation has_idea = aota_commune_momentum } }
         cost = 50
         days_remove = 30
         complete_effect = {

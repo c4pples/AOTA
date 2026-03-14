@@ -1,4 +1,5 @@
 AOTA_american_reunification = {
+
     ACC_seek_pacific_compromise = {
         icon = generic_improve_relations
         available = { tag = ACC has_completed_focus = ACC_reach_to_the_pacific }

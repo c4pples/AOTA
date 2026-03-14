@@ -1,4 +1,22 @@
 AOTA_american_postwar_settlement = {
+
+    ACC_reintegrate_state_judiciaries = { icon = generic_national_unity visible = { tag = ACC } available = { has_completed_focus = ACC_federal_reintegration_administration } cost = 60 complete_effect = { add_stability = 0.03 add_political_power = 20 } ai_will_do = { factor = 6 } }
+    ACC_oath_or_amnesty = { icon = generic_political_pressure visible = { tag = ACC } available = { has_completed_focus = ACC_rewrite_the_union_compact } cost = 60 complete_effect = { add_war_support = 0.02 } ai_will_do = { factor = 5 } }
+
+    AWU_unionize_the_reconstruction_front = { icon = generic_support_communism visible = { tag = AWU } available = { has_completed_focus = AWU_workers_reconstruction_brigades } cost = 60 complete_effect = { add_political_power = 25 add_stability = 0.02 } ai_will_do = { factor = 6 } }
+    AWU_commune_autonomy_statutes = { icon = generic_support_anarchism visible = { tag = AWU } available = { has_completed_focus = AWU_charter_of_common_labor } cost = 60 complete_effect = { add_popularity = { ideology = anarchism popularity = 0.03 } } ai_will_do = { factor = 4 } }
+
+    ANA_garrison_the_recovered_states = { icon = generic_allies_build_infantry visible = { tag = ANA } available = { has_completed_focus = ANA_internal_security_directorate } cost = 60 complete_effect = { add_war_support = 0.03 army_experience = 10 } ai_will_do = { factor = 6 } }
+    ANA_purge_disloyal_officers = { icon = generic_intelligence_exchange visible = { tag = ANA } available = { has_completed_focus = ANA_the_permanent_command_republic } cost = 60 complete_effect = { add_stability = 0.02 } ai_will_do = { factor = 5 } }
+
+    APF_reopen_transcontinental_relief = { icon = generic_construct_civ_factory visible = { tag = APF } available = { has_completed_focus = APF_federal_maritime_recovery_board } cost = 60 complete_effect = { add_stability = 0.03 } ai_will_do = { factor = 6 } }
+    APF_harbor_citizenship_program = { icon = generic_improve_relations visible = { tag = APF } available = { has_completed_focus = APF_charter_of_the_two_oceans } cost = 60 complete_effect = { add_political_power = 25 } ai_will_do = { factor = 5 } }
+
+    ACG_issue_national_recovery_shares = { icon = generic_trade visible = { tag = ACG } available = { has_completed_focus = ACG_chartered_reconstruction_zones } cost = 60 complete_effect = { add_political_power = 30 } ai_will_do = { factor = 6 } }
+    ACG_contractual_loyalty_oaths = { icon = generic_political_pressure visible = { tag = ACG } available = { has_completed_focus = ACG_shareholder_constitution } cost = 60 complete_effect = { add_stability = 0.03 } ai_will_do = { factor = 6 } }
+
+    ASL_demobilize_county_columns = { icon = generic_allies_build_infantry visible = { tag = ASL } available = { has_completed_focus = ASL_county_reconciliation_boards } cost = 60 complete_effect = { add_stability = 0.03 add_war_support = -0.01 } ai_will_do = { factor = 5 } }
+    ASL_parish_recovery_fairs = { icon = generic_construct_civ_factory visible = { tag = ASL } available = { has_completed_focus = ASL_rural_reconstruction_ministry } cost = 60 complete_effect = { add_political_power = 25 } ai_will_do = { factor = 5 } }
     ACC_reintegrate_state_judiciaries = {
         icon = generic_national_unity
         visible = { tag = ACC }

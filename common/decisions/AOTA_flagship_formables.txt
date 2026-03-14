@@ -1,169 +1,104 @@
 AOTA_flagship_formables_category = {
-		icon = generic_diplomacy
-		allowed = { OR = { original_tag = GER original_tag = FRA original_tag = ITA } }
-		visible = { OR = { tag = GER tag = FRA tag = ITA } }
-
-		GER_prepare_reichsordnung = {
-			icon = GFX_decision_generic_political_reform
-			allowed = { original_tag = GER }
-			visible = { has_government = fascism }
-			available = {
-				aota_ger_reichsordnung_territorial_req = yes
-				aota_formable_stabilization_req = yes
-				NOT = { has_country_flag = AOTA_GER_reichsordnung_prepared }
-			}
-			cost = 150
-			days_remove = 45
-			complete_effect = {
-				set_country_flag = AOTA_GER_reichsordnung_prepared
-				add_political_power = -50
-			}
-		}
-
-		GER_proclaim_reichsordnung = {
-			icon = GFX_decision_generic_major_war
-			allowed = { original_tag = GER }
-			visible = { has_country_flag = AOTA_GER_reichsordnung_prepared }
-			available = {
-				aota_ger_reichsordnung_territorial_req = yes
-				aota_formable_stabilization_req = yes
-			}
-			cost = 125
-			complete_effect = { country_event = { id = aota_formables.1 } }
-		}
-
-		GER_prepare_european_compact = {
-			icon = GFX_decision_generic_improve_relations
-			allowed = { original_tag = GER }
-			visible = { OR = { has_government = democratic has_government = neutrality } }
-			available = {
-				aota_ger_compact_territorial_req = yes
-				aota_formable_stabilization_req = yes
-				NOT = { has_country_flag = AOTA_GER_compact_prepared }
-			}
-			cost = 150
-			days_remove = 60
-			complete_effect = {
-				set_country_flag = AOTA_GER_compact_prepared
-				add_stability = -0.03
-			}
-		}
-
-		GER_charter_european_compact = {
-			icon = GFX_decision_generic_alliance
-			allowed = { original_tag = GER }
-			visible = { has_country_flag = AOTA_GER_compact_prepared }
-			available = {
-				aota_ger_compact_territorial_req = yes
-				aota_formable_stabilization_req = yes
-			}
-			cost = 100
-			complete_effect = { country_event = { id = aota_formables.2 } }
-		}
-
-		FRA_prepare_continental_state = {
-			icon = GFX_decision_generic_major_war
-			allowed = { original_tag = FRA }
-			visible = { OR = { has_government = fascism has_government = communism } }
-			available = {
-				aota_fra_hegemonie_territorial_req = yes
-				aota_formable_stabilization_req = yes
-				OR = { has_completed_focus = FRA_the_nation_redeemed has_completed_focus = FRA_the_peoples_command }
-				NOT = { has_country_flag = AOTA_FRA_hegemonie_prepared }
-			}
-			cost = 150
-			days_remove = 60
-			complete_effect = { set_country_flag = AOTA_FRA_hegemonie_prepared }
-		}
-
-		FRA_proclaim_etat_continental = {
-			icon = GFX_decision_generic_political_pressure
-			allowed = { original_tag = FRA }
-			visible = { has_country_flag = AOTA_FRA_hegemonie_prepared }
-			available = {
-				aota_fra_hegemonie_territorial_req = yes
-				aota_formable_stabilization_req = yes
-			}
-			cost = 125
-			complete_effect = { country_event = { id = aota_formables.3 } }
-		}
-
-		FRA_prepare_republican_union = {
-			icon = GFX_decision_generic_improve_relations
-			allowed = { original_tag = FRA }
-			visible = { OR = { has_government = democratic has_government = neutrality has_government = anarchism } }
-			available = {
-				aota_fra_union_territorial_req = yes
-				aota_formable_stabilization_req = yes
-				OR = { has_completed_focus = FRA_guardians_of_the_republic has_completed_focus = FRA_grace_over_government }
-				NOT = { has_country_flag = AOTA_FRA_union_prepared }
-			}
-			cost = 140
-			days_remove = 60
-			complete_effect = { set_country_flag = AOTA_FRA_union_prepared }
-		}
-
-		FRA_found_european_republican_union = {
-			icon = GFX_decision_generic_alliance
-			allowed = { original_tag = FRA }
-			visible = { has_country_flag = AOTA_FRA_union_prepared }
-			available = {
-				aota_fra_union_territorial_req = yes
-				aota_formable_stabilization_req = yes
-			}
-			cost = 100
-			complete_effect = { country_event = { id = aota_formables.4 } }
-		}
-
-		ITA_prepare_imperium_interioris_maris = {
-			icon = GFX_decision_generic_major_war
-			allowed = { original_tag = ITA }
-			visible = { OR = { has_government = fascism has_government = neutrality } }
-			available = {
-				aota_ita_imperium_territorial_req = yes
-				aota_formable_stabilization_req = yes
-				NOT = { has_country_flag = AOTA_ITA_imperium_prepared }
-			}
-			cost = 150
-			days_remove = 60
-			complete_effect = { set_country_flag = AOTA_ITA_imperium_prepared }
-		}
-
-		ITA_proclaim_imperium_interioris_maris = {
-			icon = GFX_decision_generic_major_war
-			allowed = { original_tag = ITA }
-			visible = { has_country_flag = AOTA_ITA_imperium_prepared }
-			available = {
-				aota_ita_imperium_territorial_req = yes
-				aota_formable_stabilization_req = yes
-			}
-			cost = 125
-			complete_effect = { country_event = { id = aota_formables.5 } }
-		}
-
-		ITA_prepare_mediterranean_concordat = {
-			icon = GFX_decision_generic_improve_relations
-			allowed = { original_tag = ITA }
-			visible = { OR = { has_government = democratic has_government = communism } }
-			available = {
-				aota_ita_concordat_territorial_req = yes
-				aota_formable_stabilization_req = yes
-				NOT = { has_country_flag = AOTA_ITA_concordat_prepared }
-			}
-			cost = 140
-			days_remove = 60
-			complete_effect = { set_country_flag = AOTA_ITA_concordat_prepared }
-		}
-
-		ITA_found_mediterranean_concordat = {
-			icon = GFX_decision_generic_alliance
-			allowed = { original_tag = ITA }
-			visible = { has_country_flag = AOTA_ITA_concordat_prepared }
-			available = {
-				aota_ita_concordat_territorial_req = yes
-				aota_formable_stabilization_req = yes
-			}
-			cost = 100
-			complete_effect = { country_event = { id = aota_formables.6 } }
-		}
-	}
+    GER_prepare_reichsordnung = {
+        icon = GFX_decision_generic_political_reform
+        allowed = { original_tag = GER }
+        visible = { has_government = fascism }
+        available = { aota_ger_reichsordnung_territorial_req = yes aota_formable_stabilization_req = yes NOT = { has_country_flag = AOTA_GER_reichsordnung_prepared } }
+        cost = 150
+        days_remove = 45
+        complete_effect = { set_country_flag = AOTA_GER_reichsordnung_prepared add_political_power = -50 }
+    }
+    GER_proclaim_reichsordnung = {
+        icon = GFX_decision_generic_major_war
+        allowed = { original_tag = GER }
+        visible = { has_country_flag = AOTA_GER_reichsordnung_prepared }
+        available = { aota_ger_reichsordnung_territorial_req = yes aota_formable_stabilization_req = yes }
+        cost = 125
+        complete_effect = { country_event = { id = aota_formables.1 } }
+    }
+    GER_prepare_european_compact = {
+        icon = GFX_decision_generic_improve_relations
+        allowed = { original_tag = GER }
+        visible = { OR = { has_government = democratic has_government = neutrality } }
+        available = { aota_ger_compact_territorial_req = yes aota_formable_stabilization_req = yes NOT = { has_country_flag = AOTA_GER_compact_prepared } }
+        cost = 150
+        days_remove = 60
+        complete_effect = { set_country_flag = AOTA_GER_compact_prepared add_stability = -0.03 }
+    }
+    GER_charter_european_compact = {
+        icon = GFX_decision_generic_alliance
+        allowed = { original_tag = GER }
+        visible = { has_country_flag = AOTA_GER_compact_prepared }
+        available = { aota_ger_compact_territorial_req = yes aota_formable_stabilization_req = yes }
+        cost = 100
+        complete_effect = { country_event = { id = aota_formables.2 } }
+    }
+    FRA_prepare_continental_state = {
+        icon = GFX_decision_generic_major_war
+        allowed = { original_tag = FRA }
+        visible = { OR = { has_government = fascism has_government = communism } }
+        available = { aota_fra_hegemonie_territorial_req = yes aota_formable_stabilization_req = yes OR = { has_completed_focus = FRA_the_nation_redeemed has_completed_focus = FRA_the_peoples_command } NOT = { has_country_flag = AOTA_FRA_hegemonie_prepared } }
+        cost = 150
+        days_remove = 60
+        complete_effect = { set_country_flag = AOTA_FRA_hegemonie_prepared }
+    }
+    FRA_proclaim_etat_continental = {
+        icon = GFX_decision_generic_political_pressure
+        allowed = { original_tag = FRA }
+        visible = { has_country_flag = AOTA_FRA_hegemonie_prepared }
+        available = { aota_fra_hegemonie_territorial_req = yes aota_formable_stabilization_req = yes }
+        cost = 125
+        complete_effect = { country_event = { id = aota_formables.3 } }
+    }
+    FRA_prepare_republican_union = {
+        icon = GFX_decision_generic_improve_relations
+        allowed = { original_tag = FRA }
+        visible = { OR = { has_government = democratic has_government = neutrality has_government = anarchism } }
+        available = { aota_fra_union_territorial_req = yes aota_formable_stabilization_req = yes OR = { has_completed_focus = FRA_guardians_of_the_republic has_completed_focus = FRA_grace_over_government } NOT = { has_country_flag = AOTA_FRA_union_prepared } }
+        cost = 140
+        days_remove = 60
+        complete_effect = { set_country_flag = AOTA_FRA_union_prepared }
+    }
+    FRA_found_european_republican_union = {
+        icon = GFX_decision_generic_alliance
+        allowed = { original_tag = FRA }
+        visible = { has_country_flag = AOTA_FRA_union_prepared }
+        available = { aota_fra_union_territorial_req = yes aota_formable_stabilization_req = yes }
+        cost = 100
+        complete_effect = { country_event = { id = aota_formables.4 } }
+    }
+    ITA_prepare_imperium_interioris_maris = {
+        icon = GFX_decision_generic_major_war
+        allowed = { original_tag = ITA }
+        visible = { OR = { has_government = fascism has_government = neutrality } }
+        available = { aota_ita_imperium_territorial_req = yes aota_formable_stabilization_req = yes NOT = { has_country_flag = AOTA_ITA_imperium_prepared } }
+        cost = 150
+        days_remove = 60
+        complete_effect = { set_country_flag = AOTA_ITA_imperium_prepared }
+    }
+    ITA_proclaim_imperium_interioris_maris = {
+        icon = GFX_decision_generic_major_war
+        allowed = { original_tag = ITA }
+        visible = { has_country_flag = AOTA_ITA_imperium_prepared }
+        available = { aota_ita_imperium_territorial_req = yes aota_formable_stabilization_req = yes }
+        cost = 125
+        complete_effect = { country_event = { id = aota_formables.5 } }
+    }
+    ITA_prepare_mediterranean_concordat = {
+        icon = GFX_decision_generic_improve_relations
+        allowed = { original_tag = ITA }
+        visible = { OR = { has_government = democratic has_government = communism } }
+        available = { aota_ita_concordat_territorial_req = yes aota_formable_stabilization_req = yes NOT = { has_country_flag = AOTA_ITA_concordat_prepared } }
+        cost = 140
+        days_remove = 60
+        complete_effect = { set_country_flag = AOTA_ITA_concordat_prepared }
+    }
+    ITA_found_mediterranean_concordat = {
+        icon = GFX_decision_generic_alliance
+        allowed = { original_tag = ITA }
+        visible = { has_country_flag = AOTA_ITA_concordat_prepared }
+        available = { aota_ita_concordat_territorial_req = yes aota_formable_stabilization_req = yes }
+        cost = 100
+        complete_effect = { country_event = { id = aota_formables.6 } }
+    }
+}

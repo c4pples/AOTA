@@ -1,22 +1,9 @@
 AOTA_china_japan_ladder_category = {
-    icon = generic_foreign_policy
-    allowed = {
-        OR = {
-            AOTA_is_china_region_actor = yes
-            tag = JAP
-        }
-    }
-    visible = {
-        OR = {
-            AOTA_is_china_region_actor = yes
-            tag = JAP
-        }
-    }
-
     AOTA_china_form_emergency_defense_council = {
         icon = generic_major_war
         cost = 55
         days_remove = 60
+        visible = { AOTA_is_china_region_actor = yes }
         available = {
             AOTA_is_china_region_actor = yes
             JAP = { exists = yes }
@@ -37,11 +24,11 @@ AOTA_china_japan_ladder_category = {
             }
         }
     }
-
     AOTA_china_authorize_local_accommodation = {
         icon = generic_trade
         cost = 45
         days_remove = 60
+        visible = { AOTA_is_china_region_actor = yes }
         available = {
             AOTA_is_china_region_actor = yes
             JAP = { exists = yes }
@@ -62,11 +49,11 @@ AOTA_china_japan_ladder_category = {
             }
         }
     }
-
     AOTA_china_purge_collaboration_brokers = {
         icon = generic_political_pressure
         cost = 50
         days_remove = 60
+        visible = { AOTA_is_china_region_actor = yes }
         available = {
             AOTA_is_china_region_actor = yes
             JAP = { exists = yes }
@@ -85,18 +72,15 @@ AOTA_china_japan_ladder_category = {
             }
         }
     }
-
     AOTA_japan_issue_incremental_demands = {
         icon = generic_demand_territory_or_war
         cost = 55
         days_remove = 45
+        visible = { tag = JAP }
         available = {
             tag = JAP
             AOTA_japan_pressure_focus_online = yes
-            OR = {
-                CHI = { exists = yes }
-                PRC = { exists = yes }
-            }
+            OR = { CHI = { exists = yes } PRC = { exists = yes } }
             NOT = { has_country_flag = AOTA_japan_china_demands_cooldown }
         }
         complete_effect = {
@@ -104,19 +88,10 @@ AOTA_china_japan_ladder_category = {
             add_war_support = 0.01
             set_country_flag = AOTA_japan_china_demands_cooldown
             clr_country_flag = AOTA_japan_accommodation_drive
-            if = {
-                limit = { CHI = { exists = yes } }
-                CHI = { country_event = { id = aota_china.401 days = 1 } }
-            }
-            if = {
-                limit = { PRC = { exists = yes } }
-                PRC = { country_event = { id = aota_china.402 days = 1 } }
-            }
+            if = { limit = { CHI = { exists = yes } } CHI = { country_event = { id = aota_china.401 days = 1 } } }
+            if = { limit = { PRC = { exists = yes } } PRC = { country_event = { id = aota_china.402 days = 1 } } }
             every_country = {
-                limit = {
-                    AOTA_is_china_region_actor = yes
-                    NOT = { OR = { tag = CHI tag = PRC } }
-                }
+                limit = { AOTA_is_china_region_actor = yes NOT = { OR = { tag = CHI tag = PRC } } }
                 country_event = { id = aota_china.403 days = 1 }
             }
         }
@@ -124,39 +99,30 @@ AOTA_china_japan_ladder_category = {
             if = { limit = { has_country_flag = AOTA_japan_china_demands_cooldown } clr_country_flag = AOTA_japan_china_demands_cooldown }
         }
     }
-
     AOTA_japan_offer_compartmentalized_settlements = {
         icon = generic_improve_relations
         cost = 45
         days_remove = 45
+        visible = { tag = JAP }
         available = {
             tag = JAP
             AOTA_japan_pressure_focus_online = yes
-            OR = {
-                CHI = { exists = yes }
-                PRC = { exists = yes }
-            }
+            OR = { CHI = { exists = yes } PRC = { exists = yes } }
             NOT = { has_country_flag = AOTA_japan_accommodation_drive }
         }
         complete_effect = {
             add_political_power = -20
             add_stability = 0.01
             set_country_flag = AOTA_japan_accommodation_drive
-            if = {
-                limit = { CHI = { exists = yes } }
-                CHI = { country_event = { id = aota_china.411 days = 1 } }
-            }
-            if = {
-                limit = { PRC = { exists = yes } }
-                PRC = { country_event = { id = aota_china.412 days = 1 } }
-            }
+            if = { limit = { CHI = { exists = yes } } CHI = { country_event = { id = aota_china.411 days = 1 } } }
+            if = { limit = { PRC = { exists = yes } } PRC = { country_event = { id = aota_china.412 days = 1 } } }
         }
     }
-
     AOTA_japan_sponsor_regional_security_committees = {
         icon = generic_intelligence_exchange
         cost = 50
         days_remove = 60
+        visible = { tag = JAP }
         available = {
             tag = JAP
             AOTA_japan_pressure_focus_online = yes
@@ -173,14 +139,10 @@ AOTA_china_japan_ladder_category = {
             if = { limit = { CHI = { exists = yes } } CHI = { add_stability = -0.01 set_country_flag = AOTA_japan_pressure_received } }
             if = { limit = { PRC = { exists = yes } } PRC = { add_stability = -0.01 set_country_flag = AOTA_japan_pressure_received } }
             every_country = {
-                limit = {
-                    AOTA_is_china_region_actor = yes
-                    NOT = { OR = { tag = CHI tag = PRC } }
-                }
+                limit = { AOTA_is_china_region_actor = yes NOT = { OR = { tag = CHI tag = PRC } } }
                 add_political_power = -10
                 set_country_flag = AOTA_japan_pressure_received
             }
         }
     }
 }
-

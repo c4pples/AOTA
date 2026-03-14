@@ -1,4 +1,24 @@
 AOTA_night_pact_category = {
+
+  AOTA_invite_to_night_pact = {
+    icon = generic_alliance
+    cost = 60
+    days_remove = 30
+    visible = { has_country_flag = AOTA_GER_PRIMARY_VILLAIN }
+    available = {
+      any_other_country = {
+        is_major = yes
+        NOT = { has_war_with = ROOT }
+        OR = { has_government = fascism has_government = neutrality has_government = market_radicalism }
+      }
+    }
+    complete_effect = {
+      random_other_country = {
+        limit = {
+          is_major = yes
+          NOT = { has_war_with = ROOT }
+          OR = { has_government = fascism has_government = neutrality has_government = market_radicalism }
+          NOT = { has_country_flag = AOTA_SOFT_VILLAIN_MEMBER }
     AOTA_invite_to_night_pact = {
         icon = generic_alliance
         cost = 60
@@ -73,6 +93,24 @@ AOTA_night_pact_category = {
 }
 
 AOTA_hope_front_category = {
+
+  AOTA_hope_issue_sanctions = {
+    icon = generic_political_pressure
+    cost = 50
+    days_remove = 45
+    visible = { has_country_flag = AOTA_ENG_HOPE_PATH }
+    available = {
+      any_other_country = {
+        has_country_flag = AOTA_SOFT_VILLAIN_MEMBER
+      }
+    }
+    complete_effect = {
+      random_other_country = {
+        limit = { has_country_flag = AOTA_SOFT_VILLAIN_MEMBER }
+        add_ideas = aota_soft_villain_targeted_sanctions
+        set_country_flag = AOTA_HOPE_TARGETED
+      }
+      add_political_power = -20
     AOTA_hope_issue_sanctions = {
         icon = generic_political_pressure
         cost = 50
@@ -138,6 +176,17 @@ AOTA_hope_front_category = {
 }
 
 AOTA_hidden_ledger_category = {
+
+  AOTA_cub_export_compliance_battalions = {
+    icon = generic_war_propaganda
+    cost = 35
+    days_remove = 30
+    visible = { has_country_flag = AOTA_CUB_LEDGER_PATH }
+    available = { has_country_flag = AOTA_CUB_LEDGER_PATH }
+    complete_effect = {
+      add_ideas = aota_cub_debt_discipline
+      add_war_support = 0.02
+      add_stability = -0.01
     AOTA_cub_export_compliance_battalions = {
         icon = generic_war_propaganda
         cost = 35
