@@ -596,7 +596,7 @@
         y = 17
         cost = 10
         prerequisite = { focus = ENG_soc_dockyard_syndicates }
-        completion_reward = { add_opinion_modifier = { target = FRA modifier = aota_red_international } }
+        completion_reward = { aota_red_international = yes }
     }
     focus = {
         id = ENG_soc_guild_constitution
@@ -767,7 +767,7 @@
         y = 16
         cost = 10
         prerequisite = { focus = ENG_mkt_royal_company_revived }
-        completion_reward = { add_opinion_modifier = { target = GER modifier = aota_atlantic_financiers } }
+        completion_reward = { aota_atlantic_financiers = yes }
     }
     focus = {
         id = ENG_mkt_london_exchange_state
@@ -1298,7 +1298,7 @@
         y = 7
         cost = 10
         prerequisite = { focus = ENG_for_suez_commitments }
-        completion_reward = { add_opinion_modifier = { target = AUS modifier = aota_concert_of_stability } }
+        completion_reward = { aota_concert_of_stability = yes }
     }
     focus = {
         id = ENG_for_watch_the_americas

@@ -89,21 +89,19 @@ focus_tree = {
     focus = { id = AOTA_MAN_northeast_autonomous_directorate icon = GFX_goal_generic_defence x = 52 y = 11 cost = 9 prerequisite = { focus = AOTA_warlord_bargained_security_protocols } available = { tag = MAN } completion_reward = { set_cosmetic_tag = MAN_northeast_autonomous_directorate add_stability = 0.04 } }
 
     focus = { id = AOTA_warlord_china_without_submission icon = GFX_goal_generic_national_unity x = 30 y = 13 cost = 10 prerequisite = {
-        OR = {
-            focus = AOTA_GXC_canton_federal_republic
-            focus = AOTA_YUN_southwest_national_salvation_government
-            focus = AOTA_SHX_north_china_discipline_regime
-            focus = AOTA_XSM_frontier_pacification_mandate
-            focus = AOTA_SIK_western_provincial_compact
-            focus = AOTA_MEN_inner_mongol_autonomous_command
-            focus = AOTA_MAN_northeast_reorganization_authority
-            focus = AOTA_GXC_guard_the_liangguang_frontier
-            focus = AOTA_YUN_mountain_neutrality_zone
-            focus = AOTA_SHX_shanxi_defensive_federalism
-            focus = AOTA_XSM_northwest_faith_and_order_compact
-            focus = AOTA_SIK_oasis_autonomy_statute
-            focus = AOTA_MEN_steppe_neutral_zone
-            focus = AOTA_MAN_northeast_autonomous_directorate
-        }
+        focus = AOTA_GXC_canton_federal_republic
+        focus = AOTA_YUN_southwest_national_salvation_government
+        focus = AOTA_SHX_north_china_discipline_regime
+        focus = AOTA_XSM_frontier_pacification_mandate
+        focus = AOTA_SIK_western_provincial_compact
+        focus = AOTA_MEN_inner_mongol_autonomous_command
+        focus = AOTA_MAN_northeast_reorganization_authority
+        focus = AOTA_GXC_guard_the_liangguang_frontier
+        focus = AOTA_YUN_mountain_neutrality_zone
+        focus = AOTA_SHX_shanxi_defensive_federalism
+        focus = AOTA_XSM_northwest_faith_and_order_compact
+        focus = AOTA_SIK_oasis_autonomy_statute
+        focus = AOTA_MEN_steppe_neutral_zone
+        focus = AOTA_MAN_northeast_autonomous_directorate
     } completion_reward = { add_stability = 0.05 add_war_support = 0.03 AOTA_china_gain_legitimacy_medium = yes country_event = { id = aota_china.303 days = 1 } } }
 }
