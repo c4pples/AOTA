@@ -1,5 +1,5 @@
 
- aota_major_path_management = {
+aota_major_path_management = {
   icon = generic_decision
   visible = { always = yes }
   AOTA_GER_manage_rhine = {
@@ -32,7 +32,7 @@
    complete_effect = { add_political_power = -50 add_ideas = aota_american_contingency_plans country_event = { id = aota.1003 days = 1 } }
   }
  }
- aota_minor_miracle_paths = {
+aota_minor_miracle_paths = {
   icon = generic_decision
   visible = { OR = { tag = GRE tag = LIT tag = HUN } }
   AOTA_GRE_megali_gamble = {

@@ -1,4 +1,4 @@
-  aota_britain_imperial_management = {
+aota_britain_imperial_management = {
     icon = generic_alliance
     allowed = { original_tag = ENG }
     visible = { tag = ENG }

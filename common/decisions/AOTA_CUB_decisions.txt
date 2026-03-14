@@ -1,4 +1,4 @@
-  AOTA_cuban_secret_path = {
+AOTA_cuban_secret_path = {
     icon = generic_political_reform
     allowed = { tag = CUB }
     visible = {

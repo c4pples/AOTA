@@ -1,4 +1,4 @@
-  AOTA_ottoman_management = {
+AOTA_ottoman_management = {
     icon = generic_empire
     allowed = { original_tag = TUR }
     visible = { original_tag = TUR }
@@ -21,7 +21,7 @@
     }
   }
 
-  AOTA_iron_crescent_directorate = {
+AOTA_iron_crescent_directorate = {
     icon = generic_political_violence
     allowed = { original_tag = TUR }
     visible = { has_completed_focus = TUR_sacred_proclaim_the_iron_crescent }

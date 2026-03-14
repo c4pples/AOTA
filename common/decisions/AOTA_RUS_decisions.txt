@@ -1,4 +1,4 @@
-  AOTA_russian_reunification_category = {
+AOTA_russian_reunification_category = {
     icon = generic_war_preparation
     allowed = { original_tag = SOV }
     visible = { tag = SOV }
@@ -36,7 +36,7 @@
     }
   }
 
-  AOTA_red_black_rivalry_category = {
+AOTA_red_black_rivalry_category = {
     icon = generic_propaganda_campaign
     allowed = { original_tag = SOV }
     visible = { tag = SOV }
@@ -50,7 +50,7 @@
     }
   }
 
-  AOTA_borderlands_category = {
+AOTA_borderlands_category = {
     icon = generic_foreign_support
     allowed = { original_tag = SOV }
     visible = { tag = SOV }
