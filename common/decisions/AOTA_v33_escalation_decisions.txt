@@ -1,13 +1,4 @@
 AOTA_escalation_management_ger = {
-  icon = generic_prepare_for_war
-  allowed = {
-    original_tag = GER
-  }
-  visible = {
-    OR = {
-      has_idea = aota_rhine_tension_stage_1 has_idea = aota_rhine_tension_stage_2
-    }
-  }
   GER_open_backchannel_rhine_talks = {
     icon = generic_improve_relations cost = 50 days_remove = 45
     visible = {
@@ -48,15 +39,6 @@ AOTA_escalation_management_ger = {
   }
 }
 AOTA_escalation_management_fra = {
-  icon = generic_prepare_for_war
-  allowed = {
-    original_tag = FRA
-  }
-  visible = {
-    OR = {
-      has_idea = aota_french_social_breakdown_stage_1 has_idea = aota_french_social_breakdown_stage_2
-    }
-  }
   FRA_subsidize_republican_watch = {
     icon = generic_political_reform cost = 50 days_remove = 45
     visible = {
@@ -97,15 +79,6 @@ AOTA_escalation_management_fra = {
   }
 }
 AOTA_escalation_management_aus = {
-  icon = generic_prepare_for_war
-  allowed = {
-    original_tag = AUS
-  }
-  visible = {
-    OR = {
-      has_idea = aota_danubian_strain_stage_1 has_idea = aota_danubian_strain_stage_2
-    }
-  }
   AUS_subsidize_crownland_administrations = {
     icon = generic_political_reform cost = 45 days_remove = 50
     visible = {
@@ -146,15 +119,6 @@ AOTA_escalation_management_aus = {
   }
 }
 AOTA_escalation_management_eng = {
-  icon = generic_prepare_for_war
-  allowed = {
-    original_tag = ENG
-  }
-  visible = {
-    OR = {
-      has_idea = aota_british_imperial_fatigue_stage_1 has_idea = aota_british_imperial_fatigue_stage_2
-    }
-  }
   ENG_call_a_dominion_consultation = {
     icon = generic_improve_relations cost = 45 days_remove = 45
     visible = {
@@ -180,15 +144,6 @@ AOTA_escalation_management_eng = {
   }
 }
 AOTA_escalation_management_sov = {
-  icon = generic_prepare_for_war
-  allowed = {
-    original_tag = SOV
-  }
-  visible = {
-    OR = {
-      has_idea = aota_russian_reunification_pressure_stage_1 has_idea = aota_russian_reunification_pressure_stage_2
-    }
-  }
   SOV_issue_a_reunification_white_paper = {
     icon = generic_demand_territory cost = 45 days_remove = 45
     visible = {
@@ -230,15 +185,6 @@ AOTA_escalation_management_sov = {
   }
 }
 AOTA_escalation_management_tur = {
-  icon = generic_prepare_for_war
-  allowed = {
-    original_tag = TUR
-  }
-  visible = {
-    OR = {
-      has_idea = aota_ottoman_provincial_pressure_stage_1 has_idea = aota_ottoman_provincial_pressure_stage_2
-    }
-  }
   TUR_convene_additional_provincial_conferences = {
     icon = generic_conference cost = 45 days_remove = 45
     visible = {
@@ -279,15 +225,6 @@ AOTA_escalation_management_tur = {
   }
 }
 AOTA_escalation_management_usa = {
-  icon = generic_prepare_for_war
-  allowed = {
-    original_tag = USA
-  }
-  visible = {
-    OR = {
-      has_idea = aota_usa_constitutional_breakdown_stage_1 has_idea = aota_usa_constitutional_breakdown_stage_2
-    }
-  }
   USA_broker_state_compacts = {
     icon = generic_political_reform cost = 55 days_remove = 45
     visible = {
@@ -328,15 +265,6 @@ AOTA_escalation_management_usa = {
   }
 }
 AOTA_escalation_management_ita = {
-  icon = generic_prepare_for_war
-  allowed = {
-    original_tag = ITA
-  }
-  visible = {
-    OR = {
-      has_idea = aota_italian_overheat_stage_1 has_idea = aota_italian_overheat_stage_2
-    }
-  }
   ITA_pacify_the_veterans_clubs = {
     icon = generic_political_reform cost = 40 days_remove = 45
     visible = {
@@ -377,13 +305,6 @@ AOTA_escalation_management_ita = {
   }
 }
 AOTA_minor_escalation_management = {
-  icon = generic_political_reform
-  allowed = {
-    aota_is_escalation_minor_target = yes
-  }
-  visible = {
-    aota_is_escalation_minor_target = yes
-  }
   MINOR_buy_time_from_history = {
     icon = generic_political_reform cost = 35 days_remove = 60
     visible = {

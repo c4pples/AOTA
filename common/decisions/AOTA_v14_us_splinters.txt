@@ -1,10 +1,4 @@
 AOTA_american_reunification = {
-    icon = generic_major_war
-    visible = {
-        OR = { tag = ACC tag = AWU tag = ANA tag = APF tag = ACG tag = ASL tag = CCW }
-        has_war = yes
-    }
-    allowed = { original_tag = USA }
 
     ACC_seek_pacific_compromise = {
         icon = generic_improve_relations

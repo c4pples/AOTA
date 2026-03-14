@@ -1,6 +1,4 @@
 AOTA_night_pact_category = {
-  icon = generic_major_war
-  visible = { OR = { has_country_flag = AOTA_GER_PRIMARY_VILLAIN has_country_flag = AOTA_SOFT_VILLAIN_MEMBER } }
 
   AOTA_invite_to_night_pact = {
     icon = generic_alliance
@@ -80,8 +78,6 @@ AOTA_night_pact_category = {
 }
 
 AOTA_hope_front_category = {
-  icon = generic_democracy
-  visible = { OR = { has_country_flag = AOTA_ENG_HOPE_PATH has_country_flag = AOTA_HOPE_TARGETED } }
 
   AOTA_hope_issue_sanctions = {
     icon = generic_political_pressure
@@ -151,8 +147,6 @@ AOTA_hope_front_category = {
 }
 
 AOTA_hidden_ledger_category = {
-  icon = generic_trade
-  visible = { has_country_flag = AOTA_CUB_LEDGER_PATH }
 
   AOTA_cub_export_compliance_battalions = {
     icon = generic_war_propaganda

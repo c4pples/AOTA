@@ -1,7 +1,4 @@
-
 AOTA_super_crises_category = {
-    icon = generic_civil_war
-    visible = { always = yes }
     AOTA_trigger_rhine_crisis = {
         icon = generic_demand_territory
         available = { OR = { tag = GER tag = FRA tag = ENG } }
@@ -29,17 +26,16 @@ AOTA_super_crises_category = {
 }
 
 AOTA_branch_decisions_ger = {
-    icon = generic_construct_civ_factory
-    allowed = { original_tag = GER }
-    visible = { original_tag = GER }
     AOTA_form_the_continental_accord = {
         icon = generic_improve_relations
+        visible = { original_tag = GER }
         available = { has_completed_focus = GER_central_european_conference }
         cost = 50
         complete_effect = { add_political_power = -25 create_faction = AOTA_CONTINENTAL_ACCORD set_country_flag = AOTA_LEADS_CONTINENTAL_ACCORD set_cosmetic_tag = GER_constitutional_commonwealth }
     }
     AOTA_summon_the_sacred_congress = {
         icon = generic_war_propaganda
+        visible = { original_tag = GER }
         available = { has_government = fascism }
         cost = 50
         complete_effect = { add_war_support = 0.05 set_cosmetic_tag = GER_sacred_realm }
@@ -47,17 +43,16 @@ AOTA_branch_decisions_ger = {
 }
 
 AOTA_branch_decisions_fra = {
-    icon = generic_political_reform
-    allowed = { original_tag = FRA }
-    visible = { original_tag = FRA }
     AOTA_call_the_communal_synod = {
         icon = generic_support_anarchism
+        visible = { original_tag = FRA }
         available = { has_government = anarchism }
         cost = 50
         complete_effect = { add_stability = 0.03 set_cosmetic_tag = FRA_christian_communes }
     }
     AOTA_raise_the_republican_security_pact = {
         icon = generic_improve_relations
+        visible = { original_tag = FRA }
         available = { has_government = democratic }
         cost = 50
         complete_effect = { add_political_power = -25 create_faction = AOTA_REPUBLICAN_SECURITY_PACT set_country_flag = AOTA_LEADS_REPUBLICAN_SECURITY_PACT }
@@ -65,17 +60,16 @@ AOTA_branch_decisions_fra = {
 }
 
 AOTA_branch_decisions_usa = {
-    icon = generic_civil_war
-    allowed = { original_tag = USA }
-    visible = { original_tag = USA }
     AOTA_the_seven_banners_plan = {
         icon = generic_civil_war
+        visible = { original_tag = USA }
         available = { has_completed_focus = USA_let_the_republic_break }
         cost = 75
         complete_effect = { set_global_flag = AOTA_super_american_shatter country_event = { id = aota.1300 days = 1 } }
     }
     AOTA_corporate_contingency_routing = {
         icon = generic_trade
+        visible = { original_tag = USA }
         available = { has_government = market_radicalism }
         cost = 40
         complete_effect = { add_political_power = 50 add_war_support = 0.03 set_cosmetic_tag = USA_corporate_commonwealth }
@@ -83,11 +77,9 @@ AOTA_branch_decisions_usa = {
 }
 
 AOTA_branch_decisions_aus = {
-    icon = generic_improve_relations
-    allowed = { original_tag = AUS }
-    visible = { original_tag = AUS }
     AOTA_proclaim_danubian_compact = {
         icon = generic_improve_relations
+        visible = { original_tag = AUS }
         available = { has_completed_focus = AUS_identity_continuity_protocol }
         cost = 50
         complete_effect = { add_stability = 0.04 create_faction = AOTA_DANUBIAN_COMPACT set_country_flag = AOTA_LEADS_DANUBIAN_COMPACT set_cosmetic_tag = AUS_danubian_federation }
@@ -95,22 +87,23 @@ AOTA_branch_decisions_aus = {
 }
 
 AOTA_foreign_reaction_category = {
-    icon = generic_improve_relations
-    visible = { has_global_flag = AOTA_super_american_shatter }
     AOTA_british_recognition_mission = {
         icon = generic_improve_relations
+        visible = { has_global_flag = AOTA_super_american_shatter }
         available = { tag = ENG }
         cost = 40
         complete_effect = { country_event = { id = aota.1320 days = 1 } }
     }
     AOTA_german_credit_envoys = {
         icon = generic_trade
+        visible = { has_global_flag = AOTA_super_american_shatter }
         available = { tag = GER }
         cost = 40
         complete_effect = { country_event = { id = aota.1321 days = 1 } }
     }
     AOTA_french_militia_contacts = {
         icon = generic_support_anarchism
+        visible = { has_global_flag = AOTA_super_american_shatter }
         available = { tag = FRA }
         cost = 40
         complete_effect = { country_event = { id = aota.1322 days = 1 } }

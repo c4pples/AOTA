@@ -1,7 +1,4 @@
 AOTA_american_postwar_settlement = {
-    icon = generic_political_reform
-    visible = { OR = { tag = ACC tag = AWU tag = ANA tag = APF tag = ACG tag = ASL } has_war = no }
-    allowed = { original_tag = USA }
 
     ACC_reintegrate_state_judiciaries = { icon = generic_national_unity visible = { tag = ACC } available = { has_completed_focus = ACC_federal_reintegration_administration } cost = 60 complete_effect = { add_stability = 0.03 add_political_power = 20 } ai_will_do = { factor = 6 } }
     ACC_oath_or_amnesty = { icon = generic_political_pressure visible = { tag = ACC } available = { has_completed_focus = ACC_rewrite_the_union_compact } cost = 60 complete_effect = { add_war_support = 0.02 } ai_will_do = { factor = 5 } }
