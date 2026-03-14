@@ -50,4 +50,10 @@ aota_china_collaboration_crackdown = {
     value = -20
     decay = 0
 }
+
+aota_rhine_statute_revision = {
+    value = 15
+    decay = 0
+}
+
 }
