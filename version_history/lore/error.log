@@ -1,0 +1,942 @@
+[20:06:11][no_game_date][dlc.cpp:142]: incorrect checksum for DLC
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_001' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_001.wav' in  file: sound/ww_vo.asset line: 506
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_002' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_002.wav' in  file: sound/ww_vo.asset line: 507
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_003' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_003.wav' in  file: sound/ww_vo.asset line: 508
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_004' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_004.wav' in  file: sound/ww_vo.asset line: 509
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_005' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_005.wav' in  file: sound/ww_vo.asset line: 510
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_006' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_006.wav' in  file: sound/ww_vo.asset line: 511
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_007' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_007.wav' in  file: sound/ww_vo.asset line: 512
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_008' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_008.wav' in  file: sound/ww_vo.asset line: 513
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_009' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_009.wav' in  file: sound/ww_vo.asset line: 514
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_010' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_010.wav' in  file: sound/ww_vo.asset line: 515
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_011' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_011.wav' in  file: sound/ww_vo.asset line: 516
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_012' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_012.wav' in  file: sound/ww_vo.asset line: 517
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_013' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_013.wav' in  file: sound/ww_vo.asset line: 518
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_014' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_014.wav' in  file: sound/ww_vo.asset line: 519
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_015' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_015.wav' in  file: sound/ww_vo.asset line: 520
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_016' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_016.wav' in  file: sound/ww_vo.asset line: 521
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_017' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_017.wav' in  file: sound/ww_vo.asset line: 522
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_018' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_018.wav' in  file: sound/ww_vo.asset line: 523
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_019' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_019.wav' in  file: sound/ww_vo.asset line: 524
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_020' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_020.wav' in  file: sound/ww_vo.asset line: 525
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_021' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_021.wav' in  file: sound/ww_vo.asset line: 526
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_022' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_022.wav' in  file: sound/ww_vo.asset line: 527
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_023' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_023.wav' in  file: sound/ww_vo.asset line: 528
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_024' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_024.wav' in  file: sound/ww_vo.asset line: 529
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_025' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_025.wav' in  file: sound/ww_vo.asset line: 530
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_026' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_026.wav' in  file: sound/ww_vo.asset line: 531
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_idle_027' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_idle_027.wav' in  file: sound/ww_vo.asset line: 532
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_001' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_001.wav' in  file: sound/ww_vo.asset line: 533
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_002' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_002.wav' in  file: sound/ww_vo.asset line: 534
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_003' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_003.wav' in  file: sound/ww_vo.asset line: 535
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_004' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_004.wav' in  file: sound/ww_vo.asset line: 536
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_005' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_005.wav' in  file: sound/ww_vo.asset line: 537
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_006' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_006.wav' in  file: sound/ww_vo.asset line: 538
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_007' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_007.wav' in  file: sound/ww_vo.asset line: 539
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_008' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_008.wav' in  file: sound/ww_vo.asset line: 540
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_009' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_009.wav' in  file: sound/ww_vo.asset line: 541
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_010' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_010.wav' in  file: sound/ww_vo.asset line: 542
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_011' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_011.wav' in  file: sound/ww_vo.asset line: 543
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_012' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_012.wav' in  file: sound/ww_vo.asset line: 544
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_013' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_013.wav' in  file: sound/ww_vo.asset line: 545
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_014' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_014.wav' in  file: sound/ww_vo.asset line: 546
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_015' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_015.wav' in  file: sound/ww_vo.asset line: 547
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_016' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_016.wav' in  file: sound/ww_vo.asset line: 548
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_017' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_017.wav' in  file: sound/ww_vo.asset line: 549
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_018' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_018.wav' in  file: sound/ww_vo.asset line: 550
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_016_alt' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_016_alt.wav' in  file: sound/ww_vo.asset line: 551
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_017_alt' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_017_alt.wav' in  file: sound/ww_vo.asset line: 552
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_retreat_018_alt' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_retreat_018_alt.wav' in  file: sound/ww_vo.asset line: 553
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_001' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_001.wav' in  file: sound/ww_vo.asset line: 554
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_002' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_002.wav' in  file: sound/ww_vo.asset line: 555
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_003' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_003.wav' in  file: sound/ww_vo.asset line: 556
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_004' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_004.wav' in  file: sound/ww_vo.asset line: 557
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_005' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_005.wav' in  file: sound/ww_vo.asset line: 558
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_006' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_006.wav' in  file: sound/ww_vo.asset line: 559
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_007' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_007.wav' in  file: sound/ww_vo.asset line: 560
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_008' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_008.wav' in  file: sound/ww_vo.asset line: 561
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_009' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_009.wav' in  file: sound/ww_vo.asset line: 562
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_010' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_010.wav' in  file: sound/ww_vo.asset line: 563
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_011' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_011.wav' in  file: sound/ww_vo.asset line: 564
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_012' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_012.wav' in  file: sound/ww_vo.asset line: 565
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_013' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_013.wav' in  file: sound/ww_vo.asset line: 566
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_014' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_014.wav' in  file: sound/ww_vo.asset line: 567
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_015' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_015.wav' in  file: sound/ww_vo.asset line: 568
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_016' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_016.wav' in  file: sound/ww_vo.asset line: 569
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_017' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_017.wav' in  file: sound/ww_vo.asset line: 570
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_018' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_018.wav' in  file: sound/ww_vo.asset line: 571
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_019' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_019.wav' in  file: sound/ww_vo.asset line: 572
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_020' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_020.wav' in  file: sound/ww_vo.asset line: 573
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_021' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_021.wav' in  file: sound/ww_vo.asset line: 574
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_019_alt' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_019_alt.wav' in  file: sound/ww_vo.asset line: 575
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_020_alt' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_020_alt.wav' in  file: sound/ww_vo.asset line: 576
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_neutral_021_alt' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_neutral_021_alt.wav' in  file: sound/ww_vo.asset line: 577
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_001' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_001.wav' in  file: sound/ww_vo.asset line: 578
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_002' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_002.wav' in  file: sound/ww_vo.asset line: 579
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_003' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_003.wav' in  file: sound/ww_vo.asset line: 580
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_004' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_004.wav' in  file: sound/ww_vo.asset line: 581
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_005' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_005.wav' in  file: sound/ww_vo.asset line: 582
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_006' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_006.wav' in  file: sound/ww_vo.asset line: 583
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_007' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_007.wav' in  file: sound/ww_vo.asset line: 584
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_008' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_008.wav' in  file: sound/ww_vo.asset line: 585
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_009' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_009.wav' in  file: sound/ww_vo.asset line: 586
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_010' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_010.wav' in  file: sound/ww_vo.asset line: 587
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_011' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_011.wav' in  file: sound/ww_vo.asset line: 588
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_012' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_012.wav' in  file: sound/ww_vo.asset line: 589
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_013' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_013.wav' in  file: sound/ww_vo.asset line: 590
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_014' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_014.wav' in  file: sound/ww_vo.asset line: 591
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_015' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_015.wav' in  file: sound/ww_vo.asset line: 592
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_016' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_016.wav' in  file: sound/ww_vo.asset line: 593
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_017' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_017.wav' in  file: sound/ww_vo.asset line: 594
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_018' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_018.wav' in  file: sound/ww_vo.asset line: 595
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_019' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_019.wav' in  file: sound/ww_vo.asset line: 596
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_020' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_020.wav' in  file: sound/ww_vo.asset line: 597
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_021' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_021.wav' in  file: sound/ww_vo.asset line: 598
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_022' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_022.wav' in  file: sound/ww_vo.asset line: 599
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_023' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_023.wav' in  file: sound/ww_vo.asset line: 600
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'bel_fr_positive_024' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/bel/bel_fr_positive_024.wav' in  file: sound/ww_vo.asset line: 601
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_001' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_001.wav' in  file: sound/ww_vo.asset line: 605
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_002' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_002.wav' in  file: sound/ww_vo.asset line: 606
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_003' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_003.wav' in  file: sound/ww_vo.asset line: 607
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_004' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_004.wav' in  file: sound/ww_vo.asset line: 608
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_005' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_005.wav' in  file: sound/ww_vo.asset line: 609
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_006' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_006.wav' in  file: sound/ww_vo.asset line: 610
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_007' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_007.wav' in  file: sound/ww_vo.asset line: 611
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_008' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_008.wav' in  file: sound/ww_vo.asset line: 612
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_009' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_009.wav' in  file: sound/ww_vo.asset line: 613
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_010' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_010.wav' in  file: sound/ww_vo.asset line: 614
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_011' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_011.wav' in  file: sound/ww_vo.asset line: 615
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_012' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_012.wav' in  file: sound/ww_vo.asset line: 616
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_013' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_013.wav' in  file: sound/ww_vo.asset line: 617
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_014' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_014.wav' in  file: sound/ww_vo.asset line: 618
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_015' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_015.wav' in  file: sound/ww_vo.asset line: 619
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_016' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_016.wav' in  file: sound/ww_vo.asset line: 620
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_017' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_017.wav' in  file: sound/ww_vo.asset line: 621
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_018' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_018.wav' in  file: sound/ww_vo.asset line: 622
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_019' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_019.wav' in  file: sound/ww_vo.asset line: 623
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_020' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_020.wav' in  file: sound/ww_vo.asset line: 624
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_021' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_021.wav' in  file: sound/ww_vo.asset line: 625
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_022' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_022.wav' in  file: sound/ww_vo.asset line: 626
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_023' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_023.wav' in  file: sound/ww_vo.asset line: 627
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_024' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_024.wav' in  file: sound/ww_vo.asset line: 628
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_025' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_025.wav' in  file: sound/ww_vo.asset line: 629
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_026' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_026.wav' in  file: sound/ww_vo.asset line: 630
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_idle_027' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_idle_027.wav' in  file: sound/ww_vo.asset line: 631
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_001' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_001.wav' in  file: sound/ww_vo.asset line: 632
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_002' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_002.wav' in  file: sound/ww_vo.asset line: 633
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_003' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_003.wav' in  file: sound/ww_vo.asset line: 634
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_004' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_004.wav' in  file: sound/ww_vo.asset line: 635
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_005' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_005.wav' in  file: sound/ww_vo.asset line: 636
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_006' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_006.wav' in  file: sound/ww_vo.asset line: 637
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_007' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_007.wav' in  file: sound/ww_vo.asset line: 638
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_008' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_008.wav' in  file: sound/ww_vo.asset line: 639
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_009' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_009.wav' in  file: sound/ww_vo.asset line: 640
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_010' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_010.wav' in  file: sound/ww_vo.asset line: 641
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_011' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_011.wav' in  file: sound/ww_vo.asset line: 642
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_012' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_012.wav' in  file: sound/ww_vo.asset line: 643
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_013' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_013.wav' in  file: sound/ww_vo.asset line: 644
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_014' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_014.wav' in  file: sound/ww_vo.asset line: 645
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_015' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_015.wav' in  file: sound/ww_vo.asset line: 646
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_016' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_016.wav' in  file: sound/ww_vo.asset line: 647
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_017' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_017.wav' in  file: sound/ww_vo.asset line: 648
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_018' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_018.wav' in  file: sound/ww_vo.asset line: 649
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_016_alt' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_016_alt.wav' in  file: sound/ww_vo.asset line: 650
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_017_alt' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_017_alt.wav' in  file: sound/ww_vo.asset line: 651
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_retreat_018_alt' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_retreat_018_alt.wav' in  file: sound/ww_vo.asset line: 652
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_001' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_001.wav' in  file: sound/ww_vo.asset line: 653
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_002' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_002.wav' in  file: sound/ww_vo.asset line: 654
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_003' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_003.wav' in  file: sound/ww_vo.asset line: 655
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_004' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_004.wav' in  file: sound/ww_vo.asset line: 656
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_005' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_005.wav' in  file: sound/ww_vo.asset line: 657
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_006' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_006.wav' in  file: sound/ww_vo.asset line: 658
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_007' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_007.wav' in  file: sound/ww_vo.asset line: 659
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_008' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_008.wav' in  file: sound/ww_vo.asset line: 660
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_009' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_009.wav' in  file: sound/ww_vo.asset line: 661
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_010' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_010.wav' in  file: sound/ww_vo.asset line: 662
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_011' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_011.wav' in  file: sound/ww_vo.asset line: 663
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_012' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_012.wav' in  file: sound/ww_vo.asset line: 664
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_013' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_013.wav' in  file: sound/ww_vo.asset line: 665
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_014' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_014.wav' in  file: sound/ww_vo.asset line: 666
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_015' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_015.wav' in  file: sound/ww_vo.asset line: 667
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_016' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_016.wav' in  file: sound/ww_vo.asset line: 668
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_017' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_017.wav' in  file: sound/ww_vo.asset line: 669
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_018' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_018.wav' in  file: sound/ww_vo.asset line: 670
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_019' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_019.wav' in  file: sound/ww_vo.asset line: 671
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_020' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_020.wav' in  file: sound/ww_vo.asset line: 672
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_021' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_021.wav' in  file: sound/ww_vo.asset line: 673
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_019_alt' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_019_alt.wav' in  file: sound/ww_vo.asset line: 674
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_020_alt' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_020_alt.wav' in  file: sound/ww_vo.asset line: 675
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_neutral_021_alt' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_neutral_021_alt.wav' in  file: sound/ww_vo.asset line: 676
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_001' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_001.wav' in  file: sound/ww_vo.asset line: 677
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_002' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_002.wav' in  file: sound/ww_vo.asset line: 678
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_003' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_003.wav' in  file: sound/ww_vo.asset line: 679
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_004' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_004.wav' in  file: sound/ww_vo.asset line: 680
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_005' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_005.wav' in  file: sound/ww_vo.asset line: 681
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_006' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_006.wav' in  file: sound/ww_vo.asset line: 682
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_007' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_007.wav' in  file: sound/ww_vo.asset line: 683
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_008' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_008.wav' in  file: sound/ww_vo.asset line: 684
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_009' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_009.wav' in  file: sound/ww_vo.asset line: 685
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_010' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_010.wav' in  file: sound/ww_vo.asset line: 686
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_011' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_011.wav' in  file: sound/ww_vo.asset line: 687
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_012' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_012.wav' in  file: sound/ww_vo.asset line: 688
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_013' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_013.wav' in  file: sound/ww_vo.asset line: 689
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_014' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_014.wav' in  file: sound/ww_vo.asset line: 690
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_015' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_015.wav' in  file: sound/ww_vo.asset line: 691
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_016' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_016.wav' in  file: sound/ww_vo.asset line: 692
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_017' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_017.wav' in  file: sound/ww_vo.asset line: 693
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_018' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_018.wav' in  file: sound/ww_vo.asset line: 694
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_019' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_019.wav' in  file: sound/ww_vo.asset line: 695
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_020' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_020.wav' in  file: sound/ww_vo.asset line: 696
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_021' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_021.wav' in  file: sound/ww_vo.asset line: 697
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_022' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_022.wav' in  file: sound/ww_vo.asset line: 698
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_023' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_023.wav' in  file: sound/ww_vo.asset line: 699
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'aus_de_positive_024' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/aus/aus_de_positive_024.wav' in  file: sound/ww_vo.asset line: 700
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'ui_raid_mapmode_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/ui_raid_mapmode_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 43
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'ui_special_project_started_sound_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/ui_special_project_started_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 48
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'ui_special_project_finished_sound_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/ui_special_project_finished_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 53
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'ui_special_project_start_dismantling_facility_sound_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/ui_special_project_start_dismantling_facility_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 58
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'ui_special_project_abort_dismantling_facility_sound_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/ui_special_project_abort_dismantling_facility_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 63
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'ui_finished_dismantling_sound_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/ui_finished_dismantling_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 68
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'ui_alert_special_project_available_sound_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/ui_alert_special_project_available_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 73
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_create_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_create_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 78
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_launch_air_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_air_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 82
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_launch_air_02' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_air_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 86
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_launch_air_03' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_air_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 90
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_launch_paratrooper_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_paratrooper_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 94
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_launch_paratrooper_02' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_paratrooper_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 98
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_launch_paratrooper_03' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_paratrooper_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 102
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_launch_marine_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_marine_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 106
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_launch_marine_02' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_marine_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 110
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_launch_marine_03' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_marine_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 114
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_launch_nuclear_strike_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_nuclear_strike_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 118
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_launch_nuclear_strike_02' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_nuclear_strike_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 122
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_launch_nuclear_missile_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_nuclear_missile_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 126
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_launch_nuclear_missile_02' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_nuclear_missile_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 130
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_launch_nuclear_missile_03' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_launch_nuclear_missile_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 134
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_result_failure_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_failure_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 138
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_result_failure_02' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_failure_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 142
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_result_limited_success_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_limited_success_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 146
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_result_limited_success_02' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_limited_success_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 150
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_result_success_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_success_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 154
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_result_success_02' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_success_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 158
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_result_success_03' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_success_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 162
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_result_success_04' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_success_04.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 166
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_result_critical_success_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_critical_success_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 170
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_result_critical_success_02' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_critical_success_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 174
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_result_critical_success_03' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_critical_success_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 178
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'raid_result_critical_success_04' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/raid_result_critical_success_04.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 182
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'alert_raid_available_sound_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_available_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 218
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'alert_raid_available_sound_02' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_available_sound_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 222
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'alert_raid_launchable_sound_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_launchable_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 226
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'alert_raid_launchable_sound_02' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_launchable_sound_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 230
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'alert_raid_launchable_sound_03' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_launchable_sound_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 234
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'alert_raid_detected_sound_01' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_detected_sound_01.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 238
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'alert_raid_detected_sound_02' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_detected_sound_02.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 242
+[20:06:13][no_game_date][pdx_audio_sdl.cpp:954]: Sound with name 'alert_raid_detected_sound_03' already added
+[20:06:13][no_game_date][assetfactory_audio.cpp:467]: Could not load sound file 'sound/gui/gtd/audiofiles/alert_raid_detected_sound_03.wav' in  file: sound/gui/gtd/gtd_gui.asset line: 246
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'BEL_infantry_idle' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'BEL_infantry_retreat' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'BEL_infantry_neutral_combat' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'BEL_infantry_positive_combat' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'BEL_infantry_move_out' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'COG_infantry_idle' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'COG_infantry_retreat' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'COG_infantry_neutral_combat' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'COG_infantry_positive_combat' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'COG_infantry_move_out' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'AUS_infantry_idle' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'AUS_infantry_retreat' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'AUS_infantry_neutral_combat' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'AUS_infantry_positive_combat' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'AUS_infantry_move_out' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'ui_raid_mapmode' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'ui_special_project_start_dismantling_facility_sound' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'ui_special_project_abort_dismantling_facility_sound' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'ui_special_project_finished_sound' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'ui_special_project_started_sound' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'ui_finished_dismantling_sound' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'ui_alert_program_unassigned_scientist_sound' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'ui_alert_special_project_available_sound' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'raid_create' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'raid_launch_air' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'raid_launch_paratrooper' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'raid_launch_marine' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'raid_launch_nuclear_strike' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'raid_launch_nuclear_missile' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'raid_result_failure' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'raid_result_limited_success' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'raid_result_success' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'raid_result_critical_success' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'raid_result_success_nuclear' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'raid_result_critical_success_nuclear' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'alert_raid_available_sound' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'alert_raid_launchable_sound' already added
+[20:06:13][no_game_date][pdx_audio.cpp:966]: Sound effect with name 'alert_raid_detected_sound' already added
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'BEL_infantry_idle' already has category 'Voices', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'BEL_infantry_retreat' already has category 'Voices', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'BEL_infantry_neutral_combat' already has category 'Voices', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'BEL_infantry_positive_combat' already has category 'Voices', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'BEL_infantry_move_out' already has category 'Voices', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'COG_infantry_idle' already has category 'Voices', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'COG_infantry_retreat' already has category 'Voices', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'COG_infantry_neutral_combat' already has category 'Voices', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'COG_infantry_positive_combat' already has category 'Voices', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'COG_infantry_move_out' already has category 'Voices', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'AUS_infantry_idle' already has category 'Voices', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'AUS_infantry_retreat' already has category 'Voices', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'AUS_infantry_neutral_combat' already has category 'Voices', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'AUS_infantry_positive_combat' already has category 'Voices', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'AUS_infantry_move_out' already has category 'Voices', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'ui_raid_mapmode' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'ui_special_project_finished_sound' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'ui_special_project_started_sound' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'ui_special_project_start_dismantling_facility_sound' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'ui_special_project_abort_dismantling_facility_sound' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'ui_finished_dismantling_sound' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'ui_alert_program_unassigned_scientist_sound' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'ui_alert_special_project_available_sound' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'raid_create' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'raid_launch_marine' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'raid_launch_air' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'raid_launch_paratrooper' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'raid_launch_nuclear_strike' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'raid_launch_nuclear_missile' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'raid_result_failure' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'raid_result_limited_success' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'raid_result_success' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'raid_result_critical_success' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'raid_result_success_nuclear' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'raid_result_critical_success_nuclear' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'alert_raid_available_sound' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'alert_raid_launchable_sound' already has category 'UI', old category will be overwritten
+[20:06:13][no_game_date][pdx_audio.cpp:1130]: SoundEffect 'alert_raid_detected_sound' already has category 'UI', old category will be overwritten
+[20:06:20][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'GER_paratrooper_diffuse.dds' found (current path 'gfx/models/units/special_forces/GER_paratrooper_diffuse.dds', previous path 'gfx/models/units/GER_paratrooper_diffuse.dds')
+[20:06:20][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'GER_paratrooper_normal.dds' found (current path 'gfx/models/units/special_forces/GER_paratrooper_normal.dds', previous path 'gfx/models/units/GER_paratrooper_normal.dds')
+[20:06:20][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'GER_paratrooper_snow_diffuse.dds' found (current path 'gfx/models/units/special_forces/GER_paratrooper_snow_diffuse.dds', previous path 'gfx/models/units/GER_paratrooper_snow_diffuse.dds')
+[20:06:20][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'GER_paratrooper_snow_normal.dds' found (current path 'gfx/models/units/special_forces/GER_paratrooper_snow_normal.dds', previous path 'gfx/models/units/GER_paratrooper_snow_normal.dds')
+[20:06:20][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'GER_paratrooper_snow_specular.dds' found (current path 'gfx/models/units/special_forces/GER_paratrooper_snow_specular.dds', previous path 'gfx/models/units/GER_paratrooper_snow_specular.dds')
+[20:06:20][no_game_date][pdxassetutil.cpp:1098]: Duplicate texture 'GER_paratrooper_specular.dds' found (current path 'gfx/models/units/special_forces/GER_paratrooper_specular.dds', previous path 'gfx/models/units/GER_paratrooper_specular.dds')
+[20:06:28][no_game_date][idea.cpp:707]: Idea: category defined in aota_balkan_powderkeg (deprecated)
+[20:06:28][no_game_date][idea.cpp:707]: Idea: category defined in aota_spanish_neutral_brittleness (deprecated)
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: CUB_meet_the_corporate_exiles, near line: 9" in file: "common/decisions/AOTA_CUB_decisions.txt" near line: 30
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ENG_hold_commonwealth_conference, near line: 5" in file: "common/decisions/AOTA_ENG_overhaul_decisions.txt" near line: 12
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ENG_issue_white_paper, near line: 13" in file: "common/decisions/AOTA_ENG_overhaul_decisions.txt" near line: 20
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ENG_raise_territorials, near line: 21" in file: "common/decisions/AOTA_ENG_overhaul_decisions.txt" near line: 28
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: SOV_call_the_regional_congress, near line: 5" in file: "common/decisions/AOTA_RUS_decisions.txt" near line: 12
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: SOV_negotiate_with_cossack_hosts, near line: 13" in file: "common/decisions/AOTA_RUS_decisions.txt" near line: 20
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: SOV_requisition_frontier_stores, near line: 21" in file: "common/decisions/AOTA_RUS_decisions.txt" near line: 28
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: SOV_issue_reunification_manifesto, near line: 29" in file: "common/decisions/AOTA_RUS_decisions.txt" near line: 36
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: SOV_settle_the_red_black_schism, near line: 43" in file: "common/decisions/AOTA_RUS_decisions.txt" near line: 50
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: SOV_back_the_borderland_partisans, near line: 57" in file: "common/decisions/AOTA_RUS_decisions.txt" near line: 64
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: TUR_convene_the_provincial_notables, near line: 5" in file: "common/decisions/AOTA_TUR_decisions.txt" near line: 10
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: TUR_rotate_the_gendarmerie, near line: 11" in file: "common/decisions/AOTA_TUR_decisions.txt" near line: 16
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: TUR_call_the_court_physicians, near line: 17" in file: "common/decisions/AOTA_TUR_decisions.txt" near line: 21
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: TUR_iron_crescent_expand_the_special_tribunals, near line: 28" in file: "common/decisions/AOTA_TUR_decisions.txt" near line: 32
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: TUR_iron_crescent_raise_legionary_columns, near line: 33" in file: "common/decisions/AOTA_TUR_decisions.txt" near line: 37
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: TUR_iron_crescent_forced_industrial_quotas, near line: 38" in file: "common/decisions/AOTA_TUR_decisions.txt" near line: 42
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: TUR_iron_crescent_frontier_incidents, near line: 43" in file: "common/decisions/AOTA_TUR_decisions.txt" near line: 47
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_china_form_emergency_defense_council, near line: 16" in file: "common/decisions/AOTA_china_japan_interaction_decisions.txt" near line: 39
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_china_authorize_local_accommodation, near line: 41" in file: "common/decisions/AOTA_china_japan_interaction_decisions.txt" near line: 64
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_china_purge_collaboration_brokers, near line: 66" in file: "common/decisions/AOTA_china_japan_interaction_decisions.txt" near line: 87
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_japan_issue_incremental_demands, near line: 89" in file: "common/decisions/AOTA_china_japan_interaction_decisions.txt" near line: 126
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_japan_offer_compartmentalized_settlements, near line: 128" in file: "common/decisions/AOTA_china_japan_interaction_decisions.txt" near line: 154
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_japan_sponsor_regional_security_committees, near line: 156" in file: "common/decisions/AOTA_china_japan_interaction_decisions.txt" near line: 184
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_china_convene_provincial_brokers, near line: 6" in file: "common/decisions/AOTA_china_rework_decisions.txt" near line: 12
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_china_anti_bandit_campaigns, near line: 14" in file: "common/decisions/AOTA_china_rework_decisions.txt" near line: 20
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_china_requisition_regional_stockpiles, near line: 22" in file: "common/decisions/AOTA_china_rework_decisions.txt" near line: 28
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_china_file_protest_note, near line: 36" in file: "common/decisions/AOTA_china_rework_decisions.txt" near line: 46
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_japan_expand_china_networks, near line: 48" in file: "common/decisions/AOTA_china_rework_decisions.txt" near line: 59
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_warlord_host_provincial_assembly, near line: 67" in file: "common/decisions/AOTA_china_rework_decisions.txt" near line: 73
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_warlord_conduct_patronage_reshuffle, near line: 75" in file: "common/decisions/AOTA_china_rework_decisions.txt" near line: 81
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_warlord_grain_transport_emergency, near line: 83" in file: "common/decisions/AOTA_china_rework_decisions.txt" near line: 89
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_warlord_border_incident_commission, near line: 91" in file: "common/decisions/AOTA_china_rework_decisions.txt" near line: 97
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_warlord_unification_backchannel, near line: 99" in file: "common/decisions/AOTA_china_rework_decisions.txt" near line: 110
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_china_initialize_legitimacy_framework, near line: 5" in file: "common/decisions/AOTA_china_unification_decisions.txt" near line: 20
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_china_convene_national_congress, near line: 22" in file: "common/decisions/AOTA_china_unification_decisions.txt" near line: 51
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_china_negotiate_regional_submission, near line: 53" in file: "common/decisions/AOTA_china_unification_decisions.txt" near line: 84
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_china_demand_submission_by_force, near line: 86" in file: "common/decisions/AOTA_china_unification_decisions.txt" near line: 118
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_china_proclaim_national_reunification, near line: 120" in file: "common/decisions/AOTA_china_unification_decisions.txt" near line: 141
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_china_launch_reconstruction_compacts, near line: 143" in file: "common/decisions/AOTA_china_unification_decisions.txt" near line: 160
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_japan_support_fragmentation_networks, near line: 168" in file: "common/decisions/AOTA_china_unification_decisions.txt" near line: 197
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_japan_offer_recognition_to_collaborationists, near line: 199" in file: "common/decisions/AOTA_china_unification_decisions.txt" near line: 231
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_japan_prepare_for_reunified_china, near line: 233" in file: "common/decisions/AOTA_china_unification_decisions.txt" near line: 255
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_presence_regional_compact, near line: 5" in file: "common/decisions/AOTA_country_presence_resolution_decisions.txt" near line: 15
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_presence_internal_security_reform, near line: 17" in file: "common/decisions/AOTA_country_presence_resolution_decisions.txt" near line: 26
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_presence_limited_rearmament, near line: 28" in file: "common/decisions/AOTA_country_presence_resolution_decisions.txt" near line: 37
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_presence_reaffirm_neutrality, near line: 44" in file: "common/decisions/AOTA_country_presence_resolution_decisions.txt" near line: 52
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_presence_border_patrol_protocols, near line: 54" in file: "common/decisions/AOTA_country_presence_resolution_decisions.txt" near line: 63
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_balance_the_reichstag, near line: 5" in file: "common/decisions/AOTA_crises.txt" near line: 13
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_fund_veteran_leagues, near line: 14" in file: "common/decisions/AOTA_crises.txt" near line: 22
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_repair_the_republic, near line: 28" in file: "common/decisions/AOTA_crises.txt" near line: 33
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_rally_the_border_garrisons, near line: 34" in file: "common/decisions/AOTA_crises.txt" near line: 39
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_convene_the_crownlands, near line: 45" in file: "common/decisions/AOTA_crises.txt" near line: 50
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_rule_by_decree, near line: 51" in file: "common/decisions/AOTA_crises.txt" near line: 56
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_invite_aus_to_continental_accord, near line: 12" in file: "common/decisions/AOTA_faction_evolution_decisions.txt" near line: 22
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_invite_hun_to_danubian_compact, near line: 24" in file: "common/decisions/AOTA_faction_evolution_decisions.txt" near line: 34
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_invite_rom_to_danubian_compact, near line: 36" in file: "common/decisions/AOTA_faction_evolution_decisions.txt" near line: 46
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_invite_bel_to_republican_security_pact, near line: 48" in file: "common/decisions/AOTA_faction_evolution_decisions.txt" near line: 58
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_invite_spr_to_republican_security_pact, near line: 60" in file: "common/decisions/AOTA_faction_evolution_decisions.txt" near line: 70
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_invite_irq_to_eastern_accord, near line: 72" in file: "common/decisions/AOTA_faction_evolution_decisions.txt" near line: 82
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_invite_egy_to_eastern_accord, near line: 84" in file: "common/decisions/AOTA_faction_evolution_decisions.txt" near line: 94
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: GER_prepare_reichsordnung, near line: 6" in file: "common/decisions/AOTA_flagship_formables.txt" near line: 21
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: GER_proclaim_reichsordnung, near line: 23" in file: "common/decisions/AOTA_flagship_formables.txt" near line: 33
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: GER_prepare_european_compact, near line: 35" in file: "common/decisions/AOTA_flagship_formables.txt" near line: 50
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: GER_charter_european_compact, near line: 52" in file: "common/decisions/AOTA_flagship_formables.txt" near line: 62
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: FRA_prepare_continental_state, near line: 64" in file: "common/decisions/AOTA_flagship_formables.txt" near line: 77
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: FRA_proclaim_etat_continental, near line: 79" in file: "common/decisions/AOTA_flagship_formables.txt" near line: 89
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: FRA_prepare_republican_union, near line: 91" in file: "common/decisions/AOTA_flagship_formables.txt" near line: 104
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: FRA_found_european_republican_union, near line: 106" in file: "common/decisions/AOTA_flagship_formables.txt" near line: 116
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ITA_prepare_imperium_interioris_maris, near line: 118" in file: "common/decisions/AOTA_flagship_formables.txt" near line: 130
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ITA_proclaim_imperium_interioris_maris, near line: 132" in file: "common/decisions/AOTA_flagship_formables.txt" near line: 142
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ITA_prepare_mediterranean_concordat, near line: 144" in file: "common/decisions/AOTA_flagship_formables.txt" near line: 156
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ITA_found_mediterranean_concordat, near line: 158" in file: "common/decisions/AOTA_flagship_formables.txt" near line: 168
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_back_the_communes, near line: 5" in file: "common/decisions/AOTA_systems.txt" near line: 16
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_back_the_party, near line: 18" in file: "common/decisions/AOTA_systems.txt" near line: 29
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_GER_manage_rhine, near line: 5" in file: "common/decisions/AOTA_v10_decisions.txt" near line: 12
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_FRA_red_black_committees, near line: 13" in file: "common/decisions/AOTA_v10_decisions.txt" near line: 19
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_AUS_convene_the_crownlands, near line: 20" in file: "common/decisions/AOTA_v10_decisions.txt" near line: 26
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_USA_prepare_contingency_governors, near line: 27" in file: "common/decisions/AOTA_v10_decisions.txt" near line: 33
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_GRE_megali_gamble, near line: 38" in file: "common/decisions/AOTA_v10_decisions.txt" near line: 43
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_LIT_last_bastion, near line: 44" in file: "common/decisions/AOTA_v10_decisions.txt" near line: 49
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_HUN_revisionist_cells, near line: 50" in file: "common/decisions/AOTA_v10_decisions.txt" near line: 55
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_trigger_rhine_crisis, near line: 5" in file: "common/decisions/AOTA_v13_decisions.txt" near line: 10
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_trigger_danubian_collapse, near line: 11" in file: "common/decisions/AOTA_v13_decisions.txt" near line: 16
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_trigger_russian_reunification, near line: 17" in file: "common/decisions/AOTA_v13_decisions.txt" near line: 22
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_trigger_ottoman_flames, near line: 23" in file: "common/decisions/AOTA_v13_decisions.txt" near line: 28
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_form_the_continental_accord, near line: 35" in file: "common/decisions/AOTA_v13_decisions.txt" near line: 40
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_summon_the_sacred_congress, near line: 41" in file: "common/decisions/AOTA_v13_decisions.txt" near line: 46
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_call_the_communal_synod, near line: 53" in file: "common/decisions/AOTA_v13_decisions.txt" near line: 58
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_raise_the_republican_security_pact, near line: 59" in file: "common/decisions/AOTA_v13_decisions.txt" near line: 64
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_the_seven_banners_plan, near line: 71" in file: "common/decisions/AOTA_v13_decisions.txt" near line: 76
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_corporate_contingency_routing, near line: 77" in file: "common/decisions/AOTA_v13_decisions.txt" near line: 82
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_proclaim_danubian_compact, near line: 89" in file: "common/decisions/AOTA_v13_decisions.txt" near line: 94
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_british_recognition_mission, near line: 100" in file: "common/decisions/AOTA_v13_decisions.txt" near line: 105
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_german_credit_envoys, near line: 106" in file: "common/decisions/AOTA_v13_decisions.txt" near line: 111
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_french_militia_contacts, near line: 112" in file: "common/decisions/AOTA_v13_decisions.txt" near line: 117
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ACC_seek_pacific_compromise, near line: 9" in file: "common/decisions/AOTA_v14_us_splinters.txt" near line: 16
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ACC_issue_reunification_ultimatum, near line: 17" in file: "common/decisions/AOTA_v14_us_splinters.txt" near line: 23
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AWU_agitate_in_enemy_factories, near line: 25" in file: "common/decisions/AOTA_v14_us_splinters.txt" near line: 31
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AWU_settle_red_black_compacts, near line: 32" in file: "common/decisions/AOTA_v14_us_splinters.txt" near line: 38
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ANA_mobilise_the_officer_schools, near line: 40" in file: "common/decisions/AOTA_v14_us_splinters.txt" near line: 46
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: APF_broker_the_coastal_ceasefire, near line: 48" in file: "common/decisions/AOTA_v14_us_splinters.txt" near line: 54
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ACG_sell_rearmament_bonds, near line: 56" in file: "common/decisions/AOTA_v14_us_splinters.txt" near line: 62
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ASL_raise_new_county_columns, near line: 64" in file: "common/decisions/AOTA_v14_us_splinters.txt" near line: 70
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: CCW_call_a_peace_synod, near line: 72" in file: "common/decisions/AOTA_v14_us_splinters.txt" near line: 78
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: GER_open_backchannel_rhine_talks, near line: 11" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 33
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: GER_prepare_frontier_staff_work, near line: 34" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 48
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: FRA_subsidize_republican_watch, near line: 60" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 82
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: FRA_arm_the_border_reserves, near line: 83" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 97
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AUS_subsidize_crownland_administrations, near line: 109" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 131
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AUS_rotate_the_frontier_commands, near line: 132" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 146
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ENG_call_a_dominion_consultation, near line: 158" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 180
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: SOV_issue_a_reunification_white_paper, near line: 192" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 214
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: SOV_pause_for_internal_consolidation, near line: 215" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 230
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: TUR_convene_additional_provincial_conferences, near line: 242" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 264
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: TUR_rotate_gendarmerie_commands, near line: 265" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 279
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: USA_broker_state_compacts, near line: 291" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 313
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: USA_expand_federal_emergency_staff, near line: 314" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 328
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ITA_pacify_the_veterans_clubs, near line: 340" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 362
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ITA_stage_a_national_industry_congress, near line: 363" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 377
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: MINOR_buy_time_from_history, near line: 387" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 401
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: MINOR_fan_the_embers, near line: 402" in file: "common/decisions/AOTA_v33_escalation_decisions.txt" near line: 416
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ACC_reintegrate_state_judiciaries, near line: 6" in file: "common/decisions/AOTA_v44_us_postwar_decisions.txt" near line: 6
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ACC_oath_or_amnesty, near line: 7" in file: "common/decisions/AOTA_v44_us_postwar_decisions.txt" near line: 7
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AWU_unionize_the_reconstruction_front, near line: 9" in file: "common/decisions/AOTA_v44_us_postwar_decisions.txt" near line: 9
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AWU_commune_autonomy_statutes, near line: 10" in file: "common/decisions/AOTA_v44_us_postwar_decisions.txt" near line: 10
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ANA_garrison_the_recovered_states, near line: 12" in file: "common/decisions/AOTA_v44_us_postwar_decisions.txt" near line: 12
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ANA_purge_disloyal_officers, near line: 13" in file: "common/decisions/AOTA_v44_us_postwar_decisions.txt" near line: 13
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: APF_reopen_transcontinental_relief, near line: 15" in file: "common/decisions/AOTA_v44_us_postwar_decisions.txt" near line: 15
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: APF_harbor_citizenship_program, near line: 16" in file: "common/decisions/AOTA_v44_us_postwar_decisions.txt" near line: 16
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ACG_issue_national_recovery_shares, near line: 18" in file: "common/decisions/AOTA_v44_us_postwar_decisions.txt" near line: 18
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ACG_contractual_loyalty_oaths, near line: 19" in file: "common/decisions/AOTA_v44_us_postwar_decisions.txt" near line: 19
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ASL_demobilize_county_columns, near line: 21" in file: "common/decisions/AOTA_v44_us_postwar_decisions.txt" near line: 21
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: ASL_parish_recovery_fairs, near line: 22" in file: "common/decisions/AOTA_v44_us_postwar_decisions.txt" near line: 22
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_invite_to_night_pact, near line: 5" in file: "common/decisions/AOTA_v49_villain_hope_decisions.txt" near line: 29
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_night_pact_financial_protocol, near line: 31" in file: "common/decisions/AOTA_v49_villain_hope_decisions.txt" near line: 39
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_night_pact_security_protocol, near line: 41" in file: "common/decisions/AOTA_v49_villain_hope_decisions.txt" near line: 49
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_night_pact_client_audits, near line: 51" in file: "common/decisions/AOTA_v49_villain_hope_decisions.txt" near line: 65
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_night_pact_proxy_credit, near line: 67" in file: "common/decisions/AOTA_v49_villain_hope_decisions.txt" near line: 79
+[20:06:29][no_game_date][decision.cpp:4493]: Duplicate decision. icon is a duplicate.
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_hope_issue_sanctions, near line: 86" in file: "common/decisions/AOTA_v49_villain_hope_decisions.txt" near line: 105
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_hope_ship_reconstruction_aid, near line: 107" in file: "common/decisions/AOTA_v49_villain_hope_decisions.txt" near line: 120
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_hope_refugee_corridors, near line: 122" in file: "common/decisions/AOTA_v49_villain_hope_decisions.txt" near line: 134
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_hope_counter_propoganda_bureaus, near line: 136" in file: "common/decisions/AOTA_v49_villain_hope_decisions.txt" near line: 150
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: AOTA_cub_export_compliance_battalions, near line: 157" in file: "common/decisions/AOTA_v49_villain_hope_decisions.txt" near line: 169
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: BRA, near line: 63" in file: "common/national_focus/AOTA_ARG.txt" near line: 63
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: USA, near line: 64" in file: "common/national_focus/AOTA_ARG.txt" near line: 64
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: CHI, near line: 65" in file: "common/national_focus/AOTA_ARG.txt" near line: 65
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: ARG, near line: 63" in file: "common/national_focus/AOTA_BRA.txt" near line: 63
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: USA, near line: 64" in file: "common/national_focus/AOTA_BRA.txt" near line: 64
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: CHI, near line: 65" in file: "common/national_focus/AOTA_BRA.txt" near line: 65
+[20:06:29][no_game_date][persistent.cpp:66]: Error: "Unexpected token: completion_reward, near line: 108" in file: "common/national_focus/AOTA_CHI_warlords.txt" near line: 108
+[20:06:29][no_game_date][effectimplementation.cpp:5427]: common/national_focus/AOTA_CUB.txt:335: recruit_character should only happen in game/history files in order to be executed only at game start
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: SWE, near line: 63" in file: "common/national_focus/AOTA_DEN.txt" near line: 63
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: GER, near line: 64" in file: "common/national_focus/AOTA_DEN.txt" near line: 64
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: NOR, near line: 65" in file: "common/national_focus/AOTA_DEN.txt" near line: 65
+[20:06:29][no_game_date][effect.cpp:356]: Error: "Malformed token: aota_red_international, near line: 599" in file: "common/national_focus/AOTA_ENG.txt" near line: 599
+[20:06:29][no_game_date][effect.cpp:356]: Error: "Malformed token: aota_atlantic_financiers, near line: 770" in file: "common/national_focus/AOTA_ENG.txt" near line: 770
+[20:06:29][no_game_date][effect.cpp:356]: Error: "Malformed token: aota_concert_of_stability, near line: 1301" in file: "common/national_focus/AOTA_ENG.txt" near line: 1301
+[20:06:29][no_game_date][effectimplementation.cpp:5427]: common/national_focus/AOTA_ENG.txt:1405: recruit_character should only happen in game/history files in order to be executed only at game start
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: POL, near line: 25" in file: "common/national_focus/AOTA_GER.txt" near line: 25
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: CZE, near line: 25" in file: "common/national_focus/AOTA_GER.txt" near line: 25
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: FRA, near line: 42" in file: "common/national_focus/AOTA_GER.txt" near line: 42
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: POL, near line: 43" in file: "common/national_focus/AOTA_GER.txt" near line: 43
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: SWE, near line: 85" in file: "common/national_focus/AOTA_GER.txt" near line: 85
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: SWI, near line: 86" in file: "common/national_focus/AOTA_GER.txt" near line: 86
+[20:06:29][no_game_date][effectimplementation.cpp:5427]: common/national_focus/AOTA_GER.txt:216: recruit_character should only happen in game/history files in order to be executed only at game start
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: SWE, near line: 63" in file: "common/national_focus/AOTA_NOR.txt" near line: 63
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: ENG, near line: 64" in file: "common/national_focus/AOTA_NOR.txt" near line: 64
+[20:06:29][no_game_date][trigger.cpp:568]: Error: "Not a valid value: DEN, near line: 65" in file: "common/national_focus/AOTA_NOR.txt" near line: 65
+[20:06:30][no_game_date][trigger.cpp:568]: Error: "Not a valid value: NOR, near line: 63" in file: "common/national_focus/AOTA_SWE.txt" near line: 63
+[20:06:30][no_game_date][trigger.cpp:568]: Error: "Not a valid value: GER, near line: 64" in file: "common/national_focus/AOTA_SWE.txt" near line: 64
+[20:06:30][no_game_date][trigger.cpp:568]: Error: "Not a valid value: DEN, near line: 65" in file: "common/national_focus/AOTA_SWE.txt" near line: 65
+[20:06:30][no_game_date][nationalfocus.cpp:2410]: AOTA_warlord_china_without_submission: Couldn't find dependency { 
+[20:06:30][no_game_date][persistent.cpp:66]: Error: "Unexpected token: country, near line: 8" in file: "common/bookmarks/AOTA_bookmark.txt" near line: 8
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: name, near line: 2" in file: "common/ai_strategy/AOTA_ai_strategy.txt" near line: 2
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 3" in file: "common/ai_strategy/AOTA_ai_strategy.txt" near line: 3
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: name, near line: 11" in file: "common/ai_strategy/AOTA_ai_strategy.txt" near line: 11
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 12" in file: "common/ai_strategy/AOTA_ai_strategy.txt" near line: 12
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: name, near line: 20" in file: "common/ai_strategy/AOTA_ai_strategy.txt" near line: 20
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 21" in file: "common/ai_strategy/AOTA_ai_strategy.txt" near line: 21
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Malformed token: area_defense, near line: 25" in file: "common/ai_strategy/AOTA_ai_strategy.txt" near line: 25
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: name, near line: 2" in file: "common/ai_strategy/AOTA_china_japan_ai_strategy.txt" near line: 2
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 3" in file: "common/ai_strategy/AOTA_china_japan_ai_strategy.txt" near line: 3
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: name, near line: 17" in file: "common/ai_strategy/AOTA_china_japan_ai_strategy.txt" near line: 17
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 18" in file: "common/ai_strategy/AOTA_china_japan_ai_strategy.txt" near line: 18
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: name, near line: 29" in file: "common/ai_strategy/AOTA_china_japan_ai_strategy.txt" near line: 29
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 30" in file: "common/ai_strategy/AOTA_china_japan_ai_strategy.txt" near line: 30
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: name, near line: 41" in file: "common/ai_strategy/AOTA_china_japan_ai_strategy.txt" near line: 41
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 42" in file: "common/ai_strategy/AOTA_china_japan_ai_strategy.txt" near line: 42
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: name, near line: 56" in file: "common/ai_strategy/AOTA_china_japan_ai_strategy.txt" near line: 56
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 57" in file: "common/ai_strategy/AOTA_china_japan_ai_strategy.txt" near line: 57
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: name, near line: 2" in file: "common/ai_strategy/AOTA_v12_ai_strategy.txt" near line: 2
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 3" in file: "common/ai_strategy/AOTA_v12_ai_strategy.txt" near line: 3
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: name, near line: 11" in file: "common/ai_strategy/AOTA_v12_ai_strategy.txt" near line: 11
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 12" in file: "common/ai_strategy/AOTA_v12_ai_strategy.txt" near line: 12
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: name, near line: 20" in file: "common/ai_strategy/AOTA_v12_ai_strategy.txt" near line: 20
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 21" in file: "common/ai_strategy/AOTA_v12_ai_strategy.txt" near line: 21
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: name, near line: 29" in file: "common/ai_strategy/AOTA_v12_ai_strategy.txt" near line: 29
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 30" in file: "common/ai_strategy/AOTA_v12_ai_strategy.txt" near line: 30
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: name, near line: 38" in file: "common/ai_strategy/AOTA_v12_ai_strategy.txt" near line: 38
+[20:06:32][no_game_date][persistent.cpp:66]: Error: "Unexpected token: desc, near line: 39" in file: "common/ai_strategy/AOTA_v12_ai_strategy.txt" near line: 39
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 607" in file: "common/scripted_localisation/00_scripted_localisation_countries_RU_loc.txt" near line: 608
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 22376" in file: "common/scripted_localisation/00_scripted_localisation_countries_RU_loc.txt" near line: 22377
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 44146" in file: "common/scripted_localisation/00_scripted_localisation_countries_RU_loc.txt" near line: 44147
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 65916" in file: "common/scripted_localisation/00_scripted_localisation_countries_RU_loc.txt" near line: 65917
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 87686" in file: "common/scripted_localisation/00_scripted_localisation_countries_RU_loc.txt" near line: 87687
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 109307" in file: "common/scripted_localisation/00_scripted_localisation_countries_RU_loc.txt" near line: 109308
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 121596" in file: "common/scripted_localisation/00_scripted_localisation_countries_RU_loc.txt" near line: 121597
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 133745" in file: "common/scripted_localisation/00_scripted_localisation_countries_RU_loc.txt" near line: 133746
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 145894" in file: "common/scripted_localisation/00_scripted_localisation_countries_RU_loc.txt" near line: 145895
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 158068" in file: "common/scripted_localisation/00_scripted_localisation_countries_RU_loc.txt" near line: 158069
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 170457" in file: "common/scripted_localisation/00_scripted_localisation_countries_RU_loc.txt" near line: 170458
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 562" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 563
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 19960" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 19961
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 39280" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 39281
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 58601" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 58602
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 77903" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 77904
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 97063" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 97064
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 109198" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 109199
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 121333" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 121334
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 133468" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 133469
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 145641" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 145642
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 157981" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 157982
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 170329" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 170330
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 182824" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 182825
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 195308" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 195309
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 207572" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 207573
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 219828" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 219829
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 232092" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 232093
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 244329" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 244330
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 256464" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 256465
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 268626" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 268627
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 280890" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 280891
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 293127" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 293128
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 305305" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 305306
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 317738" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 317739
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 330165" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 330166
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 342532" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 342533
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 354882" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 354883
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 367119" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 367120
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 379371" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 379372
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 391600" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 391601
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 403770" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 403771
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 416034" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 416035
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 428263" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 428264
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 440398" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 440399
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 452533" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 452534
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 464668" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 464669
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 476830" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 476831
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 489094" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 489095
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 501351" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 501352
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 513588" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 513589
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 525835" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 525836
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 538175" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 538176
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 550485" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 550486
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 562620" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 562621
+[20:06:32][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 574782" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 574783
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 587046" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 587047
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 599283" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 599284
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 611418" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 611419
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 623553" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 623554
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 635688" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 635689
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 647850" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 647851
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 660114" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 660115
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 672351" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 672352
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 684486" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 684487
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 696621" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 696622
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 708756" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 708757
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 720891" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 720892
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 733026" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 733027
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 745196" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 745197
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 757460" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 757461
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 769689" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 769690
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 781824" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 781825
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 793959" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 793960
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 806094" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 806095
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 818229" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 818230
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 830364" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 830365
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 842499" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 842500
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 854634" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 854635
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 866769" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 866770
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 878932" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 878933
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 891169" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 891170
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 903413" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 903414
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 915642" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 915643
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 927777" in file: "common/scripted_localisation/FR_SCRIPTING_FULL_AUTOMATED.txt" near line: 927778
+[20:06:33][no_game_date][parser.cpp:966]: Error: unexpected token in file: "common/scripted_triggers/AOTA_china_unification_triggers.txt" near line: 15 ( 20 )
+[20:06:33][no_game_date][parser.cpp:966]: Error: unexpected token in file: "common/scripted_triggers/AOTA_china_unification_triggers.txt" near line: 16 ( 40 )
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: {, near line: 16" in file: "common/scripted_triggers/AOTA_china_unification_triggers.txt" near line: 16
+[20:06:33][no_game_date][parser.cpp:966]: Error: unexpected token in file: "common/scripted_triggers/AOTA_china_unification_triggers.txt" near line: 17 ( 60 )
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: {, near line: 17" in file: "common/scripted_triggers/AOTA_china_unification_triggers.txt" near line: 17
+[20:06:33][no_game_date][parser.cpp:966]: Error: unexpected token in file: "common/scripted_triggers/AOTA_china_unification_triggers.txt" near line: 18 ( 80 )
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: {, near line: 18" in file: "common/scripted_triggers/AOTA_china_unification_triggers.txt" near line: 18
+[20:06:33][no_game_date][trigger.cpp:700]: Invalid trigger 'num_states' in common/scripted_triggers/AOTA_flagship_formables_triggers.txt line : 21
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: num_states, near line: 21" in file: "common/scripted_triggers/AOTA_flagship_formables_triggers.txt" near line: 32
+[20:06:33][no_game_date][trigger.cpp:700]: Invalid trigger 'num_states' in common/scripted_triggers/AOTA_flagship_formables_triggers.txt line : 38
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: num_states, near line: 38" in file: "common/scripted_triggers/AOTA_flagship_formables_triggers.txt" near line: 54
+[20:06:33][no_game_date][trigger.cpp:700]: Invalid trigger 'num_states' in common/scripted_triggers/AOTA_flagship_formables_triggers.txt line : 61
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: num_states, near line: 61" in file: "common/scripted_triggers/AOTA_flagship_formables_triggers.txt" near line: 70
+[20:06:33][no_game_date][trigger.cpp:700]: Invalid trigger 'num_states' in common/scripted_triggers/AOTA_flagship_formables_triggers.txt line : 76
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: num_states, near line: 76" in file: "common/scripted_triggers/AOTA_flagship_formables_triggers.txt" near line: 79
+[20:06:33][no_game_date][trigger.cpp:700]: Invalid trigger 'num_states' in common/scripted_triggers/AOTA_flagship_formables_triggers.txt line : 91
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: num_states, near line: 91" in file: "common/scripted_triggers/AOTA_flagship_formables_triggers.txt" near line: 99
+[20:06:33][no_game_date][trigger.cpp:700]: Invalid trigger 'num_states' in common/scripted_triggers/AOTA_flagship_formables_triggers.txt line : 105
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: num_states, near line: 105" in file: "common/scripted_triggers/AOTA_flagship_formables_triggers.txt" near line: 108
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 19" in file: "common/scripted_triggers/ETH_scripted_triggers.txt" near line: 20
+[20:06:33][no_game_date][parser.cpp:966]: Error: unexpected token in file: "common/scripted_effects/AOTA_china_unification_effects.txt" near line: 22 ( 20 )
+[20:06:33][no_game_date][parser.cpp:966]: Error: unexpected token in file: "common/scripted_effects/AOTA_china_unification_effects.txt" near line: 30 ( 40 )
+[20:06:33][no_game_date][parser.cpp:966]: Error: unexpected token in file: "common/scripted_effects/AOTA_china_unification_effects.txt" near line: 38 ( 60 )
+[20:06:33][no_game_date][parser.cpp:966]: Error: unexpected token in file: "common/scripted_effects/AOTA_china_unification_effects.txt" near line: 46 ( 80 )
+[20:06:33][no_game_date][trigger.cpp:700]: Invalid trigger 'add_ideas' in common/scripted_effects/AOTA_china_unification_effects.txt line : 48
+[20:06:33][no_game_date][trigger.cpp:700]: Invalid trigger 'set_country_flag' in common/scripted_effects/AOTA_china_unification_effects.txt line : 49
+[20:06:33][no_game_date][trigger.cpp:568]: Error: "Unknown trigger-type: add_ideas, near line: 48
+Unknown trigger-type: set_country_flag, near line: 49" in file: "common/scripted_effects/AOTA_china_unification_effects.txt" near line: 50
+[20:06:33][no_game_date][effect.cpp:356]: Error: "Not a valid value: common/scripted_effects/AOTA_china_unification_effects.txt:53: {, near line: 53" in file: "common/scripted_effects/AOTA_china_unification_effects.txt" near line: 54
+[20:06:34][no_game_date][effect.cpp:356]: Error: "Malformed token: aota_rhine_statute_revision, near line: 134" in file: "events/AOTA_RUS_events.txt" near line: 134
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 173
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 174
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 175
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 176
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 177
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 178
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 179
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 180
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 181
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 182
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 183
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 184
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 185
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 186
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 187
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 188
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 189
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 190
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 191
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 192
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 193
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 194
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 195
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 196
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 197
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 198
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 233
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 234
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 235
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 236
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 237
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 238
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 239
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 240
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 241
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 242
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 243
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 244
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 245
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 246
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 247
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 248
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 249
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 250
+[20:06:34][no_game_date][effect.cpp:433]: Invalid scope type for effect set_state_owner in events/AOTA_events.txt line : 251
+[20:06:34][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 464" in file: "events/NSB_NewsEvents.txt" near line: 464
+[20:06:34][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 489" in file: "events/NSB_NewsEvents.txt" near line: 490
+[20:06:34][no_game_date][trigger.cpp:568]: Error: "Not a valid value: anarchism, near line: 514" in file: "events/NSB_NewsEvents.txt" near line: 514
+[20:06:34][no_game_date][onaction.cpp:461]: lse is not a valid tag of on_monthly
+[20:06:34][no_game_date][database_scoped_variables.cpp:266]: invalid database object for effect/trigger: tech_cavalry. use var:var_name to explicitly use variables in effects/triggers
+[20:06:34][no_game_date][database_scoped_variables.cpp:266]: invalid database object for effect/trigger: tech_cavalry. use var:var_name to explicitly use variables in effects/triggers
+[20:06:34][no_game_date][effect.cpp:811]: common/national_focus/AOTA_JAP.txt:55: add_tech_bonus: Unknown technology category cat_marines
+[20:06:34][no_game_date][effect.cpp:811]: common/national_focus/AOTA_JAP.txt:58: add_tech_bonus: Unknown technology category cat_naval_equipment
+[20:06:34][no_game_date][effect.cpp:811]: common/national_focus/AOTA_JAP.txt:59: add_tech_bonus: Unknown technology category cat_submarines
+[20:06:34][no_game_date][effectimplementation.cpp:369]: Unable to find focus tree with ID: aota_austria_focus
+[20:06:34][no_game_date][effectimplementation.cpp:369]: Unable to find focus tree with ID: aota_belgium_focus
+[20:06:34][no_game_date][effectimplementation.cpp:369]: Unable to find focus tree with ID: aota_yugoslavia_focus
