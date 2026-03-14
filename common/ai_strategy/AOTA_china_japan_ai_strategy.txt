@@ -1,47 +1,47 @@
-ai_strategy = {
-    type = prepare_for_war
-    id = "CHI"
-    value = 95
-}
+ai_strategy_plan = {
+	name = aota_china_japan_strategies
+	allowed = { always = yes }
+	enable = { always = yes }
+	abort = { always = no }
 
-ai_strategy = {
-    type = prepare_for_war
-    id = "PRC"
-    value = 95
-}
-
-ai_strategy = {
-    type = prepare_for_war
-    id = "JAP"
-    value = 120
-}
-
-ai_strategy = {
-    type = prepare_for_war
-    id = "JAP"
-    value = 120
-}
-
-ai_strategy = {
-    type = prepare_for_war
-    id = "CHI"
-    value = 130
-}
-
-ai_strategy = {
-    type = prepare_for_war
-    id = "PRC"
-    value = 130
-}
-
-ai_strategy = {
-    type = alliance
-    id = "PRC"
-    value = 30
-}
-
-ai_strategy = {
-    type = alliance
-    id = "CHI"
-    value = 30
+	ai_strategy = {
+		type = prepare_for_war
+		id = "CHI"
+		value = 95
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "PRC"
+		value = 95
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "JAP"
+		value = 120
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "JAP"
+		value = 120
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "CHI"
+		value = 130
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = "PRC"
+		value = 130
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PRC"
+		value = 30
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = 30
+	}
 }
