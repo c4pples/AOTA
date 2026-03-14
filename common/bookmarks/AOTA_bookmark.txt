@@ -5,6 +5,21 @@ bookmarks = {
         date = 1936.1.1.12
         picture = GFX_select_date_1936
         default_country = GER
-        country = { GER FRA ENG AUS SOV ITA USA POL BEL SPR ROM HOL BUL }
+        default = yes
+        country = {
+            GER = { ideology = neutrality }
+            FRA = { ideology = democratic }
+            ENG = { ideology = democratic }
+            AUS = { ideology = neutrality }
+            SOV = { ideology = communism }
+            ITA = { ideology = fascism }
+            USA = { ideology = democratic }
+            POL = { ideology = neutrality }
+            BEL = { ideology = democratic }
+            SPR = { ideology = democratic }
+            ROM = { ideology = neutrality }
+            HOL = { ideology = democratic }
+            BUL = { ideology = neutrality }
+        }
     }
 }

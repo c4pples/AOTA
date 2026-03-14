@@ -1,44 +1,29 @@
-ai_strategy_plan = {
-    name = AOTA_GER_v12_pressure_france
-    desc = ""
-    allowed = { tag = GER }
-    enable = { has_war = no }
-    abort = { always = no }
-    ai_strategy = { type = prepare_for_war id = FRA value = 50 }
+ai_strategy = {
+    type = prepare_for_war
+    id = "FRA"
+    value = 50
 }
 
-ai_strategy_plan = {
-    name = AOTA_FRA_v12_british_alignment
-    desc = ""
-    allowed = { tag = FRA }
-    enable = { has_war = no }
-    abort = { always = no }
-    ai_strategy = { type = befriend id = ENG value = 60 }
+ai_strategy = {
+    type = befriend
+    id = "ENG"
+    value = 60
 }
 
-ai_strategy_plan = {
-    name = AOTA_AUS_v12_danubian_protection
-    desc = ""
-    allowed = { tag = AUS }
-    enable = { has_war = no }
-    abort = { always = no }
-    ai_strategy = { type = protect id = HUN value = 40 }
+ai_strategy = {
+    type = protect
+    id = "HUN"
+    value = 40
 }
 
-ai_strategy_plan = {
-    name = AOTA_USA_v12_reclaim_core
-    desc = ""
-    allowed = { tag = USA }
-    enable = { has_country_flag = AOTA_USA_powder_keg_flag }
-    abort = { always = no }
-    ai_strategy = { type = conquer id = ACC value = 20 }
+ai_strategy = {
+    type = conquer
+    id = "ACC"
+    value = 20
 }
 
-ai_strategy_plan = {
-    name = AOTA_SOV_v12_polish_pressure
-    desc = ""
-    allowed = { tag = SOV }
-    enable = { has_war = no }
-    abort = { always = no }
-    ai_strategy = { type = conquer id = POL value = 25 }
+ai_strategy = {
+    type = conquer
+    id = "POL"
+    value = 25
 }

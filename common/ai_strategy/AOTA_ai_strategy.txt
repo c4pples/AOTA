@@ -1,26 +1,17 @@
-ai_strategy_plan = {
-    name = AOTA_GER_rhine_pressure
-    desc = ""
-    allowed = { tag = GER }
-    enable = { has_war_support > 0.35 }
-    abort = { always = no }
-    ai_strategy = { type = prepare_for_war id = FRA value = 75 }
+ai_strategy = {
+    type = prepare_for_war
+    id = "FRA"
+    value = 75
 }
 
-ai_strategy_plan = {
-    name = AOTA_FRA_border_vigilance
-    desc = ""
-    allowed = { tag = FRA }
-    enable = { has_idea = aota_french_revanchism }
-    abort = { always = no }
-    ai_strategy = { type = prepare_for_war id = GER value = 90 }
+ai_strategy = {
+    type = prepare_for_war
+    id = "GER"
+    value = 90
 }
 
-ai_strategy_plan = {
-    name = AOTA_USA_hold_federal_core
-    desc = ""
-    allowed = { tag = USA }
-    enable = { has_country_flag = AOTA_USA_powder_keg_flag }
-    abort = { always = no }
-    ai_strategy = { type = area_defense id = 361 value = 200 }
+ai_strategy = {
+    type = area_defense
+    id = "361"
+    value = 200
 }
