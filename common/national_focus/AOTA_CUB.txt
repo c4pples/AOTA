@@ -332,7 +332,6 @@ focus_tree = {
         completion_reward = {
             set_cosmetic_tag = CUB_ledger_republic
             country_event = { id = aota.5004 days = 1 }
-            recruit_character = AOTA_CUB_julio_lobo
             add_political_power = 70
         }
     }

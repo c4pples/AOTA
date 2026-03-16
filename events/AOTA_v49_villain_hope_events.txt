@@ -8,6 +8,7 @@ country_event = {
   is_triggered_only = yes
   option = {
     name = aota_5000_o1
+    recruit_character = AOTA_GER_reinhard_gehlen
     add_stability = -0.01
     set_country_flag = AOTA_SOFT_VILLAIN_ENGINE_ON
   }
@@ -61,6 +62,7 @@ country_event = {
   is_triggered_only = yes
   option = {
     name = aota_5003_o1
+    recruit_character = AOTA_ENG_ellen_wilkinson
     add_ideas = aota_eng_restoration_compact
     set_country_flag = AOTA_ENG_HOPE_PATH
     clr_country_flag = AOTA_HOPE_TARGETED
@@ -75,6 +77,7 @@ country_event = {
   is_triggered_only = yes
   option = {
     name = aota_5004_o1
+    recruit_character = AOTA_CUB_julio_lobo
     set_country_flag = AOTA_CUB_LEDGER_PATH
     add_ideas = aota_cub_ledger_state
   }

@@ -3,7 +3,6 @@ aota_major_path_management = {
         icon = generic_prepare_for_war
         available = { tag = GER }
         visible = { tag = GER }
-        cost = 50
         days_mission_timeout = 30
         complete_effect = { add_political_power = -50 add_stability = 0.03 country_event = { id = aota.1000 days = 1 } }
     }
